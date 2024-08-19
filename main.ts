@@ -169,7 +169,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
                 100,
                 characterAnimations.rule(Predicate.Moving)
                 )
-                extraEffects.createSpreadEffectOnAnchor(Knife, extraEffects.createSingleColorSpreadEffectData(5, ExtraEffectPresetShape.Twinkle), 5000, 48)
+                extraEffects.createSpreadEffectOnAnchor(Knife, extraEffects.createSingleColorSpreadEffectData(5, ExtraEffectPresetShape.Spark), 5000, 5)
             }
             if (controller.A.isPressed() && Right == 1) {
                 launched = false
@@ -238,24 +238,28 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
                 100,
                 characterAnimations.rule(Predicate.Moving)
                 )
-                extraEffects.createSpreadEffectOnAnchor(Knife, extraEffects.createSingleColorSpreadEffectData(5, ExtraEffectPresetShape.Twinkle), 5000, 48)
+                extraEffects.createSpreadEffectOnAnchor(Knife, extraEffects.createSingleColorSpreadEffectData(5, ExtraEffectPresetShape.Spark), 5000, 5)
             }
         }
         if (Weapon_Selection_Boomerang == false && Weapon_Selection_Gun == true) {
             if (controller.A.isPressed() && left == 1) {
                 info.changeLifeBy(-1)
                 Bullet = sprites.createProjectileFromSprite(img`
-                    a a 
+                    8 8 
                     `, Zenith, -500, 0)
-                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(3, ExtraEffectPresetShape.Spark), 100)
+                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(8, ExtraEffectPresetShape.Cloud), 100, 25)
+                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(7, ExtraEffectPresetShape.Cloud), 100, 5)
+                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(9, ExtraEffectPresetShape.Cloud), 100, 1)
                 Bullet.setKind(SpriteKind.Bullet)
             }
             if (controller.A.isPressed() && Right == 1) {
                 info.changeLifeBy(-1)
                 Bullet = sprites.createProjectileFromSprite(img`
-                    a a 
+                    8 8 
                     `, Zenith, 500, 0)
-                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(3, ExtraEffectPresetShape.Spark), 100)
+                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(8, ExtraEffectPresetShape.Cloud), 100, 25)
+                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(7, ExtraEffectPresetShape.Cloud), 100, 5)
+                extraEffects.createSpreadEffectOnAnchor(Bullet, extraEffects.createSingleColorSpreadEffectData(9, ExtraEffectPresetShape.Cloud), 100, 1)
                 Bullet.setKind(SpriteKind.Bullet)
             }
         }
@@ -1053,7 +1057,7 @@ myMenu.onButtonPressed(controller.A, function (selection, selectedIndex) {
     } else if (selectedIndex == 1) {
         myMenu.setButtonEventsEnabled(false)
         myMenu2 = miniMenu.createMenu(
-        miniMenu.createMenuItem("Gun", img`
+        miniMenu.createMenuItem("Railgun", img`
             . . . . . . . . . . . . . . . . 
             . e e e e e e e e e e e e e e . 
             . e d d d d d d d d d d d d e . 
