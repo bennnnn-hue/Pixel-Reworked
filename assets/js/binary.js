@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.56/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.0","target":"arcade","targetVersion":"1.12.56"}
-// total=3425681 new=13.26% cached=82.25% other=4.50%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.56/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.12.56","repo":"bennnnn-hue/pixel-reworked"}
+// total=3453376 new=13.95% cached=81.59% other=4.46%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -832,7 +832,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P42475(s) {
+function _main___P86786(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1513,451 +1513,451 @@ switch (step) {
   case 68:
     r0 = s.retval;
     globals.Pipe1___5220 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8693);
-    globals.transparency16___5345 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8697);
-    globals.transparency8___5346 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8701);
-    globals.tile1___5347 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8705);
-    globals.tile7___5348 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8709);
-    globals.tile9___5349 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8713);
-    globals.tile10___5350 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8717);
-    globals.tile15___5351 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8721);
-    globals.tile17___5352 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8725);
-    globals.tile2___5353 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8729);
-    globals.tile3___5354 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8733);
-    globals.tile4___5355 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8737);
-    globals.tile5___5356 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8741);
-    globals.tile6___5357 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8745);
-    globals.tile11___5358 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8749);
-    globals.tile12___5359 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8753);
-    globals.tile13___5360 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8757);
-    globals.tile14___5361 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8761);
-    globals.tile16___5362 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8765);
-    globals.tile23___5363 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8769);
-    globals.tile21___5364 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8773);
-    globals.tile19___5365 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8777);
-    globals.tile20___5366 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8781);
-    globals.tile18___5367 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8785);
-    globals.tile22___5368 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8789);
-    globals.tile24___5369 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8793);
-    globals.tile27___5370 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8797);
-    globals.tile29___5371 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8801);
-    globals.tile31___5372 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8805);
-    globals.tile30___5373 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8809);
-    globals.tile28___5374 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8813);
-    globals.tile32___5375 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8817);
-    globals.tile33___5376 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8821);
-    globals.tile34___5377 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8825);
-    globals.tile35___5378 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8829);
-    globals.tile36___5379 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8833);
-    globals.tile45___5380 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8837);
-    globals.tile38___5381 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8841);
-    globals.tile39___5382 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8845);
-    globals.tile40___5383 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8849);
-    globals.tile41___5384 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8853);
-    globals.tile42___5385 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8857);
-    globals.tile43___5386 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8861);
-    globals.tile44___5387 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8865);
-    globals.tile37___5388 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8869);
-    globals.tile25___5389 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8873);
-    globals.tile26___5390 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8877);
-    globals.tile46___5391 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8881);
-    globals.tile47___5392 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8885);
-    globals.tile48___5393 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8889);
-    globals.tile8___5394 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8893);
-    globals.tile49___5395 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8897);
-    globals.tile50___5396 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8901);
-    globals.tile51___5397 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8905);
-    globals.tile52___5398 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8909);
-    globals.tile53___5399 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8913);
-    globals.tile54___5400 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8917);
-    globals.tile55___5401 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8921);
-    globals.tile56___5402 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8925);
-    globals.tile57___5403 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8929);
-    globals.tile58___5404 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8933);
-    globals.tile59___5405 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8937);
-    globals.tile60___5406 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8941);
-    globals.tile61___5407 = (r0);
-    r0 = pxsim.image.ofBuffer(_hex8945);
-    globals.tile62___5408 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86801);
+    globals.transparency16___86802 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86804);
+    globals.transparency8___86805 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86807);
+    globals.tile1___86808 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86810);
+    globals.tile7___86811 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86813);
+    globals.tile9___86814 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86816);
+    globals.tile10___86817 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86819);
+    globals.tile15___86820 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86822);
+    globals.tile17___86823 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86825);
+    globals.tile2___86826 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86828);
+    globals.tile3___86829 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86831);
+    globals.tile4___86832 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86834);
+    globals.tile5___86835 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86837);
+    globals.tile6___86838 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86840);
+    globals.tile11___86841 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86843);
+    globals.tile12___86844 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86846);
+    globals.tile13___86847 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86849);
+    globals.tile14___86850 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86852);
+    globals.tile16___86853 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86855);
+    globals.tile23___86856 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86858);
+    globals.tile21___86859 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86861);
+    globals.tile19___86862 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86864);
+    globals.tile20___86865 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86867);
+    globals.tile18___86868 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86870);
+    globals.tile22___86871 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86873);
+    globals.tile24___86874 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86876);
+    globals.tile27___86877 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86879);
+    globals.tile29___86880 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86882);
+    globals.tile31___86883 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86885);
+    globals.tile30___86886 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86888);
+    globals.tile28___86889 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86891);
+    globals.tile32___86892 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86894);
+    globals.tile33___86895 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86897);
+    globals.tile34___86898 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86900);
+    globals.tile35___86901 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86903);
+    globals.tile36___86904 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86906);
+    globals.tile45___86907 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86909);
+    globals.tile38___86910 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86912);
+    globals.tile39___86913 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86915);
+    globals.tile40___86916 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86918);
+    globals.tile41___86919 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86921);
+    globals.tile42___86922 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86924);
+    globals.tile43___86925 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86927);
+    globals.tile44___86928 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86930);
+    globals.tile37___86931 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86933);
+    globals.tile25___86934 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86936);
+    globals.tile26___86937 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86939);
+    globals.tile46___86940 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86942);
+    globals.tile47___86943 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86945);
+    globals.tile48___86946 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86948);
+    globals.tile8___86949 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86951);
+    globals.tile49___86952 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86954);
+    globals.tile50___86955 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86957);
+    globals.tile51___86958 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86960);
+    globals.tile52___86961 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86963);
+    globals.tile53___86964 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86966);
+    globals.tile54___86967 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86969);
+    globals.tile55___86970 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86972);
+    globals.tile56___86973 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86975);
+    globals.tile57___86976 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86978);
+    globals.tile58___86979 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86981);
+    globals.tile59___86982 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86984);
+    globals.tile60___86985 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86987);
+    globals.tile61___86988 = (r0);
+    r0 = pxsim.image.ofBuffer(_hex86990);
+    globals.tile62___86991 = (r0);
     s.tmp_0 = helpers__registerFactory__P3333_mk(s);
     s.tmp_0.arg0 = "tilemap";
-    s.tmp_0.arg1 = myTiles_inline__P8949;
-    s.callLocIdx = 193; s.pc = 69; return s.tmp_0;
+    s.tmp_0.arg1 = myTiles_inline__P86993;
+    s.callLocIdx = 207; s.pc = 69; return s.tmp_0;
   case 69:
     r0 = s.retval;
     s.tmp_0 = helpers__registerFactory__P3333_mk(s);
     s.tmp_0.arg0 = "tile";
-    s.tmp_0.arg1 = myTiles_inline__P9599;
-    s.callLocIdx = 195; s.pc = 70; return s.tmp_0;
+    s.tmp_0.arg1 = myTiles_inline__P87755;
+    s.callLocIdx = 209; s.pc = 70; return s.tmp_0;
   case 70:
     r0 = s.retval;
     s.tmp_0 = helpers__registerFactory__P3333_mk(s);
     s.tmp_0.arg0 = "image";
     s.tmp_0.arg1 = myImages_inline__P9670;
-    s.callLocIdx = 197; s.pc = 71; return s.tmp_0;
+    s.callLocIdx = 211; s.pc = 71; return s.tmp_0;
   case 71:
     r0 = s.retval;
     s.tmp_0 = helpers__registerFactory__P3333_mk(s);
     s.tmp_0.arg0 = "animation";
     s.tmp_0.arg1 = myImages_inline__P9681;
-    s.callLocIdx = 199; s.pc = 72; return s.tmp_0;
+    s.callLocIdx = 213; s.pc = 72; return s.tmp_0;
   case 72:
     r0 = s.retval;
     s.tmp_0 = helpers__registerFactory__P3333_mk(s);
     s.tmp_0.arg0 = "song";
     s.tmp_0.arg1 = myImages_inline__P9735;
-    s.callLocIdx = 201; s.pc = 73; return s.tmp_0;
+    s.callLocIdx = 215; s.pc = 73; return s.tmp_0;
   case 73:
     r0 = s.retval;
     s.tmp_0 = SpriteKind_create__P2480_mk(s);
-    s.callLocIdx = 202; s.pc = 74; return s.tmp_0;
+    s.callLocIdx = 216; s.pc = 74; return s.tmp_0;
   case 74:
     r0 = s.retval;
-    globals.Rightthrow___5311 = (r0);
+    globals.Rightthrow___83488 = (r0);
     s.tmp_0 = SpriteKind_create__P2480_mk(s);
-    s.callLocIdx = 203; s.pc = 75; return s.tmp_0;
+    s.callLocIdx = 217; s.pc = 75; return s.tmp_0;
   case 75:
     r0 = s.retval;
-    globals.Bullet___5312 = (r0);
+    globals.Bullet___83491 = (r0);
     s.tmp_0 = SpriteKind_create__P2480_mk(s);
-    s.callLocIdx = 204; s.pc = 76; return s.tmp_0;
+    s.callLocIdx = 218; s.pc = 76; return s.tmp_0;
   case 76:
     r0 = s.retval;
-    globals.Dead___5313 = (r0);
+    globals.Dead___83494 = (r0);
     s.tmp_0 = SpriteKind_create__P2480_mk(s);
-    s.callLocIdx = 205; s.pc = 77; return s.tmp_0;
+    s.callLocIdx = 219; s.pc = 77; return s.tmp_0;
   case 77:
     r0 = s.retval;
-    globals.Bomb___5314 = (r0);
+    globals.Bomb___83497 = (r0);
     s.tmp_0 = SpriteKind_create__P2480_mk(s);
-    s.callLocIdx = 206; s.pc = 78; return s.tmp_0;
+    s.callLocIdx = 220; s.pc = 78; return s.tmp_0;
   case 78:
     r0 = s.retval;
-    globals.Knife___5315 = (r0);
+    globals.Knife___83500 = (r0);
     s.tmp_0 = SpriteKind_create__P2480_mk(s);
-    s.callLocIdx = 207; s.pc = 79; return s.tmp_0;
+    s.callLocIdx = 221; s.pc = 79; return s.tmp_0;
   case 79:
     r0 = s.retval;
-    globals.Shard___5316 = (r0);
+    globals.Shard___83503 = (r0);
     s.tmp_0 = sprites_onCreated__P2457_mk(s);
     s.tmp_0.arg0 = globals.Enemy___2484;
-    s.tmp_0.arg1 = inline__P9755;
-    s.callLocIdx = 209; s.pc = 80; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P83507;
+    s.callLocIdx = 223; s.pc = 80; return s.tmp_0;
   case 80:
     r0 = s.retval;
     s.tmp_0 = events_spriteEvent__P4631_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5315;
+    s.tmp_0.arg0 = globals.Knife___83500;
     s.tmp_0.arg1 = globals.Player___2481;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P9767;
-    s.callLocIdx = 212; s.pc = 81; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P83520;
+    s.callLocIdx = 226; s.pc = 81; return s.tmp_0;
   case 81:
     r0 = s.retval;
     s.tmp_0 = events_spriteEvent__P4631_mk(s);
     s.tmp_0.arg0 = 1;
     s.tmp_0.arg1 = globals.Enemy___2484;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P9783;
-    s.callLocIdx = 223; s.pc = 82; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P83538;
+    s.callLocIdx = 237; s.pc = 82; return s.tmp_0;
   case 82:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P2197_mk(s);
     s.tmp_0.arg0 = globals.A___2114;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P9867;
-    s.callLocIdx = 322; s.pc = 83; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P83625;
+    s.callLocIdx = 344; s.pc = 83; return s.tmp_0;
   case 83:
     r0 = s.retval;
     s.tmp_0 = events_wallEvent__P4633_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5315;
+    s.tmp_0.arg0 = globals.Knife___83500;
     s.tmp_1 = events_simpleWallCondition__P4638_mk(s);
     s.tmp_1.arg0 = 15;
     s.tmp_1.arg1 = undefined;
     s.tmp_1.arg2 = undefined;
     s.tmp_1.arg3 = undefined;
-    s.callLocIdx = 323; s.pc = 85; return s.tmp_1;
+    s.callLocIdx = 345; s.pc = 85; return s.tmp_1;
   case 85:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P10229;
-    s.callLocIdx = 325; s.pc = 84; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P84011;
+    s.callLocIdx = 347; s.pc = 84; return s.tmp_0;
   case 84:
     r0 = s.retval;
     s.tmp_0 = sprites_onDestroyed__P2458_mk(s);
-    s.tmp_0.arg0 = globals.Dead___5313;
-    s.tmp_0.arg1 = inline__P10237;
-    s.callLocIdx = 327; s.pc = 86; return s.tmp_0;
+    s.tmp_0.arg0 = globals.Dead___83494;
+    s.tmp_0.arg1 = inline__P84019;
+    s.callLocIdx = 349; s.pc = 86; return s.tmp_0;
   case 86:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P2197_mk(s);
     s.tmp_0.arg0 = globals.left___2116;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P10243;
-    s.callLocIdx = 328; s.pc = 87; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84025;
+    s.callLocIdx = 350; s.pc = 87; return s.tmp_0;
   case 87:
     r0 = s.retval;
     s.tmp_0 = events_spriteEvent__P4631_mk(s);
-    s.tmp_0.arg0 = globals.Shard___5316;
+    s.tmp_0.arg0 = globals.Shard___83503;
     s.tmp_0.arg1 = globals.Enemy___2484;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P10250;
-    s.callLocIdx = 339; s.pc = 88; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P84032;
+    s.callLocIdx = 361; s.pc = 88; return s.tmp_0;
   case 88:
     r0 = s.retval;
     s.tmp_0 = info_onCountdownEnd__P2585_mk(s);
-    s.tmp_0.arg0 = inline__P10274;
-    s.callLocIdx = 382; s.pc = 89; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P84056;
+    s.callLocIdx = 404; s.pc = 89; return s.tmp_0;
   case 89:
     r0 = s.retval;
     s.tmp_0 = events_spriteEvent__P4631_mk(s);
     s.tmp_0.arg0 = globals.Enemy___2484;
     s.tmp_0.arg1 = globals.Player___2481;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P10372;
-    s.callLocIdx = 390; s.pc = 90; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P84158;
+    s.callLocIdx = 412; s.pc = 90; return s.tmp_0;
   case 90:
     r0 = s.retval;
     s.tmp_0 = statusbars_onZero__P5089_mk(s);
     s.tmp_0.arg0 = globals.Health___5027;
-    s.tmp_0.arg1 = inline__P10398;
-    s.callLocIdx = 397; s.pc = 91; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P84184;
+    s.callLocIdx = 419; s.pc = 91; return s.tmp_0;
   case 91:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P2197_mk(s);
     s.tmp_0.arg0 = globals.right___2118;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P10420;
-    s.callLocIdx = 398; s.pc = 92; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84206;
+    s.callLocIdx = 420; s.pc = 92; return s.tmp_0;
   case 92:
     r0 = s.retval;
     s.tmp_0 = tileUtil_onMapLoaded__P4878_mk(s);
-    s.tmp_0.arg0 = inline__P10424;
-    s.callLocIdx = 411; s.pc = 93; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P84210;
+    s.callLocIdx = 433; s.pc = 93; return s.tmp_0;
   case 93:
     r0 = s.retval;
     s.tmp_0 = info_onLifeZero__P2579_mk(s);
-    s.tmp_0.arg0 = inline__P10483;
-    s.callLocIdx = 412; s.pc = 94; return s.tmp_0;
+    s.tmp_0.arg0 = inline__P84270;
+    s.callLocIdx = 434; s.pc = 94; return s.tmp_0;
   case 94:
     r0 = s.retval;
     s.tmp_0 = events_spriteEvent__P4631_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5315;
+    s.tmp_0.arg0 = globals.Knife___83500;
     s.tmp_0.arg1 = globals.Enemy___2484;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P10491;
-    s.callLocIdx = 425; s.pc = 95; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P84279;
+    s.callLocIdx = 447; s.pc = 95; return s.tmp_0;
   case 95:
     r0 = s.retval;
     s.tmp_0 = events_spriteEvent__P4631_mk(s);
-    s.tmp_0.arg0 = globals.Bullet___5312;
+    s.tmp_0.arg0 = globals.Bullet___83491;
     s.tmp_0.arg1 = globals.Enemy___2484;
     s.tmp_0.arg2 = 0;
-    s.tmp_0.arg3 = inline__P10518;
-    s.callLocIdx = 436; s.pc = 96; return s.tmp_0;
+    s.tmp_0.arg3 = inline__P84306;
+    s.callLocIdx = 458; s.pc = 96; return s.tmp_0;
   case 96:
     r0 = s.retval;
-    globals.Blast___5320 = (null);
-    globals.GravBomb___5321 = (null);
-    globals.BR___5322 = (null);
-    globals.Bullet___5323 = (null);
-    globals.statusbar___5324 = (null);
-    globals.Knife___5325 = (null);
-    globals.launched___5326 = (false);
-    globals.Zenith___5327 = (null);
-    globals.myMenu4___5328 = (null);
-    globals.myMenu3___5329 = (null);
-    globals.Grav_Bomb_selection___5330 = (false);
-    globals.Big_Rocket___5331 = (false);
-    globals.myMenu2___5332 = (null);
-    globals.Menu_Is_Running___5333 = (false);
+    globals.Blast___83915 = (null);
+    globals.GravBomb___83890 = (null);
+    globals.BR___83827 = (null);
+    globals.Bullet___83764 = (null);
+    globals.statusbar___83586 = (null);
+    globals.Knife___83531 = (null);
+    globals.launched___83525 = (false);
+    globals.Zenith___83512 = (null);
+    globals.myMenu4___84568 = (null);
+    globals.myMenu3___84570 = (null);
+    globals.Grav_Bomb_selection___83884 = (false);
+    globals.Big_Rocket___83818 = (false);
+    globals.myMenu2___84572 = (null);
+    globals.Menu_Is_Running___83563 = (false);
     r0 = pxsim_Array__mk();
-    globals.Biomes___5334 = (r0);
+    globals.Biomes___84332 = (r0);
     r0 = pxsim_Array__mk();
-    globals.Enemy_List___5335 = (r0);
-    globals.Factory___5336 = (null);
-    globals.Forest___5337 = (null);
-    globals.Dessert___5338 = (null);
-    globals.Right___5339 = (0);
-    globals.left___5340 = (0);
-    globals.Weapon_Selection_Boomerang___5341 = (false);
-    globals.Weapon_Selection_Gun___5342 = (false);
-    globals.Weapon_Selection_Gun___5342 = (false);
-    globals.Weapon_Selection_Boomerang___5341 = (false);
+    globals.Enemy_List___84223 = (r0);
+    globals.Factory___84095 = (null);
+    globals.Forest___84065 = (null);
+    globals.Dessert___84120 = (null);
+    globals.Right___83700 = (0);
+    globals.left___83643 = (0);
+    globals.Weapon_Selection_Boomerang___83631 = (false);
+    globals.Weapon_Selection_Gun___83635 = (false);
+    globals.Weapon_Selection_Gun___83635 = (false);
+    globals.Weapon_Selection_Boomerang___83631 = (false);
     s.tmp_0 = scene_setBackgroundImage__P2886_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10787);
+    r0 = pxsim.image.ofBuffer(_hex84579);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 510; s.pc = 97; return s.tmp_0;
+    s.callLocIdx = 532; s.pc = 97; return s.tmp_0;
   case 97:
     r0 = s.retval;
-    globals.left___5340 = (0);
-    globals.Right___5339 = (0);
+    globals.left___83643 = (0);
+    globals.Right___83700 = (0);
     s.tmp_1 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_1.arg0 = "level38";
-    s.callLocIdx = 511; s.pc = 98; return s.tmp_1;
+    s.callLocIdx = 533; s.pc = 98; return s.tmp_1;
   case 98:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = s.tmp_0;
-    globals.Dessert___5338 = (r0);
+    globals.Dessert___84120 = (r0);
     s.tmp_1 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_1.arg0 = "level32";
-    s.callLocIdx = 513; s.pc = 99; return s.tmp_1;
+    s.callLocIdx = 535; s.pc = 99; return s.tmp_1;
   case 99:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = s.tmp_0;
-    globals.Forest___5337 = (r0);
+    globals.Forest___84065 = (r0);
     s.tmp_1 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_1.arg0 = "level30";
-    s.callLocIdx = 515; s.pc = 100; return s.tmp_1;
+    s.callLocIdx = 537; s.pc = 100; return s.tmp_1;
   case 100:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = s.tmp_0;
-    globals.Factory___5336 = (r0);
+    globals.Factory___84095 = (r0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex10805);
+    r0 = pxsim.image.ofBuffer(_hex84597);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex10807);
+    r0 = pxsim.image.ofBuffer(_hex84599);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex10809);
+    r0 = pxsim.image.ofBuffer(_hex84601);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex10811);
+    r0 = pxsim.image.ofBuffer(_hex84603);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
-    globals.Enemy_List___5335 = (s.tmp_0);
+    globals.Enemy_List___84223 = (s.tmp_0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim_Array__push(s.tmp_0, globals.Dessert___5338);
-    r0 = pxsim_Array__push(s.tmp_0, globals.Forest___5337);
-    r0 = pxsim_Array__push(s.tmp_0, globals.Factory___5336);
-    globals.Biomes___5334 = (s.tmp_0);
+    r0 = pxsim_Array__push(s.tmp_0, globals.Dessert___84120);
+    r0 = pxsim_Array__push(s.tmp_0, globals.Forest___84065);
+    r0 = pxsim_Array__push(s.tmp_0, globals.Factory___84095);
+    globals.Biomes___84332 = (s.tmp_0);
     s.tmp_0 = effects_ScreenEffect_startScreenEffect__P3269_mk(s);
     s.tmp_0.arg0 = globals.blizzard___3285;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 517; s.pc = 101; return s.tmp_0;
+    s.callLocIdx = 539; s.pc = 101; return s.tmp_0;
   case 101:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundColor__P2884_mk(s);
     s.tmp_0.arg0 = 0;
-    s.callLocIdx = 518; s.pc = 102; return s.tmp_0;
+    s.callLocIdx = 540; s.pc = 102; return s.tmp_0;
   case 102:
     r0 = s.retval;
-    globals.Menu_Is_Running___5333 = (true);
+    globals.Menu_Is_Running___83563 = (true);
     s.tmp_0 = miniMenu_createMenu__P4583_mk(s);
     s.tmp_1 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_1.arg0 = "Descend";
-    r0 = pxsim.image.ofBuffer(_hex10833);
+    r0 = pxsim.image.ofBuffer(_hex84626);
     s.tmp_1.arg1 = r0;
-    s.callLocIdx = 519; s.pc = 104; return s.tmp_1;
+    s.callLocIdx = 541; s.pc = 104; return s.tmp_1;
   case 104:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_2.arg0 = "Weapon Selection";
-    r0 = pxsim.image.ofBuffer(_hex10836);
+    r0 = pxsim.image.ofBuffer(_hex84629);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 520; s.pc = 105; return s.tmp_2;
+    s.callLocIdx = 542; s.pc = 105; return s.tmp_2;
   case 105:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_3 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_3.arg0 = "Version (9)";
-    r0 = pxsim.image.ofBuffer(_hex10839);
+    r0 = pxsim.image.ofBuffer(_hex84632);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 521; s.pc = 106; return s.tmp_3;
+    s.callLocIdx = 543; s.pc = 106; return s.tmp_3;
   case 106:
     r0 = s.retval;
     s.tmp_0.arg2 = r0;
     s.tmp_4 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_4.arg0 = "Enemy List";
-    r0 = pxsim.image.ofBuffer(_hex10842);
+    r0 = pxsim.image.ofBuffer(_hex84635);
     s.tmp_4.arg1 = r0;
-    s.callLocIdx = 522; s.pc = 107; return s.tmp_4;
+    s.callLocIdx = 544; s.pc = 107; return s.tmp_4;
   case 107:
     r0 = s.retval;
     s.tmp_0.arg3 = r0;
     s.tmp_5 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_5.arg0 = "Help";
-    r0 = pxsim.image.ofBuffer(_hex10845);
+    r0 = pxsim.image.ofBuffer(_hex84638);
     s.tmp_5.arg1 = r0;
-    s.callLocIdx = 523; s.pc = 108; return s.tmp_5;
+    s.callLocIdx = 545; s.pc = 108; return s.tmp_5;
   case 108:
     r0 = s.retval;
     s.tmp_0.arg4 = r0;
     s.tmp_6 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_6.arg0 = "Practice Room";
-    r0 = pxsim.image.ofBuffer(_hex10848);
+    r0 = pxsim.image.ofBuffer(_hex84641);
     s.tmp_6.arg1 = r0;
-    s.callLocIdx = 524; s.pc = 109; return s.tmp_6;
+    s.callLocIdx = 546; s.pc = 109; return s.tmp_6;
   case 109:
     r0 = s.retval;
     s.tmp_0.arg5 = r0;
@@ -1967,19 +1967,19 @@ switch (step) {
     s.tmp_0.arg9 = undefined;
     s.tmp_0.arg10 = undefined;
     s.tmp_0.arg11 = undefined;
-    s.callLocIdx = 525; s.pc = 103; return s.tmp_0;
+    s.callLocIdx = 547; s.pc = 103; return s.tmp_0;
   case 103:
     r0 = s.retval;
-    globals.myMenu___5343 = (r0);
+    globals.myMenu___84616 = (r0);
     s.tmp_0 = miniMenu_MenuSprite_setFrame__P4568_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
-    r0 = pxsim.image.ofBuffer(_hex10852);
+    s.tmp_0.arg0 = globals.myMenu___84616;
+    r0 = pxsim.image.ofBuffer(_hex84645);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 526; s.pc = 110; return s.tmp_0;
+    s.callLocIdx = 548; s.pc = 110; return s.tmp_0;
   case 110:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite__C4538_v10_3_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 30;
     if (!checkSubtype(s.tmp_0.arg0, miniMenu_MenuSprite__C4538_VT)) failedCast(s.tmp_0.arg0);
@@ -1988,42 +1988,42 @@ switch (step) {
   case 111:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P2410_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = 80;
     s.tmp_0.arg2 = 80;
-    s.callLocIdx = 527; s.pc = 112; return s.tmp_0;
+    s.callLocIdx = 549; s.pc = 112; return s.tmp_0;
   case 112:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_onButtonPressed__P4562_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = globals.A___2114;
-    s.tmp_0.arg2 = inline__P10860;
-    s.callLocIdx = 606; s.pc = 113; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84653;
+    s.callLocIdx = 628; s.pc = 113; return s.tmp_0;
   case 113:
     r0 = s.retval;
     s.tmp_0 = game_onUpdateInterval__P3025_mk(s);
     s.tmp_0.arg0 = 5000;
-    s.tmp_0.arg1 = inline__P11103;
-    s.callLocIdx = 609; s.pc = 114; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P84896;
+    s.callLocIdx = 631; s.pc = 114; return s.tmp_0;
   case 114:
     r0 = s.retval;
     s.tmp_0 = game_onUpdateInterval__P3025_mk(s);
     s.tmp_0.arg0 = 500;
-    s.tmp_0.arg1 = inline__P11113;
-    s.callLocIdx = 611; s.pc = 115; return s.tmp_0;
+    s.tmp_0.arg1 = inline__P84906;
+    s.callLocIdx = 633; s.pc = 115; return s.tmp_0;
   case 115:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-_main___P42475.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/FastRandomBlocks/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P42475.continuations = [ 55,56,57,58 ]
+_main___P86786.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/FastRandomBlocks/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P86786.continuations = [ 55,56,57,58 ]
 
-function _main___P42475_mk(s) {
+function _main___P86786_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P42475, depth: s.depth + 1,
+        parent: s, fn: _main___P86786, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2054,82 +2054,82 @@ const _hex6289 = pxsim.BufferMethods.createBufferFromHex("8704200020000000000000
 const _hex6291 = pxsim.BufferMethods.createBufferFromHex("87042000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004004000000000000000000000000000054450000000000000000000000440b00bbbb00b0440000000000000040550b00000000b0550400000000000040b5000044bb00005b04000000000000b00b0044ddddbb00b00b0000000000000000405d55d5dd0b00000000000000000000d4555555ddbd0000000000000000000054555555d5bd0000000000000000b44055555555d5dd0b4b000000000040b54055555555d5dd0b5b040000000040b54055555555d5dd0b5b040000000000b44055115555d5dd0b4b000000000000000054115555d5bd00000000000000000000d4555555ddbd00000000000000000000405d55d5dd0b0000000000000000b00b0044ddddbb00b00b00000000000040b5000044bb00005b0400000000000040550b00000000b0550400000000000000440b00bbbb00b0440000000000000000000000544500000000000000000000000000004004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex6293 = pxsim.BufferMethods.createBufferFromHex("870420002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bbbb00000000000000000000000000b055bb00bbbbbb000000000000000000b0b5bdbcbbbbddcb0000000000000000b0dbcb5b5555bbdd0c00000000000000b0cbdcbdbb5b55dbcd0000000000000000c0dddb11d15bb5bd0c00000000000000bbbd111111b155bb0c00000000000000db1b111111115bb5cb00000000000000db1bb11d1199b9d5cb00000000000000db1b11bb9199b955cb000000000000005b1b11b19b99995bcb000000000000005b1d1111bb99995ccb00000000000000b0b511bbbb99995ccb00000000000000b0d51d919999d95b0b00000000000000005bdb919999c9d50b0000000000000000b0d51b99d9bcb5000000000000000000005bd5bbbc550b00000000000000000000b05b5555bd000000000000000000000000b0bbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 const _hex6744 = pxsim.BufferMethods.createBufferFromHex("870410001000000075777777777777777777d176771776777537116377717157771176d177177677771176d17777777777371163777777777777d176177677777777777771717777777777771776777777576577777777777777775775176d777777775576133176776177671761177d171777771761177d77617777771331767777777777176d77")
-const _hex8693 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8697 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8701 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8705 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8709 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8713 = pxsim.BufferMethods.createBufferFromHex("87040800080000006666666616111151164444541614115416141454161411541644445456555555")
-const _hex8717 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8721 = pxsim.BufferMethods.createBufferFromHex("8704080008000000666666661611115116444454a6aa1b54a6aa1b54161411541644445456555555")
-const _hex8725 = pxsim.BufferMethods.createBufferFromHex("87040800080000006666666616111151164444541614115416141454161411541644445456555555")
-const _hex8729 = pxsim.BufferMethods.createBufferFromHex("87040800080000001614111116141111164444141614111416141414161411141644441416141111")
-const _hex8733 = pxsim.BufferMethods.createBufferFromHex("87040800080000007700000088770000888807007788780099878807997988079999877899998778")
-const _hex8737 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999877899998778997988079987880777887800888807008877000077000000")
-const _hex8741 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000006060600606565005656e60e606560e0065606006060600000000000")
-const _hex8745 = pxsim.BufferMethods.createBufferFromHex("87040800080000002300003232022023202332020032230000322300202332023202202323000032")
-const _hex8749 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b00bbbb5b55aaba555500505555bb505555ba505555")
-const _hex8753 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ba505555bb50555500505555aaba5555bbbb5b5500a00b00bba00bbbbaa00bab")
-const _hex8757 = pxsim.BufferMethods.createBufferFromHex("870408000800000023a00b3232a22b2320233202bb3223aaaa3223bb2023320232b22a2323b00a32")
-const _hex8761 = pxsim.BufferMethods.createBufferFromHex("8704080008000000666666661611115116444454a6aa1b54a6aa1b54161411541644445456555555")
-const _hex8765 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b003333a3aa2222b3bb11210300222203bb222203ab")
-const _hex8769 = pxsim.BufferMethods.createBufferFromHex("87040800080000009899999998999999989999999897999998799799809979770088999900008888")
-const _hex8773 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999998999999989999999899999798999799789779799089999880088880000")
-const _hex8777 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000888800889999809979779879979998979999989999999899999998999999")
-const _hex8781 = pxsim.BufferMethods.createBufferFromHex("87040800080000008888000099998800779799089979978999997989999999899999998999999989")
-const _hex8785 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b003333a3aa2222b3bb11210300222203bb222203ab")
-const _hex8789 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b00bbbbabaa33babbbb22330a00332233bb333322a3")
-const _hex8793 = pxsim.BufferMethods.createBufferFromHex("87040800080000003222222323333332322222233232232332322323322222232333333232222223")
-const _hex8797 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeeeeeeedeedeeeeddddeededdddeddeddddedeeddddeeeedeedeeeeeeeeee")
-const _hex8801 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ffffefeeffffedeeffffffefffffffedffdfddedffffffeeffffedeeffffffee")
-const _hex8805 = pxsim.BufferMethods.createBufferFromHex("87040800080000005555e5ee5555edee555555e5555555ed55d5dded555555ee5555edee555555ee")
-const _hex8809 = pxsim.BufferMethods.createBufferFromHex("8704080008000000a6a6a6a66565656aa65666a66a666665565656a66a6a656aa666a6a66a6a6a6a")
-const _hex8813 = pxsim.BufferMethods.createBufferFromHex("8704080008000000bbeeeeeebbdbedeebbddddeebbbbddedbbbbddedbbddddeebbdbedeebbeeeeee")
-const _hex8817 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeeeeeeedeedeeeeddddeededdddeddebddbedbebddbebbbbbbbbbbbbbbbbb")
-const _hex8821 = pxsim.BufferMethods.createBufferFromHex("8704080008000000bbbbbbbbbbbbbbbbbebddbebdebddbeddeddddedeeddddeeeedeedeeeeeeeeee")
-const _hex8825 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeeebbeedebdbbeeddddbbdeddbbbbdeddbbbbeeddddbbeedebdbbeeeeeebb")
-const _hex8829 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ddddddddddeddeddddeeeeddedeeeedeedeeeededdeeeeddddeddedddddddddd")
-const _hex8833 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ddddddddddeddeddddeeeeddedeeeedeedeeeededdeeeeddddeddedddddddddd")
-const _hex8837 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999877899998778997988e7998788e7778878ee8888e7ee8877eeee77eeeeee")
-const _hex8841 = pxsim.BufferMethods.createBufferFromHex("870408000800000077eeeeee8877eeee8888e7ee778878ee998788e7997988e79999877899998778")
-const _hex8845 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999877899998778999987789999877899998778999987789999877899998778")
-const _hex8849 = pxsim.BufferMethods.createBufferFromHex("87040800080000007777777788888888888888887777777799999999999999999999999999999999")
-const _hex8853 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999999999999999999999999999977777777888888888888888877777777")
-const _hex8857 = pxsim.BufferMethods.createBufferFromHex("87040800080000008778999987789999877899998778999987789999877899998778999987789999")
-const _hex8861 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999999999999999999999999999999999999999999999999999999999999")
-const _hex8865 = pxsim.BufferMethods.createBufferFromHex("870408000800000087789999877899997e8897997e887899ee878877ee7e8888eeee7788eeeeee77")
-const _hex8869 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeee77eeee7788ee7e8888ee8788777e8878997e8897998778999987789999")
-const _hex8873 = pxsim.BufferMethods.createBufferFromHex("870408000800000087789999877899997e8897997e887899ee878877ee7e8888eeee7788eeeeee77")
-const _hex8877 = pxsim.BufferMethods.createBufferFromHex("8704080008000000bbbbbbbbbbabbabbbbaaaabbabaaaabaabaaaababbaaaabbbbabbabbbbbbbbbb")
-const _hex8881 = pxsim.BufferMethods.createBufferFromHex("8704080008000000aaaaaaaabaabbbaababbbaabaaabababbababaaabaabbbabaabbbaabaaaaaaaa")
-const _hex8885 = pxsim.BufferMethods.createBufferFromHex("8704080008000000dddddddddd4dd4dddd4444dd4d4444d44d4444d4dd4444dddd4dd4dddddddddd")
-const _hex8889 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baaaaaabbbbaabbbaabaabaababbbbabbabbbbabaabaabaabbbaabbbbaaaaaab")
-const _hex8893 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8897 = pxsim.BufferMethods.createBufferFromHex("8704080008000000222222224344442423dddd2423edde2423edde2423dddd242322222433333323")
-const _hex8901 = pxsim.BufferMethods.createBufferFromHex("8704080008000000aaaaaaaaa1bbbbaab1baababb1abbaabb1abbaabb1baababa1bbbbaa111111a1")
-const _hex8905 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8909 = pxsim.BufferMethods.createBufferFromHex("8704080008000000aeaeaeaeedededeaaedeeeaeeaeeeeeddededeaeeaeaedeaaeeeaeaeeaeaeaea")
-const _hex8913 = pxsim.BufferMethods.createBufferFromHex("87040800080000004444444444d44d4444dddd44d4dddd4dd4dddd4d44dddd4444d44d4444444444")
-const _hex8917 = pxsim.BufferMethods.createBufferFromHex("87040800080000007777777777977977779999779799997997999979779999777797797777777777")
-const _hex8921 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999999799799997777997977779779777797997777999979979999999999")
-const _hex8925 = pxsim.BufferMethods.createBufferFromHex("87040800080000004444444444644644445665446465554664555646445665444464464444444444")
-const _hex8929 = pxsim.BufferMethods.createBufferFromHex("8704080008000000222222224344442423dddd2423edde2423edde2423dddd242322222433333323")
-const _hex8933 = pxsim.BufferMethods.createBufferFromHex("87040800080000001111111111d11d1111dddd11d1dddd1dd1dddd1d11dddd1111d11d1111111111")
-const _hex8937 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8941 = pxsim.BufferMethods.createBufferFromHex("870408000800000011111111d11ddd11d1ddd11d111d1d1dd1d1d111d11ddd1d11ddd11d11111111")
-const _hex8945 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999949444494499999944919919449199194499999944944449499999999")
-const _hex10787 = pxsim.BufferMethods.createBufferFromHex("8704a000780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222221200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022221224002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224121222222224121000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022121414222242221424202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022424141212124124221200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221414222222221224002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224221222222222221000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022222224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222002002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222000220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200220200222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000220200202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020020222200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020022222202002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022022022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222022222222202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222022222222202202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000880000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb08002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8198b002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8918b00202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb080020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000088000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex10805 = pxsim.BufferMethods.createBufferFromHex("87040800080000000200000020220200003222200222222020222220003222202022020002000000")
-const _hex10807 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000000000080080000b88b00809bb108801bb90800b88b000080080000000000")
-const _hex10809 = pxsim.BufferMethods.createBufferFromHex("87040800080000000060660000600660666500666066666660666666666500660060066000606600")
-const _hex10811 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000f0ffffffff0f0000cf32cccc23fc00f0cc2cc33cc2cc0ff0c2ccc22ccc2c0ff023ccfccfcc320ff03cc20ff02cc30ff0ccfc0000cfcc0ff0ccfc0000cfcc0ff03cc20ff02cc30ff023ccfccfcc320ff0c2ccc22ccc2c0ff0cc2cc33cc2cc0f00cf32cccc23fc0000f0ffffffff0f000000000000000000")
-const _hex10833 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee09929222222220ee09999222222220ee09999492222220ee09999494424220ee099994944b42b0ee09999494444bb0ee09999494444bb0ee099994944b42b0ee09999494424220ee09999492222220ee09999222222220ee09929222222220ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10836 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee0444bb444b4440ee044bbb44bbb440ee0bbbbbbbbbbbb0ee0b4bbb2bbbb4b0ee0442b3322b2440ee0b42b3322bbbb0ee0bb2b3322bb4b0ee0442b3322b2440ee0b4bbbbbbbb4b0ee0bbbbbbbbbbbb0ee044bbb44bbb440ee0444b444bb4440ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10839 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee02422222222420ee04424222242440ee02442244224420ee02422422422420ee02442244224420ee04424222242440ee02422222222420ee02422222222420ee02422222222420ee04444444444440ee02422222222420ee02422222222420ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10842 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee09f77777777770ee0f37977777a770ee0329f77a7a9770ee022f379777a770ee022329f7777770ee02222f37977770ee02222329f77770ee0222222f379770ee0323322329f770ee032232222f3790ee032332222329f0ee02222222222f30ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10845 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee02222222222220ee02222222222220ee0dddd222222220ee0addcdddddddd0ee0addccdcccdda0ee0addccdaaadda0ee0addccddadddd0ee0adccccda22220ee0adaaaada22220ee0dddddddd22220ee02222222222220ee02222222222220ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10848 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee08888888888880ee07877777777870ee078dddddddd870ee078ddd3dddd870ee0783d2233d3870ee0783d2233dd870ee0783d2233dd870ee0783d2233d3870ee078dddddddd870ee078dddddddd870ee07877777777870ee08888888888880ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10852 = pxsim.BufferMethods.createBufferFromHex("87040f000f000000babbbbbbbbbbbb0bcacccccccccccc0bcaabaaaaaaaaca0bcacbccccccccca0bcacbbabbbbcbca0bcacbcacccccbca0bcacbcaabcacbca0bcacbcacbcacbca0bcacbcabbcbcbca0bcacbcacccccbca0bcacbaaaaaacaca0bcacbccccccccca0bcabbbbbbbbbbcb0bcacccccccccccc0baaaaaaaaaaaaaa0b")
+const _hex86801 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86804 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86807 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86810 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86813 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86816 = pxsim.BufferMethods.createBufferFromHex("87040800080000006666666616111151164444541614115416141454161411541644445456555555")
+const _hex86819 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86822 = pxsim.BufferMethods.createBufferFromHex("8704080008000000666666661611115116444454a6aa1b54a6aa1b54161411541644445456555555")
+const _hex86825 = pxsim.BufferMethods.createBufferFromHex("87040800080000006666666616111151164444541614115416141454161411541644445456555555")
+const _hex86828 = pxsim.BufferMethods.createBufferFromHex("87040800080000001614111116141111164444141614111416141414161411141644441416141111")
+const _hex86831 = pxsim.BufferMethods.createBufferFromHex("87040800080000007700000088770000888807007788780099878807997988079999877899998778")
+const _hex86834 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999877899998778997988079987880777887800888807008877000077000000")
+const _hex86837 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000006060600606565005656e60e606560e0065606006060600000000000")
+const _hex86840 = pxsim.BufferMethods.createBufferFromHex("87040800080000002300003232022023202332020032230000322300202332023202202323000032")
+const _hex86843 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b00bbbb5b55aaba555500505555bb505555ba505555")
+const _hex86846 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ba505555bb50555500505555aaba5555bbbb5b5500a00b00bba00bbbbaa00bab")
+const _hex86849 = pxsim.BufferMethods.createBufferFromHex("870408000800000023a00b3232a22b2320233202bb3223aaaa3223bb2023320232b22a2323b00a32")
+const _hex86852 = pxsim.BufferMethods.createBufferFromHex("8704080008000000666666661611115116444454a6aa1b54a6aa1b54161411541644445456555555")
+const _hex86855 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b003333a3aa2222b3bb11210300222203bb222203ab")
+const _hex86858 = pxsim.BufferMethods.createBufferFromHex("87040800080000009899999998999999989999999897999998799799809979770088999900008888")
+const _hex86861 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999998999999989999999899999798999799789779799089999880088880000")
+const _hex86864 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000888800889999809979779879979998979999989999999899999998999999")
+const _hex86867 = pxsim.BufferMethods.createBufferFromHex("87040800080000008888000099998800779799089979978999997989999999899999998999999989")
+const _hex86870 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b003333a3aa2222b3bb11210300222203bb222203ab")
+const _hex86873 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baa00babbba00bbb00a00b00bbbbabaa33babbbb22330a00332233bb333322a3")
+const _hex86876 = pxsim.BufferMethods.createBufferFromHex("87040800080000003222222323333332322222233232232332322323322222232333333232222223")
+const _hex86879 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeeeeeeedeedeeeeddddeededdddeddeddddedeeddddeeeedeedeeeeeeeeee")
+const _hex86882 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ffffefeeffffedeeffffffefffffffedffdfddedffffffeeffffedeeffffffee")
+const _hex86885 = pxsim.BufferMethods.createBufferFromHex("87040800080000005555e5ee5555edee555555e5555555ed55d5dded555555ee5555edee555555ee")
+const _hex86888 = pxsim.BufferMethods.createBufferFromHex("8704080008000000a6a6a6a66565656aa65666a66a666665565656a66a6a656aa666a6a66a6a6a6a")
+const _hex86891 = pxsim.BufferMethods.createBufferFromHex("8704080008000000bbeeeeeebbdbedeebbddddeebbbbddedbbbbddedbbddddeebbdbedeebbeeeeee")
+const _hex86894 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeeeeeeedeedeeeeddddeededdddeddebddbedbebddbebbbbbbbbbbbbbbbbb")
+const _hex86897 = pxsim.BufferMethods.createBufferFromHex("8704080008000000bbbbbbbbbbbbbbbbbebddbebdebddbeddeddddedeeddddeeeedeedeeeeeeeeee")
+const _hex86900 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeeebbeedebdbbeeddddbbdeddbbbbdeddbbbbeeddddbbeedebdbbeeeeeebb")
+const _hex86903 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ddddddddddeddeddddeeeeddedeeeedeedeeeededdeeeeddddeddedddddddddd")
+const _hex86906 = pxsim.BufferMethods.createBufferFromHex("8704080008000000ddddddddddeddeddddeeeeddedeeeedeedeeeededdeeeeddddeddedddddddddd")
+const _hex86909 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999877899998778997988e7998788e7778878ee8888e7ee8877eeee77eeeeee")
+const _hex86912 = pxsim.BufferMethods.createBufferFromHex("870408000800000077eeeeee8877eeee8888e7ee778878ee998788e7997988e79999877899998778")
+const _hex86915 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999877899998778999987789999877899998778999987789999877899998778")
+const _hex86918 = pxsim.BufferMethods.createBufferFromHex("87040800080000007777777788888888888888887777777799999999999999999999999999999999")
+const _hex86921 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999999999999999999999999999977777777888888888888888877777777")
+const _hex86924 = pxsim.BufferMethods.createBufferFromHex("87040800080000008778999987789999877899998778999987789999877899998778999987789999")
+const _hex86927 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999999999999999999999999999999999999999999999999999999999999")
+const _hex86930 = pxsim.BufferMethods.createBufferFromHex("870408000800000087789999877899997e8897997e887899ee878877ee7e8888eeee7788eeeeee77")
+const _hex86933 = pxsim.BufferMethods.createBufferFromHex("8704080008000000eeeeee77eeee7788ee7e8888ee8788777e8878997e8897998778999987789999")
+const _hex86936 = pxsim.BufferMethods.createBufferFromHex("870408000800000087789999877899997e8897997e887899ee878877ee7e8888eeee7788eeeeee77")
+const _hex86939 = pxsim.BufferMethods.createBufferFromHex("8704080008000000bbbbbbbbbbabbabbbbaaaabbabaaaabaabaaaababbaaaabbbbabbabbbbbbbbbb")
+const _hex86942 = pxsim.BufferMethods.createBufferFromHex("8704080008000000aaaaaaaabaabbbaababbbaabaaabababbababaaabaabbbabaabbbaabaaaaaaaa")
+const _hex86945 = pxsim.BufferMethods.createBufferFromHex("8704080008000000dddddddddd4dd4dddd4444dd4d4444d44d4444d4dd4444dddd4dd4dddddddddd")
+const _hex86948 = pxsim.BufferMethods.createBufferFromHex("8704080008000000baaaaaabbbbaabbbaabaabaababbbbabbabbbbabaabaabaabbbaabbbbaaaaaab")
+const _hex86951 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86954 = pxsim.BufferMethods.createBufferFromHex("8704080008000000222222224344442423dddd2423edde2423edde2423dddd242322222433333323")
+const _hex86957 = pxsim.BufferMethods.createBufferFromHex("8704080008000000aaaaaaaaa1bbbbaab1baababb1abbaabb1abbaabb1baababa1bbbbaa111111a1")
+const _hex86960 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86963 = pxsim.BufferMethods.createBufferFromHex("8704080008000000aeaeaeaeedededeaaedeeeaeeaeeeeeddededeaeeaeaedeaaeeeaeaeeaeaeaea")
+const _hex86966 = pxsim.BufferMethods.createBufferFromHex("87040800080000004444444444d44d4444dddd44d4dddd4dd4dddd4d44dddd4444d44d4444444444")
+const _hex86969 = pxsim.BufferMethods.createBufferFromHex("87040800080000007777777777977977779999779799997997999979779999777797797777777777")
+const _hex86972 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999999799799997777997977779779777797997777999979979999999999")
+const _hex86975 = pxsim.BufferMethods.createBufferFromHex("87040800080000004444444444644644445665446465554664555646445665444464464444444444")
+const _hex86978 = pxsim.BufferMethods.createBufferFromHex("8704080008000000222222224344442423dddd2423edde2423edde2423dddd242322222433333323")
+const _hex86981 = pxsim.BufferMethods.createBufferFromHex("87040800080000001111111111d11d1111dddd11d1dddd1dd1dddd1d11dddd1111d11d1111111111")
+const _hex86984 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex86987 = pxsim.BufferMethods.createBufferFromHex("870408000800000011111111d11ddd11d1ddd11d111d1d1dd1d1d111d11ddd1d11ddd11d11111111")
+const _hex86990 = pxsim.BufferMethods.createBufferFromHex("87040800080000009999999949444494499999944919919449199194499999944944449499999999")
+const _hex84579 = pxsim.BufferMethods.createBufferFromHex("8704a000780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222221200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022221224002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224121222222224121000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022121414222242221424202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022424141212124124221200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221414222222221224002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224221222222222221000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022222224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222002002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222000220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200220200222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000220200202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020020222200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020022222202002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022022022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222022222222202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222022222222202202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000880000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb08002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8198b002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8918b00202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb080020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000088000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex84597 = pxsim.BufferMethods.createBufferFromHex("87040800080000000200000020220200003222200222222020222220003222202022020002000000")
+const _hex84599 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000000000080080000b88b00809bb108801bb90800b88b000080080000000000")
+const _hex84601 = pxsim.BufferMethods.createBufferFromHex("87040800080000000060660000600660666500666066666660666666666500660060066000606600")
+const _hex84603 = pxsim.BufferMethods.createBufferFromHex("8704100010000000000000000000000000f0ffffffff0f0000cf32cccc23fc00f0cc2cc33cc2cc0ff0c2ccc22ccc2c0ff023ccfccfcc320ff03cc20ff02cc30ff0ccfc0000cfcc0ff0ccfc0000cfcc0ff03cc20ff02cc30ff023ccfccfcc320ff0c2ccc22ccc2c0ff0cc2cc33cc2cc0f00cf32cccc23fc0000f0ffffffff0f000000000000000000")
+const _hex84626 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee09929222222220ee09999222222220ee09999492222220ee09999494424220ee099994944b42b0ee09999494444bb0ee09999494444bb0ee099994944b42b0ee09999494424220ee09999492222220ee09999222222220ee09929222222220ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84629 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee0444bb444b4440ee044bbb44bbb440ee0bbbbbbbbbbbb0ee0b4bbb2bbbb4b0ee0442b3322b2440ee0b42b3322bbbb0ee0bb2b3322bb4b0ee0442b3322b2440ee0b4bbbbbbbb4b0ee0bbbbbbbbbbbb0ee044bbb44bbb440ee0444b444bb4440ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84632 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee02422222222420ee04424222242440ee02442244224420ee02422422422420ee02442244224420ee04424222242440ee02422222222420ee02422222222420ee02422222222420ee04444444444440ee02422222222420ee02422222222420ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84635 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee09f77777777770ee0f37977777a770ee0329f77a7a9770ee022f379777a770ee022329f7777770ee02222f37977770ee02222329f77770ee0222222f379770ee0323322329f770ee032232222f3790ee032332222329f0ee02222222222f30ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84638 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee02222222222220ee02222222222220ee0dddd222222220ee0addcdddddddd0ee0addccdcccdda0ee0addccdaaadda0ee0addccddadddd0ee0adccccda22220ee0adaaaada22220ee0dddddddd22220ee02222222222220ee02222222222220ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84641 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee08888888888880ee07877777777870ee078dddddddd870ee078ddd3dddd870ee0783d2233d3870ee0783d2233dd870ee0783d2233dd870ee0783d2233d3870ee078dddddddd870ee078dddddddd870ee07877777777870ee08888888888880ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84645 = pxsim.BufferMethods.createBufferFromHex("87040f000f000000babbbbbbbbbbbb0bcacccccccccccc0bcaabaaaaaaaaca0bcacbccccccccca0bcacbbabbbbcbca0bcacbcacccccbca0bcacbcaabcacbca0bcacbcacbcacbca0bcacbcabbcbcbca0bcacbcacccccbca0bcacbaaaaaacaca0bcacbccccccccca0bcabbbbbbbbbbcb0bcacccccccccccc0baaaaaaaaaaaaaa0b")
 
 
 
@@ -2839,7 +2839,7 @@ function inline__P8167_mk(s) {
 
 
 
-function myTiles_inline__P8949(s) {
+function myTiles_inline__P86993(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2855,8 +2855,8 @@ switch (step) {
     }
     s.tmp_1 = helpers_stringTrim__P123_mk(s);
     s.tmp_1.arg0 = s.arg0;
-    s.callLocIdx = 118; s.pc = 151; return s.tmp_1;
-  case 151:
+    s.callLocIdx = 118; s.pc = 179; return s.tmp_1;
+  case 179:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_pxtcore.switch_eq("level1", s.tmp_0);
@@ -3155,1181 +3155,1447 @@ switch (step) {
     if (r0) { step = 147; continue; }
     r0 = pxsim_pxtcore.switch_eq("level71", s.tmp_0);
     if (r0) { step = 148; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level75", s.tmp_0);
+    if (r0) { step = 149; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level75", s.tmp_0);
+    if (r0) { step = 150; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level76", s.tmp_0);
+    if (r0) { step = 151; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level76", s.tmp_0);
+    if (r0) { step = 152; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level77", s.tmp_0);
+    if (r0) { step = 153; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level77", s.tmp_0);
+    if (r0) { step = 154; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level78", s.tmp_0);
+    if (r0) { step = 155; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level78", s.tmp_0);
+    if (r0) { step = 156; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level79", s.tmp_0);
+    if (r0) { step = 157; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level79", s.tmp_0);
+    if (r0) { step = 158; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level80", s.tmp_0);
+    if (r0) { step = 159; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level80", s.tmp_0);
+    if (r0) { step = 160; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level81", s.tmp_0);
+    if (r0) { step = 161; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level81", s.tmp_0);
+    if (r0) { step = 162; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level82", s.tmp_0);
+    if (r0) { step = 163; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level82", s.tmp_0);
+    if (r0) { step = 164; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level83", s.tmp_0);
+    if (r0) { step = 165; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level83", s.tmp_0);
+    if (r0) { step = 166; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level84", s.tmp_0);
+    if (r0) { step = 167; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level84", s.tmp_0);
+    if (r0) { step = 168; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level85", s.tmp_0);
+    if (r0) { step = 169; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level85", s.tmp_0);
+    if (r0) { step = 170; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level86", s.tmp_0);
+    if (r0) { step = 171; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level86", s.tmp_0);
+    if (r0) { step = 172; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level87", s.tmp_0);
+    if (r0) { step = 173; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level87", s.tmp_0);
+    if (r0) { step = 174; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level88", s.tmp_0);
+    if (r0) { step = 175; continue; }
+    r0 = pxsim_pxtcore.switch_eq("level88", s.tmp_0);
+    if (r0) { step = 176; continue; }
     r0 = s.tmp_0;
-    { step = 149; continue; }
+    { step = 177; continue; }
   case 1:
   case 2:
     r0 = pxsim_Array__mk();
     s.tmp_2 = r0;
-    r0 = pxsim_Array__push(s.tmp_2, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_2, globals.transparency16___86802);
     s.tmp_3 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_3.arg0 = _hex8956;
-    r0 = pxsim.image.ofBuffer(_hex8958);
+    s.tmp_3.arg0 = _hex87000;
+    r0 = pxsim.image.ofBuffer(_hex87002);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = s.tmp_2;
     s.tmp_3.arg3 = 4;
-    s.callLocIdx = 119; s.pc = 152; return s.tmp_3;
-  case 152:
+    s.callLocIdx = 119; s.pc = 180; return s.tmp_3;
+  case 180:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 3:
   case 4:
     r0 = pxsim_Array__mk();
     s.tmp_4 = r0;
-    r0 = pxsim_Array__push(s.tmp_4, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_4, globals.transparency16___86802);
     s.tmp_5 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_5.arg0 = _hex8964;
-    r0 = pxsim.image.ofBuffer(_hex8966);
+    s.tmp_5.arg0 = _hex87008;
+    r0 = pxsim.image.ofBuffer(_hex87010);
     s.tmp_5.arg1 = r0;
     s.tmp_5.arg2 = s.tmp_4;
     s.tmp_5.arg3 = 4;
-    s.callLocIdx = 120; s.pc = 153; return s.tmp_5;
-  case 153:
+    s.callLocIdx = 120; s.pc = 181; return s.tmp_5;
+  case 181:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 5:
   case 6:
     r0 = pxsim_Array__mk();
     s.tmp_6 = r0;
-    r0 = pxsim_Array__push(s.tmp_6, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_6, globals.transparency16___86802);
     s.tmp_7 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_7.arg0 = _hex8972;
-    r0 = pxsim.image.ofBuffer(_hex8974);
+    s.tmp_7.arg0 = _hex87016;
+    r0 = pxsim.image.ofBuffer(_hex87018);
     s.tmp_7.arg1 = r0;
     s.tmp_7.arg2 = s.tmp_6;
     s.tmp_7.arg3 = 4;
-    s.callLocIdx = 121; s.pc = 154; return s.tmp_7;
-  case 154:
+    s.callLocIdx = 121; s.pc = 182; return s.tmp_7;
+  case 182:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 7:
   case 8:
     r0 = pxsim_Array__mk();
     s.tmp_8 = r0;
-    r0 = pxsim_Array__push(s.tmp_8, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_8, globals.transparency8___86805);
     s.tmp_9 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_9.arg0 = _hex8980;
-    r0 = pxsim.image.ofBuffer(_hex8982);
+    s.tmp_9.arg0 = _hex87024;
+    r0 = pxsim.image.ofBuffer(_hex87026);
     s.tmp_9.arg1 = r0;
     s.tmp_9.arg2 = s.tmp_8;
     s.tmp_9.arg3 = 3;
-    s.callLocIdx = 122; s.pc = 155; return s.tmp_9;
-  case 155:
+    s.callLocIdx = 122; s.pc = 183; return s.tmp_9;
+  case 183:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 9:
   case 10:
     r0 = pxsim_Array__mk();
     s.tmp_10 = r0;
-    r0 = pxsim_Array__push(s.tmp_10, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_10, globals.transparency8___86805);
     s.tmp_11 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_11.arg0 = _hex8988;
-    r0 = pxsim.image.ofBuffer(_hex8990);
+    s.tmp_11.arg0 = _hex87032;
+    r0 = pxsim.image.ofBuffer(_hex87034);
     s.tmp_11.arg1 = r0;
     s.tmp_11.arg2 = s.tmp_10;
     s.tmp_11.arg3 = 3;
-    s.callLocIdx = 123; s.pc = 156; return s.tmp_11;
-  case 156:
+    s.callLocIdx = 123; s.pc = 184; return s.tmp_11;
+  case 184:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 11:
   case 12:
     r0 = pxsim_Array__mk();
     s.tmp_12 = r0;
-    r0 = pxsim_Array__push(s.tmp_12, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_12, globals.transparency8___86805);
     s.tmp_13 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_13.arg0 = _hex8996;
-    r0 = pxsim.image.ofBuffer(_hex8998);
+    s.tmp_13.arg0 = _hex87040;
+    r0 = pxsim.image.ofBuffer(_hex87042);
     s.tmp_13.arg1 = r0;
     s.tmp_13.arg2 = s.tmp_12;
     s.tmp_13.arg3 = 3;
-    s.callLocIdx = 124; s.pc = 157; return s.tmp_13;
-  case 157:
+    s.callLocIdx = 124; s.pc = 185; return s.tmp_13;
+  case 185:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 13:
   case 14:
     r0 = pxsim_Array__mk();
     s.tmp_14 = r0;
-    r0 = pxsim_Array__push(s.tmp_14, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_14, globals.transparency8___86805);
     s.tmp_15 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_15.arg0 = _hex9004;
-    r0 = pxsim.image.ofBuffer(_hex9006);
+    s.tmp_15.arg0 = _hex87048;
+    r0 = pxsim.image.ofBuffer(_hex87050);
     s.tmp_15.arg1 = r0;
     s.tmp_15.arg2 = s.tmp_14;
     s.tmp_15.arg3 = 3;
-    s.callLocIdx = 125; s.pc = 158; return s.tmp_15;
-  case 158:
+    s.callLocIdx = 125; s.pc = 186; return s.tmp_15;
+  case 186:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 15:
   case 16:
     r0 = pxsim_Array__mk();
     s.tmp_16 = r0;
-    r0 = pxsim_Array__push(s.tmp_16, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_16, globals.transparency8___86805);
     s.tmp_17 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_17.arg0 = _hex9012;
-    r0 = pxsim.image.ofBuffer(_hex9014);
+    s.tmp_17.arg0 = _hex87056;
+    r0 = pxsim.image.ofBuffer(_hex87058);
     s.tmp_17.arg1 = r0;
     s.tmp_17.arg2 = s.tmp_16;
     s.tmp_17.arg3 = 3;
-    s.callLocIdx = 126; s.pc = 159; return s.tmp_17;
-  case 159:
+    s.callLocIdx = 126; s.pc = 187; return s.tmp_17;
+  case 187:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 17:
   case 18:
     r0 = pxsim_Array__mk();
     s.tmp_18 = r0;
-    r0 = pxsim_Array__push(s.tmp_18, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_18, globals.transparency8___86805);
     s.tmp_19 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_19.arg0 = _hex9020;
-    r0 = pxsim.image.ofBuffer(_hex9022);
+    s.tmp_19.arg0 = _hex87064;
+    r0 = pxsim.image.ofBuffer(_hex87066);
     s.tmp_19.arg1 = r0;
     s.tmp_19.arg2 = s.tmp_18;
     s.tmp_19.arg3 = 3;
-    s.callLocIdx = 127; s.pc = 160; return s.tmp_19;
-  case 160:
+    s.callLocIdx = 127; s.pc = 188; return s.tmp_19;
+  case 188:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 19:
   case 20:
     r0 = pxsim_Array__mk();
     s.tmp_20 = r0;
-    r0 = pxsim_Array__push(s.tmp_20, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_20, globals.transparency8___86805);
     s.tmp_21 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_21.arg0 = _hex9028;
-    r0 = pxsim.image.ofBuffer(_hex9030);
+    s.tmp_21.arg0 = _hex87072;
+    r0 = pxsim.image.ofBuffer(_hex87074);
     s.tmp_21.arg1 = r0;
     s.tmp_21.arg2 = s.tmp_20;
     s.tmp_21.arg3 = 3;
-    s.callLocIdx = 128; s.pc = 161; return s.tmp_21;
-  case 161:
+    s.callLocIdx = 128; s.pc = 189; return s.tmp_21;
+  case 189:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 21:
   case 22:
     r0 = pxsim_Array__mk();
     s.tmp_22 = r0;
-    r0 = pxsim_Array__push(s.tmp_22, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_22, globals.transparency8___86805);
     s.tmp_23 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_23.arg0 = _hex9036;
-    r0 = pxsim.image.ofBuffer(_hex9038);
+    s.tmp_23.arg0 = _hex87080;
+    r0 = pxsim.image.ofBuffer(_hex87082);
     s.tmp_23.arg1 = r0;
     s.tmp_23.arg2 = s.tmp_22;
     s.tmp_23.arg3 = 3;
-    s.callLocIdx = 129; s.pc = 162; return s.tmp_23;
-  case 162:
+    s.callLocIdx = 129; s.pc = 190; return s.tmp_23;
+  case 190:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 23:
   case 24:
     r0 = pxsim_Array__mk();
     s.tmp_24 = r0;
-    r0 = pxsim_Array__push(s.tmp_24, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_24, globals.transparency8___86805);
     s.tmp_25 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_25.arg0 = _hex9044;
-    r0 = pxsim.image.ofBuffer(_hex9046);
+    s.tmp_25.arg0 = _hex87088;
+    r0 = pxsim.image.ofBuffer(_hex87090);
     s.tmp_25.arg1 = r0;
     s.tmp_25.arg2 = s.tmp_24;
     s.tmp_25.arg3 = 3;
-    s.callLocIdx = 130; s.pc = 163; return s.tmp_25;
-  case 163:
+    s.callLocIdx = 130; s.pc = 191; return s.tmp_25;
+  case 191:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 25:
   case 26:
     r0 = pxsim_Array__mk();
     s.tmp_26 = r0;
-    r0 = pxsim_Array__push(s.tmp_26, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_26, globals.transparency16___86802);
     s.tmp_27 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_27.arg0 = _hex9052;
-    r0 = pxsim.image.ofBuffer(_hex9054);
+    s.tmp_27.arg0 = _hex87096;
+    r0 = pxsim.image.ofBuffer(_hex87098);
     s.tmp_27.arg1 = r0;
     s.tmp_27.arg2 = s.tmp_26;
     s.tmp_27.arg3 = 4;
-    s.callLocIdx = 131; s.pc = 164; return s.tmp_27;
-  case 164:
+    s.callLocIdx = 131; s.pc = 192; return s.tmp_27;
+  case 192:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 27:
   case 28:
     r0 = pxsim_Array__mk();
     s.tmp_28 = r0;
-    r0 = pxsim_Array__push(s.tmp_28, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_28, globals.transparency8___86805);
     s.tmp_29 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_29.arg0 = _hex9060;
-    r0 = pxsim.image.ofBuffer(_hex9062);
+    s.tmp_29.arg0 = _hex87104;
+    r0 = pxsim.image.ofBuffer(_hex87106);
     s.tmp_29.arg1 = r0;
     s.tmp_29.arg2 = s.tmp_28;
     s.tmp_29.arg3 = 3;
-    s.callLocIdx = 132; s.pc = 165; return s.tmp_29;
-  case 165:
+    s.callLocIdx = 132; s.pc = 193; return s.tmp_29;
+  case 193:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 29:
   case 30:
     r0 = pxsim_Array__mk();
     s.tmp_30 = r0;
-    r0 = pxsim_Array__push(s.tmp_30, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_30, globals.transparency16___86802);
     s.tmp_31 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_31.arg0 = _hex9068;
-    r0 = pxsim.image.ofBuffer(_hex9070);
+    s.tmp_31.arg0 = _hex87112;
+    r0 = pxsim.image.ofBuffer(_hex87114);
     s.tmp_31.arg1 = r0;
     s.tmp_31.arg2 = s.tmp_30;
     s.tmp_31.arg3 = 4;
-    s.callLocIdx = 133; s.pc = 166; return s.tmp_31;
-  case 166:
+    s.callLocIdx = 133; s.pc = 194; return s.tmp_31;
+  case 194:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 31:
   case 32:
     r0 = pxsim_Array__mk();
     s.tmp_32 = r0;
-    r0 = pxsim_Array__push(s.tmp_32, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_32, globals.transparency16___86802);
     s.tmp_33 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_33.arg0 = _hex9076;
-    r0 = pxsim.image.ofBuffer(_hex9078);
+    s.tmp_33.arg0 = _hex87120;
+    r0 = pxsim.image.ofBuffer(_hex87122);
     s.tmp_33.arg1 = r0;
     s.tmp_33.arg2 = s.tmp_32;
     s.tmp_33.arg3 = 4;
-    s.callLocIdx = 134; s.pc = 167; return s.tmp_33;
-  case 167:
+    s.callLocIdx = 134; s.pc = 195; return s.tmp_33;
+  case 195:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 33:
   case 34:
     r0 = pxsim_Array__mk();
     s.tmp_34 = r0;
-    r0 = pxsim_Array__push(s.tmp_34, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_34, globals.transparency8___86805);
     s.tmp_35 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_35.arg0 = _hex9084;
-    r0 = pxsim.image.ofBuffer(_hex9086);
+    s.tmp_35.arg0 = _hex87128;
+    r0 = pxsim.image.ofBuffer(_hex87130);
     s.tmp_35.arg1 = r0;
     s.tmp_35.arg2 = s.tmp_34;
     s.tmp_35.arg3 = 3;
-    s.callLocIdx = 135; s.pc = 168; return s.tmp_35;
-  case 168:
+    s.callLocIdx = 135; s.pc = 196; return s.tmp_35;
+  case 196:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 35:
   case 36:
     r0 = pxsim_Array__mk();
     s.tmp_36 = r0;
-    r0 = pxsim_Array__push(s.tmp_36, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_36, globals.transparency16___86802);
     s.tmp_37 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_37.arg0 = _hex9092;
-    r0 = pxsim.image.ofBuffer(_hex9094);
+    s.tmp_37.arg0 = _hex87136;
+    r0 = pxsim.image.ofBuffer(_hex87138);
     s.tmp_37.arg1 = r0;
     s.tmp_37.arg2 = s.tmp_36;
     s.tmp_37.arg3 = 4;
-    s.callLocIdx = 136; s.pc = 169; return s.tmp_37;
-  case 169:
+    s.callLocIdx = 136; s.pc = 197; return s.tmp_37;
+  case 197:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 37:
   case 38:
     r0 = pxsim_Array__mk();
     s.tmp_38 = r0;
-    r0 = pxsim_Array__push(s.tmp_38, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_38, globals.transparency16___86802);
     s.tmp_39 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_39.arg0 = _hex9100;
-    r0 = pxsim.image.ofBuffer(_hex9102);
+    s.tmp_39.arg0 = _hex87144;
+    r0 = pxsim.image.ofBuffer(_hex87146);
     s.tmp_39.arg1 = r0;
     s.tmp_39.arg2 = s.tmp_38;
     s.tmp_39.arg3 = 4;
-    s.callLocIdx = 137; s.pc = 170; return s.tmp_39;
-  case 170:
+    s.callLocIdx = 137; s.pc = 198; return s.tmp_39;
+  case 198:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 39:
   case 40:
     r0 = pxsim_Array__mk();
     s.tmp_40 = r0;
-    r0 = pxsim_Array__push(s.tmp_40, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_40, globals.transparency16___86802);
     s.tmp_41 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_41.arg0 = _hex9108;
-    r0 = pxsim.image.ofBuffer(_hex9110);
+    s.tmp_41.arg0 = _hex87152;
+    r0 = pxsim.image.ofBuffer(_hex87154);
     s.tmp_41.arg1 = r0;
     s.tmp_41.arg2 = s.tmp_40;
     s.tmp_41.arg3 = 4;
-    s.callLocIdx = 138; s.pc = 171; return s.tmp_41;
-  case 171:
+    s.callLocIdx = 138; s.pc = 199; return s.tmp_41;
+  case 199:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 41:
   case 42:
     r0 = pxsim_Array__mk();
     s.tmp_42 = r0;
-    r0 = pxsim_Array__push(s.tmp_42, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_42, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_42, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_42, globals.tile36___5379);
-    r0 = pxsim_Array__push(s.tmp_42, globals.tile10___5350);
+    r0 = pxsim_Array__push(s.tmp_42, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_42, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_42, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_42, globals.tile36___86904);
+    r0 = pxsim_Array__push(s.tmp_42, globals.tile10___86817);
     s.tmp_43 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_43.arg0 = _hex9116;
-    r0 = pxsim.image.ofBuffer(_hex9118);
+    s.tmp_43.arg0 = _hex87160;
+    r0 = pxsim.image.ofBuffer(_hex87162);
     s.tmp_43.arg1 = r0;
     s.tmp_43.arg2 = s.tmp_42;
     s.tmp_43.arg3 = 3;
-    s.callLocIdx = 139; s.pc = 172; return s.tmp_43;
-  case 172:
+    s.callLocIdx = 139; s.pc = 200; return s.tmp_43;
+  case 200:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 43:
   case 44:
     r0 = pxsim_Array__mk();
     s.tmp_44 = r0;
-    r0 = pxsim_Array__push(s.tmp_44, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile32___5375);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile33___5376);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile34___5377);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile35___5378);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile36___5379);
-    r0 = pxsim_Array__push(s.tmp_44, globals.tile10___5350);
+    r0 = pxsim_Array__push(s.tmp_44, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile32___86892);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile33___86895);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile34___86898);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile35___86901);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile36___86904);
+    r0 = pxsim_Array__push(s.tmp_44, globals.tile10___86817);
     s.tmp_45 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_45.arg0 = _hex9128;
-    r0 = pxsim.image.ofBuffer(_hex9130);
+    s.tmp_45.arg0 = _hex87172;
+    r0 = pxsim.image.ofBuffer(_hex87174);
     s.tmp_45.arg1 = r0;
     s.tmp_45.arg2 = s.tmp_44;
     s.tmp_45.arg3 = 3;
-    s.callLocIdx = 140; s.pc = 173; return s.tmp_45;
-  case 173:
+    s.callLocIdx = 140; s.pc = 201; return s.tmp_45;
+  case 201:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 45:
   case 46:
     r0 = pxsim_Array__mk();
     s.tmp_46 = r0;
-    r0 = pxsim_Array__push(s.tmp_46, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_46, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_46, globals.tile27___5370);
-    r0 = pxsim_Array__push(s.tmp_46, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_46, globals.tile10___5350);
+    r0 = pxsim_Array__push(s.tmp_46, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_46, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_46, globals.tile27___86877);
+    r0 = pxsim_Array__push(s.tmp_46, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_46, globals.tile10___86817);
     s.tmp_47 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_47.arg0 = _hex9144;
-    r0 = pxsim.image.ofBuffer(_hex9146);
+    s.tmp_47.arg0 = _hex87188;
+    r0 = pxsim.image.ofBuffer(_hex87190);
     s.tmp_47.arg1 = r0;
     s.tmp_47.arg2 = s.tmp_46;
     s.tmp_47.arg3 = 3;
-    s.callLocIdx = 141; s.pc = 174; return s.tmp_47;
-  case 174:
+    s.callLocIdx = 141; s.pc = 202; return s.tmp_47;
+  case 202:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 47:
   case 48:
     r0 = pxsim_Array__mk();
     s.tmp_48 = r0;
-    r0 = pxsim_Array__push(s.tmp_48, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile32___5375);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile33___5376);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile34___5377);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile35___5378);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile10___5350);
-    r0 = pxsim_Array__push(s.tmp_48, globals.tile36___5379);
+    r0 = pxsim_Array__push(s.tmp_48, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile32___86892);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile33___86895);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile34___86898);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile35___86901);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile10___86817);
+    r0 = pxsim_Array__push(s.tmp_48, globals.tile36___86904);
     s.tmp_49 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_49.arg0 = _hex9156;
-    r0 = pxsim.image.ofBuffer(_hex9158);
+    s.tmp_49.arg0 = _hex87200;
+    r0 = pxsim.image.ofBuffer(_hex87202);
     s.tmp_49.arg1 = r0;
     s.tmp_49.arg2 = s.tmp_48;
     s.tmp_49.arg3 = 3;
-    s.callLocIdx = 142; s.pc = 175; return s.tmp_49;
-  case 175:
+    s.callLocIdx = 142; s.pc = 203; return s.tmp_49;
+  case 203:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 49:
   case 50:
     r0 = pxsim_Array__mk();
     s.tmp_50 = r0;
-    r0 = pxsim_Array__push(s.tmp_50, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_50, globals.tile10___5350);
-    r0 = pxsim_Array__push(s.tmp_50, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_50, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_50, globals.tile46___5391);
+    r0 = pxsim_Array__push(s.tmp_50, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_50, globals.tile10___86817);
+    r0 = pxsim_Array__push(s.tmp_50, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_50, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_50, globals.tile46___86940);
     s.tmp_51 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_51.arg0 = _hex9172;
-    r0 = pxsim.image.ofBuffer(_hex9174);
+    s.tmp_51.arg0 = _hex87216;
+    r0 = pxsim.image.ofBuffer(_hex87218);
     s.tmp_51.arg1 = r0;
     s.tmp_51.arg2 = s.tmp_50;
     s.tmp_51.arg3 = 3;
-    s.callLocIdx = 143; s.pc = 176; return s.tmp_51;
-  case 176:
+    s.callLocIdx = 143; s.pc = 204; return s.tmp_51;
+  case 204:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 51:
   case 52:
     r0 = pxsim_Array__mk();
     s.tmp_52 = r0;
-    r0 = pxsim_Array__push(s.tmp_52, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_52, globals.transparency16___86802);
     s.tmp_53 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_53.arg0 = _hex9184;
-    r0 = pxsim.image.ofBuffer(_hex9186);
+    s.tmp_53.arg0 = _hex87228;
+    r0 = pxsim.image.ofBuffer(_hex87230);
     s.tmp_53.arg1 = r0;
     s.tmp_53.arg2 = s.tmp_52;
     s.tmp_53.arg3 = 4;
-    s.callLocIdx = 144; s.pc = 177; return s.tmp_53;
-  case 177:
+    s.callLocIdx = 144; s.pc = 205; return s.tmp_53;
+  case 205:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 53:
   case 54:
     r0 = pxsim_Array__mk();
     s.tmp_54 = r0;
-    r0 = pxsim_Array__push(s.tmp_54, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_54, globals.transparency16___86802);
     s.tmp_55 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_55.arg0 = _hex9192;
-    r0 = pxsim.image.ofBuffer(_hex9194);
+    s.tmp_55.arg0 = _hex87236;
+    r0 = pxsim.image.ofBuffer(_hex87238);
     s.tmp_55.arg1 = r0;
     s.tmp_55.arg2 = s.tmp_54;
     s.tmp_55.arg3 = 4;
-    s.callLocIdx = 145; s.pc = 178; return s.tmp_55;
-  case 178:
+    s.callLocIdx = 145; s.pc = 206; return s.tmp_55;
+  case 206:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 55:
   case 56:
     r0 = pxsim_Array__mk();
     s.tmp_56 = r0;
-    r0 = pxsim_Array__push(s.tmp_56, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_56, globals.transparency8___86805);
     s.tmp_57 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_57.arg0 = _hex9200;
-    r0 = pxsim.image.ofBuffer(_hex9202);
+    s.tmp_57.arg0 = _hex87244;
+    r0 = pxsim.image.ofBuffer(_hex87246);
     s.tmp_57.arg1 = r0;
     s.tmp_57.arg2 = s.tmp_56;
     s.tmp_57.arg3 = 3;
-    s.callLocIdx = 146; s.pc = 179; return s.tmp_57;
-  case 179:
+    s.callLocIdx = 146; s.pc = 207; return s.tmp_57;
+  case 207:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 57:
   case 58:
     r0 = pxsim_Array__mk();
     s.tmp_58 = r0;
-    r0 = pxsim_Array__push(s.tmp_58, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_58, globals.transparency8___86805);
     s.tmp_59 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_59.arg0 = _hex9208;
-    r0 = pxsim.image.ofBuffer(_hex9210);
+    s.tmp_59.arg0 = _hex87252;
+    r0 = pxsim.image.ofBuffer(_hex87254);
     s.tmp_59.arg1 = r0;
     s.tmp_59.arg2 = s.tmp_58;
     s.tmp_59.arg3 = 3;
-    s.callLocIdx = 147; s.pc = 180; return s.tmp_59;
-  case 180:
+    s.callLocIdx = 147; s.pc = 208; return s.tmp_59;
+  case 208:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 59:
   case 60:
     r0 = pxsim_Array__mk();
     s.tmp_60 = r0;
-    r0 = pxsim_Array__push(s.tmp_60, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_60, globals.transparency8___86805);
     s.tmp_61 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_61.arg0 = _hex9216;
-    r0 = pxsim.image.ofBuffer(_hex9218);
+    s.tmp_61.arg0 = _hex87260;
+    r0 = pxsim.image.ofBuffer(_hex87262);
     s.tmp_61.arg1 = r0;
     s.tmp_61.arg2 = s.tmp_60;
     s.tmp_61.arg3 = 3;
-    s.callLocIdx = 148; s.pc = 181; return s.tmp_61;
-  case 181:
+    s.callLocIdx = 148; s.pc = 209; return s.tmp_61;
+  case 209:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 61:
   case 62:
     r0 = pxsim_Array__mk();
     s.tmp_62 = r0;
-    r0 = pxsim_Array__push(s.tmp_62, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_62, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_62, globals.tile28___5374);
+    r0 = pxsim_Array__push(s.tmp_62, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_62, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_62, globals.tile28___86889);
     s.tmp_63 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_63.arg0 = _hex9224;
-    r0 = pxsim.image.ofBuffer(_hex9226);
+    s.tmp_63.arg0 = _hex87268;
+    r0 = pxsim.image.ofBuffer(_hex87270);
     s.tmp_63.arg1 = r0;
     s.tmp_63.arg2 = s.tmp_62;
     s.tmp_63.arg3 = 3;
-    s.callLocIdx = 149; s.pc = 182; return s.tmp_63;
-  case 182:
+    s.callLocIdx = 149; s.pc = 210; return s.tmp_63;
+  case 210:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 63:
   case 64:
     r0 = pxsim_Array__mk();
     s.tmp_64 = r0;
-    r0 = pxsim_Array__push(s.tmp_64, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_64, globals.transparency8___86805);
     s.tmp_65 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_65.arg0 = _hex9234;
-    r0 = pxsim.image.ofBuffer(_hex9236);
+    s.tmp_65.arg0 = _hex87278;
+    r0 = pxsim.image.ofBuffer(_hex87280);
     s.tmp_65.arg1 = r0;
     s.tmp_65.arg2 = s.tmp_64;
     s.tmp_65.arg3 = 3;
-    s.callLocIdx = 150; s.pc = 183; return s.tmp_65;
-  case 183:
+    s.callLocIdx = 150; s.pc = 211; return s.tmp_65;
+  case 211:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 65:
   case 66:
     r0 = pxsim_Array__mk();
     s.tmp_66 = r0;
-    r0 = pxsim_Array__push(s.tmp_66, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_66, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_66, globals.tile29___5371);
+    r0 = pxsim_Array__push(s.tmp_66, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_66, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_66, globals.tile29___86880);
     s.tmp_67 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_67.arg0 = _hex9242;
-    r0 = pxsim.image.ofBuffer(_hex9244);
+    s.tmp_67.arg0 = _hex87286;
+    r0 = pxsim.image.ofBuffer(_hex87288);
     s.tmp_67.arg1 = r0;
     s.tmp_67.arg2 = s.tmp_66;
     s.tmp_67.arg3 = 3;
-    s.callLocIdx = 151; s.pc = 184; return s.tmp_67;
-  case 184:
+    s.callLocIdx = 151; s.pc = 212; return s.tmp_67;
+  case 212:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 67:
   case 68:
     r0 = pxsim_Array__mk();
     s.tmp_68 = r0;
-    r0 = pxsim_Array__push(s.tmp_68, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_68, globals.transparency16___86802);
     s.tmp_69 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_69.arg0 = _hex9252;
-    r0 = pxsim.image.ofBuffer(_hex9254);
+    s.tmp_69.arg0 = _hex87296;
+    r0 = pxsim.image.ofBuffer(_hex87298);
     s.tmp_69.arg1 = r0;
     s.tmp_69.arg2 = s.tmp_68;
     s.tmp_69.arg3 = 4;
-    s.callLocIdx = 152; s.pc = 185; return s.tmp_69;
-  case 185:
+    s.callLocIdx = 152; s.pc = 213; return s.tmp_69;
+  case 213:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 69:
   case 70:
     r0 = pxsim_Array__mk();
     s.tmp_70 = r0;
-    r0 = pxsim_Array__push(s.tmp_70, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_70, globals.transparency8___86805);
     s.tmp_71 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_71.arg0 = _hex9260;
-    r0 = pxsim.image.ofBuffer(_hex9262);
+    s.tmp_71.arg0 = _hex87304;
+    r0 = pxsim.image.ofBuffer(_hex87306);
     s.tmp_71.arg1 = r0;
     s.tmp_71.arg2 = s.tmp_70;
     s.tmp_71.arg3 = 3;
-    s.callLocIdx = 153; s.pc = 186; return s.tmp_71;
-  case 186:
+    s.callLocIdx = 153; s.pc = 214; return s.tmp_71;
+  case 214:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 71:
   case 72:
     r0 = pxsim_Array__mk();
     s.tmp_72 = r0;
-    r0 = pxsim_Array__push(s.tmp_72, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_72, globals.transparency8___86805);
     s.tmp_73 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_73.arg0 = _hex9268;
-    r0 = pxsim.image.ofBuffer(_hex9270);
+    s.tmp_73.arg0 = _hex87312;
+    r0 = pxsim.image.ofBuffer(_hex87314);
     s.tmp_73.arg1 = r0;
     s.tmp_73.arg2 = s.tmp_72;
     s.tmp_73.arg3 = 3;
-    s.callLocIdx = 154; s.pc = 187; return s.tmp_73;
-  case 187:
+    s.callLocIdx = 154; s.pc = 215; return s.tmp_73;
+  case 215:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 73:
   case 74:
     r0 = pxsim_Array__mk();
     s.tmp_74 = r0;
-    r0 = pxsim_Array__push(s.tmp_74, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_74, globals.transparency8___86805);
     s.tmp_75 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_75.arg0 = _hex9276;
-    r0 = pxsim.image.ofBuffer(_hex9278);
+    s.tmp_75.arg0 = _hex87320;
+    r0 = pxsim.image.ofBuffer(_hex87322);
     s.tmp_75.arg1 = r0;
     s.tmp_75.arg2 = s.tmp_74;
     s.tmp_75.arg3 = 3;
-    s.callLocIdx = 155; s.pc = 188; return s.tmp_75;
-  case 188:
+    s.callLocIdx = 155; s.pc = 216; return s.tmp_75;
+  case 216:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 75:
   case 76:
     r0 = pxsim_Array__mk();
     s.tmp_76 = r0;
-    r0 = pxsim_Array__push(s.tmp_76, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_76, globals.transparency8___86805);
     s.tmp_77 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_77.arg0 = _hex9284;
-    r0 = pxsim.image.ofBuffer(_hex9286);
+    s.tmp_77.arg0 = _hex87328;
+    r0 = pxsim.image.ofBuffer(_hex87330);
     s.tmp_77.arg1 = r0;
     s.tmp_77.arg2 = s.tmp_76;
     s.tmp_77.arg3 = 3;
-    s.callLocIdx = 156; s.pc = 189; return s.tmp_77;
-  case 189:
+    s.callLocIdx = 156; s.pc = 217; return s.tmp_77;
+  case 217:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 77:
   case 78:
     r0 = pxsim_Array__mk();
     s.tmp_78 = r0;
-    r0 = pxsim_Array__push(s.tmp_78, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_78, globals.tile46___5391);
-    r0 = pxsim_Array__push(s.tmp_78, globals.tile51___5397);
+    r0 = pxsim_Array__push(s.tmp_78, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_78, globals.tile46___86940);
+    r0 = pxsim_Array__push(s.tmp_78, globals.tile51___86958);
     s.tmp_79 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_79.arg0 = _hex9292;
-    r0 = pxsim.image.ofBuffer(_hex9294);
+    s.tmp_79.arg0 = _hex87336;
+    r0 = pxsim.image.ofBuffer(_hex87338);
     s.tmp_79.arg1 = r0;
     s.tmp_79.arg2 = s.tmp_78;
     s.tmp_79.arg3 = 3;
-    s.callLocIdx = 157; s.pc = 190; return s.tmp_79;
-  case 190:
+    s.callLocIdx = 157; s.pc = 218; return s.tmp_79;
+  case 218:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 79:
   case 80:
     r0 = pxsim_Array__mk();
     s.tmp_80 = r0;
-    r0 = pxsim_Array__push(s.tmp_80, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_80, globals.transparency8___86805);
     s.tmp_81 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_81.arg0 = _hex9302;
-    r0 = pxsim.image.ofBuffer(_hex9304);
+    s.tmp_81.arg0 = _hex87346;
+    r0 = pxsim.image.ofBuffer(_hex87348);
     s.tmp_81.arg1 = r0;
     s.tmp_81.arg2 = s.tmp_80;
     s.tmp_81.arg3 = 3;
-    s.callLocIdx = 158; s.pc = 191; return s.tmp_81;
-  case 191:
+    s.callLocIdx = 158; s.pc = 219; return s.tmp_81;
+  case 219:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 81:
   case 82:
     r0 = pxsim_Array__mk();
     s.tmp_82 = r0;
-    r0 = pxsim_Array__push(s.tmp_82, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_82, globals.transparency8___86805);
     s.tmp_83 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_83.arg0 = _hex9310;
-    r0 = pxsim.image.ofBuffer(_hex9312);
+    s.tmp_83.arg0 = _hex87354;
+    r0 = pxsim.image.ofBuffer(_hex87356);
     s.tmp_83.arg1 = r0;
     s.tmp_83.arg2 = s.tmp_82;
     s.tmp_83.arg3 = 3;
-    s.callLocIdx = 159; s.pc = 192; return s.tmp_83;
-  case 192:
+    s.callLocIdx = 159; s.pc = 220; return s.tmp_83;
+  case 220:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 83:
   case 84:
     r0 = pxsim_Array__mk();
     s.tmp_84 = r0;
-    r0 = pxsim_Array__push(s.tmp_84, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_84, globals.transparency8___86805);
     s.tmp_85 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_85.arg0 = _hex9318;
-    r0 = pxsim.image.ofBuffer(_hex9320);
+    s.tmp_85.arg0 = _hex87362;
+    r0 = pxsim.image.ofBuffer(_hex87364);
     s.tmp_85.arg1 = r0;
     s.tmp_85.arg2 = s.tmp_84;
     s.tmp_85.arg3 = 3;
-    s.callLocIdx = 160; s.pc = 193; return s.tmp_85;
-  case 193:
+    s.callLocIdx = 160; s.pc = 221; return s.tmp_85;
+  case 221:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 85:
   case 86:
     r0 = pxsim_Array__mk();
     s.tmp_86 = r0;
-    r0 = pxsim_Array__push(s.tmp_86, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_86, globals.transparency8___86805);
     s.tmp_87 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_87.arg0 = _hex9326;
-    r0 = pxsim.image.ofBuffer(_hex9328);
+    s.tmp_87.arg0 = _hex87370;
+    r0 = pxsim.image.ofBuffer(_hex87372);
     s.tmp_87.arg1 = r0;
     s.tmp_87.arg2 = s.tmp_86;
     s.tmp_87.arg3 = 3;
-    s.callLocIdx = 161; s.pc = 194; return s.tmp_87;
-  case 194:
+    s.callLocIdx = 161; s.pc = 222; return s.tmp_87;
+  case 222:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 87:
   case 88:
     r0 = pxsim_Array__mk();
     s.tmp_88 = r0;
-    r0 = pxsim_Array__push(s.tmp_88, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_88, globals.transparency8___86805);
     s.tmp_89 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_89.arg0 = _hex9334;
-    r0 = pxsim.image.ofBuffer(_hex9336);
+    s.tmp_89.arg0 = _hex87378;
+    r0 = pxsim.image.ofBuffer(_hex87380);
     s.tmp_89.arg1 = r0;
     s.tmp_89.arg2 = s.tmp_88;
     s.tmp_89.arg3 = 3;
-    s.callLocIdx = 162; s.pc = 195; return s.tmp_89;
-  case 195:
+    s.callLocIdx = 162; s.pc = 223; return s.tmp_89;
+  case 223:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 89:
   case 90:
     r0 = pxsim_Array__mk();
     s.tmp_90 = r0;
-    r0 = pxsim_Array__push(s.tmp_90, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_90, globals.transparency8___86805);
     s.tmp_91 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_91.arg0 = _hex9342;
-    r0 = pxsim.image.ofBuffer(_hex9344);
+    s.tmp_91.arg0 = _hex87386;
+    r0 = pxsim.image.ofBuffer(_hex87388);
     s.tmp_91.arg1 = r0;
     s.tmp_91.arg2 = s.tmp_90;
     s.tmp_91.arg3 = 3;
-    s.callLocIdx = 163; s.pc = 196; return s.tmp_91;
-  case 196:
+    s.callLocIdx = 163; s.pc = 224; return s.tmp_91;
+  case 224:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 91:
   case 92:
     r0 = pxsim_Array__mk();
     s.tmp_92 = r0;
-    r0 = pxsim_Array__push(s.tmp_92, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_92, globals.transparency8___86805);
     s.tmp_93 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_93.arg0 = _hex9350;
-    r0 = pxsim.image.ofBuffer(_hex9352);
+    s.tmp_93.arg0 = _hex87394;
+    r0 = pxsim.image.ofBuffer(_hex87396);
     s.tmp_93.arg1 = r0;
     s.tmp_93.arg2 = s.tmp_92;
     s.tmp_93.arg3 = 3;
-    s.callLocIdx = 164; s.pc = 197; return s.tmp_93;
-  case 197:
+    s.callLocIdx = 164; s.pc = 225; return s.tmp_93;
+  case 225:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 93:
   case 94:
     r0 = pxsim_Array__mk();
     s.tmp_94 = r0;
-    r0 = pxsim_Array__push(s.tmp_94, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_94, globals.transparency8___86805);
     s.tmp_95 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_95.arg0 = _hex9358;
-    r0 = pxsim.image.ofBuffer(_hex9360);
+    s.tmp_95.arg0 = _hex87402;
+    r0 = pxsim.image.ofBuffer(_hex87404);
     s.tmp_95.arg1 = r0;
     s.tmp_95.arg2 = s.tmp_94;
     s.tmp_95.arg3 = 3;
-    s.callLocIdx = 165; s.pc = 198; return s.tmp_95;
-  case 198:
+    s.callLocIdx = 165; s.pc = 226; return s.tmp_95;
+  case 226:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 95:
   case 96:
     r0 = pxsim_Array__mk();
     s.tmp_96 = r0;
-    r0 = pxsim_Array__push(s.tmp_96, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_96, globals.transparency16___86802);
     s.tmp_97 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_97.arg0 = _hex9366;
-    r0 = pxsim.image.ofBuffer(_hex9368);
+    s.tmp_97.arg0 = _hex87410;
+    r0 = pxsim.image.ofBuffer(_hex87412);
     s.tmp_97.arg1 = r0;
     s.tmp_97.arg2 = s.tmp_96;
     s.tmp_97.arg3 = 4;
-    s.callLocIdx = 166; s.pc = 199; return s.tmp_97;
-  case 199:
+    s.callLocIdx = 166; s.pc = 227; return s.tmp_97;
+  case 227:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 97:
   case 98:
     r0 = pxsim_Array__mk();
     s.tmp_98 = r0;
-    r0 = pxsim_Array__push(s.tmp_98, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_98, globals.transparency16___86802);
     r0 = pxsim_Array__push(s.tmp_98, globals.tileGrass2___3668);
     s.tmp_99 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_99.arg0 = _hex9374;
-    r0 = pxsim.image.ofBuffer(_hex9376);
+    s.tmp_99.arg0 = _hex87418;
+    r0 = pxsim.image.ofBuffer(_hex87420);
     s.tmp_99.arg1 = r0;
     s.tmp_99.arg2 = s.tmp_98;
     s.tmp_99.arg3 = 4;
-    s.callLocIdx = 167; s.pc = 200; return s.tmp_99;
-  case 200:
+    s.callLocIdx = 167; s.pc = 228; return s.tmp_99;
+  case 228:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 99:
   case 100:
     r0 = pxsim_Array__mk();
     s.tmp_100 = r0;
-    r0 = pxsim_Array__push(s.tmp_100, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_100, globals.transparency8___86805);
     s.tmp_101 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_101.arg0 = _hex9383;
-    r0 = pxsim.image.ofBuffer(_hex9385);
+    s.tmp_101.arg0 = _hex87427;
+    r0 = pxsim.image.ofBuffer(_hex87429);
     s.tmp_101.arg1 = r0;
     s.tmp_101.arg2 = s.tmp_100;
     s.tmp_101.arg3 = 3;
-    s.callLocIdx = 168; s.pc = 201; return s.tmp_101;
-  case 201:
+    s.callLocIdx = 168; s.pc = 229; return s.tmp_101;
+  case 229:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 101:
   case 102:
     r0 = pxsim_Array__mk();
     s.tmp_102 = r0;
-    r0 = pxsim_Array__push(s.tmp_102, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_102, globals.transparency8___86805);
     s.tmp_103 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_103.arg0 = _hex9391;
-    r0 = pxsim.image.ofBuffer(_hex9393);
+    s.tmp_103.arg0 = _hex87435;
+    r0 = pxsim.image.ofBuffer(_hex87437);
     s.tmp_103.arg1 = r0;
     s.tmp_103.arg2 = s.tmp_102;
     s.tmp_103.arg3 = 3;
-    s.callLocIdx = 169; s.pc = 202; return s.tmp_103;
-  case 202:
+    s.callLocIdx = 169; s.pc = 230; return s.tmp_103;
+  case 230:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 103:
   case 104:
     r0 = pxsim_Array__mk();
     s.tmp_104 = r0;
-    r0 = pxsim_Array__push(s.tmp_104, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_104, globals.transparency8___86805);
     s.tmp_105 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_105.arg0 = _hex9399;
-    r0 = pxsim.image.ofBuffer(_hex9401);
+    s.tmp_105.arg0 = _hex87443;
+    r0 = pxsim.image.ofBuffer(_hex87445);
     s.tmp_105.arg1 = r0;
     s.tmp_105.arg2 = s.tmp_104;
     s.tmp_105.arg3 = 3;
-    s.callLocIdx = 170; s.pc = 203; return s.tmp_105;
-  case 203:
+    s.callLocIdx = 170; s.pc = 231; return s.tmp_105;
+  case 231:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 105:
   case 106:
     r0 = pxsim_Array__mk();
     s.tmp_106 = r0;
-    r0 = pxsim_Array__push(s.tmp_106, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_106, globals.transparency8___86805);
     s.tmp_107 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_107.arg0 = _hex9407;
-    r0 = pxsim.image.ofBuffer(_hex9409);
+    s.tmp_107.arg0 = _hex87451;
+    r0 = pxsim.image.ofBuffer(_hex87453);
     s.tmp_107.arg1 = r0;
     s.tmp_107.arg2 = s.tmp_106;
     s.tmp_107.arg3 = 3;
-    s.callLocIdx = 171; s.pc = 204; return s.tmp_107;
-  case 204:
+    s.callLocIdx = 171; s.pc = 232; return s.tmp_107;
+  case 232:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 107:
   case 108:
     r0 = pxsim_Array__mk();
     s.tmp_108 = r0;
-    r0 = pxsim_Array__push(s.tmp_108, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_108, globals.transparency8___86805);
     s.tmp_109 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_109.arg0 = _hex9415;
-    r0 = pxsim.image.ofBuffer(_hex9417);
+    s.tmp_109.arg0 = _hex87459;
+    r0 = pxsim.image.ofBuffer(_hex87461);
     s.tmp_109.arg1 = r0;
     s.tmp_109.arg2 = s.tmp_108;
     s.tmp_109.arg3 = 3;
-    s.callLocIdx = 172; s.pc = 205; return s.tmp_109;
-  case 205:
+    s.callLocIdx = 172; s.pc = 233; return s.tmp_109;
+  case 233:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 109:
   case 110:
     r0 = pxsim_Array__mk();
     s.tmp_110 = r0;
-    r0 = pxsim_Array__push(s.tmp_110, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_110, globals.transparency8___86805);
     s.tmp_111 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_111.arg0 = _hex9423;
-    r0 = pxsim.image.ofBuffer(_hex9425);
+    s.tmp_111.arg0 = _hex87467;
+    r0 = pxsim.image.ofBuffer(_hex87469);
     s.tmp_111.arg1 = r0;
     s.tmp_111.arg2 = s.tmp_110;
     s.tmp_111.arg3 = 3;
-    s.callLocIdx = 173; s.pc = 206; return s.tmp_111;
-  case 206:
+    s.callLocIdx = 173; s.pc = 234; return s.tmp_111;
+  case 234:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 111:
   case 112:
     r0 = pxsim_Array__mk();
     s.tmp_112 = r0;
-    r0 = pxsim_Array__push(s.tmp_112, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_112, globals.tile55___5401);
+    r0 = pxsim_Array__push(s.tmp_112, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_112, globals.tile55___86970);
     s.tmp_113 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_113.arg0 = _hex9431;
-    r0 = pxsim.image.ofBuffer(_hex9433);
+    s.tmp_113.arg0 = _hex87475;
+    r0 = pxsim.image.ofBuffer(_hex87477);
     s.tmp_113.arg1 = r0;
     s.tmp_113.arg2 = s.tmp_112;
     s.tmp_113.arg3 = 3;
-    s.callLocIdx = 174; s.pc = 207; return s.tmp_113;
-  case 207:
+    s.callLocIdx = 174; s.pc = 235; return s.tmp_113;
+  case 235:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 113:
   case 114:
     r0 = pxsim_Array__mk();
     s.tmp_114 = r0;
-    r0 = pxsim_Array__push(s.tmp_114, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_114, globals.tile29___5371);
+    r0 = pxsim_Array__push(s.tmp_114, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_114, globals.tile29___86880);
     s.tmp_115 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_115.arg0 = _hex9440;
-    r0 = pxsim.image.ofBuffer(_hex9442);
+    s.tmp_115.arg0 = _hex87484;
+    r0 = pxsim.image.ofBuffer(_hex87486);
     s.tmp_115.arg1 = r0;
     s.tmp_115.arg2 = s.tmp_114;
     s.tmp_115.arg3 = 3;
-    s.callLocIdx = 175; s.pc = 208; return s.tmp_115;
-  case 208:
+    s.callLocIdx = 175; s.pc = 236; return s.tmp_115;
+  case 236:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 115:
   case 116:
     r0 = pxsim_Array__mk();
     s.tmp_116 = r0;
-    r0 = pxsim_Array__push(s.tmp_116, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_116, globals.tile48___5393);
+    r0 = pxsim_Array__push(s.tmp_116, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_116, globals.tile48___86946);
     s.tmp_117 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_117.arg0 = _hex9449;
-    r0 = pxsim.image.ofBuffer(_hex9451);
+    s.tmp_117.arg0 = _hex87493;
+    r0 = pxsim.image.ofBuffer(_hex87495);
     s.tmp_117.arg1 = r0;
     s.tmp_117.arg2 = s.tmp_116;
     s.tmp_117.arg3 = 3;
-    s.callLocIdx = 176; s.pc = 209; return s.tmp_117;
-  case 209:
+    s.callLocIdx = 176; s.pc = 237; return s.tmp_117;
+  case 237:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 117:
   case 118:
     r0 = pxsim_Array__mk();
     s.tmp_118 = r0;
-    r0 = pxsim_Array__push(s.tmp_118, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_118, globals.transparency8___86805);
     s.tmp_119 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_119.arg0 = _hex9458;
-    r0 = pxsim.image.ofBuffer(_hex9460);
+    s.tmp_119.arg0 = _hex87502;
+    r0 = pxsim.image.ofBuffer(_hex87504);
     s.tmp_119.arg1 = r0;
     s.tmp_119.arg2 = s.tmp_118;
     s.tmp_119.arg3 = 3;
-    s.callLocIdx = 177; s.pc = 210; return s.tmp_119;
-  case 210:
+    s.callLocIdx = 177; s.pc = 238; return s.tmp_119;
+  case 238:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 119:
   case 120:
     r0 = pxsim_Array__mk();
     s.tmp_120 = r0;
-    r0 = pxsim_Array__push(s.tmp_120, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_120, globals.transparency16___86802);
     s.tmp_121 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_121.arg0 = _hex9466;
-    r0 = pxsim.image.ofBuffer(_hex9468);
+    s.tmp_121.arg0 = _hex87510;
+    r0 = pxsim.image.ofBuffer(_hex87512);
     s.tmp_121.arg1 = r0;
     s.tmp_121.arg2 = s.tmp_120;
     s.tmp_121.arg3 = 4;
-    s.callLocIdx = 178; s.pc = 211; return s.tmp_121;
-  case 211:
+    s.callLocIdx = 178; s.pc = 239; return s.tmp_121;
+  case 239:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 121:
   case 122:
     r0 = pxsim_Array__mk();
     s.tmp_122 = r0;
-    r0 = pxsim_Array__push(s.tmp_122, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_122, globals.transparency16___86802);
     s.tmp_123 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_123.arg0 = _hex9474;
-    r0 = pxsim.image.ofBuffer(_hex9476);
+    s.tmp_123.arg0 = _hex87518;
+    r0 = pxsim.image.ofBuffer(_hex87520);
     s.tmp_123.arg1 = r0;
     s.tmp_123.arg2 = s.tmp_122;
     s.tmp_123.arg3 = 4;
-    s.callLocIdx = 179; s.pc = 212; return s.tmp_123;
-  case 212:
+    s.callLocIdx = 179; s.pc = 240; return s.tmp_123;
+  case 240:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 123:
   case 124:
     r0 = pxsim_Array__mk();
     s.tmp_124 = r0;
-    r0 = pxsim_Array__push(s.tmp_124, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_124, globals.transparency8___86805);
     s.tmp_125 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_125.arg0 = _hex9482;
-    r0 = pxsim.image.ofBuffer(_hex9484);
+    s.tmp_125.arg0 = _hex87526;
+    r0 = pxsim.image.ofBuffer(_hex87528);
     s.tmp_125.arg1 = r0;
     s.tmp_125.arg2 = s.tmp_124;
     s.tmp_125.arg3 = 3;
-    s.callLocIdx = 180; s.pc = 213; return s.tmp_125;
-  case 213:
+    s.callLocIdx = 180; s.pc = 241; return s.tmp_125;
+  case 241:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 125:
   case 126:
     r0 = pxsim_Array__mk();
     s.tmp_126 = r0;
-    r0 = pxsim_Array__push(s.tmp_126, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_126, globals.transparency16___86802);
     s.tmp_127 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_127.arg0 = _hex9490;
-    r0 = pxsim.image.ofBuffer(_hex9492);
+    s.tmp_127.arg0 = _hex87534;
+    r0 = pxsim.image.ofBuffer(_hex87536);
     s.tmp_127.arg1 = r0;
     s.tmp_127.arg2 = s.tmp_126;
     s.tmp_127.arg3 = 4;
-    s.callLocIdx = 181; s.pc = 214; return s.tmp_127;
-  case 214:
+    s.callLocIdx = 181; s.pc = 242; return s.tmp_127;
+  case 242:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 127:
   case 128:
     r0 = pxsim_Array__mk();
     s.tmp_128 = r0;
-    r0 = pxsim_Array__push(s.tmp_128, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_128, globals.transparency16___86802);
     s.tmp_129 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_129.arg0 = _hex9498;
-    r0 = pxsim.image.ofBuffer(_hex9500);
+    s.tmp_129.arg0 = _hex87542;
+    r0 = pxsim.image.ofBuffer(_hex87544);
     s.tmp_129.arg1 = r0;
     s.tmp_129.arg2 = s.tmp_128;
     s.tmp_129.arg3 = 4;
-    s.callLocIdx = 182; s.pc = 215; return s.tmp_129;
-  case 215:
+    s.callLocIdx = 182; s.pc = 243; return s.tmp_129;
+  case 243:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 129:
   case 130:
     r0 = pxsim_Array__mk();
     s.tmp_130 = r0;
-    r0 = pxsim_Array__push(s.tmp_130, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_130, globals.transparency8___86805);
     s.tmp_131 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_131.arg0 = _hex9506;
-    r0 = pxsim.image.ofBuffer(_hex9508);
+    s.tmp_131.arg0 = _hex87550;
+    r0 = pxsim.image.ofBuffer(_hex87552);
     s.tmp_131.arg1 = r0;
     s.tmp_131.arg2 = s.tmp_130;
     s.tmp_131.arg3 = 3;
-    s.callLocIdx = 183; s.pc = 216; return s.tmp_131;
-  case 216:
+    s.callLocIdx = 183; s.pc = 244; return s.tmp_131;
+  case 244:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 131:
   case 132:
     r0 = pxsim_Array__mk();
     s.tmp_132 = r0;
-    r0 = pxsim_Array__push(s.tmp_132, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_132, globals.transparency16___86802);
     s.tmp_133 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_133.arg0 = _hex9514;
-    r0 = pxsim.image.ofBuffer(_hex9516);
+    s.tmp_133.arg0 = _hex87558;
+    r0 = pxsim.image.ofBuffer(_hex87560);
     s.tmp_133.arg1 = r0;
     s.tmp_133.arg2 = s.tmp_132;
     s.tmp_133.arg3 = 4;
-    s.callLocIdx = 184; s.pc = 217; return s.tmp_133;
-  case 217:
+    s.callLocIdx = 184; s.pc = 245; return s.tmp_133;
+  case 245:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 133:
   case 134:
     r0 = pxsim_Array__mk();
     s.tmp_134 = r0;
-    r0 = pxsim_Array__push(s.tmp_134, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_134, globals.transparency16___86802);
     s.tmp_135 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_135.arg0 = _hex9522;
-    r0 = pxsim.image.ofBuffer(_hex9524);
+    s.tmp_135.arg0 = _hex87566;
+    r0 = pxsim.image.ofBuffer(_hex87568);
     s.tmp_135.arg1 = r0;
     s.tmp_135.arg2 = s.tmp_134;
     s.tmp_135.arg3 = 4;
-    s.callLocIdx = 185; s.pc = 218; return s.tmp_135;
-  case 218:
+    s.callLocIdx = 185; s.pc = 246; return s.tmp_135;
+  case 246:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 135:
   case 136:
     r0 = pxsim_Array__mk();
     s.tmp_136 = r0;
-    r0 = pxsim_Array__push(s.tmp_136, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_136, globals.transparency8___86805);
     s.tmp_137 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_137.arg0 = _hex9530;
-    r0 = pxsim.image.ofBuffer(_hex9532);
+    s.tmp_137.arg0 = _hex87574;
+    r0 = pxsim.image.ofBuffer(_hex87576);
     s.tmp_137.arg1 = r0;
     s.tmp_137.arg2 = s.tmp_136;
     s.tmp_137.arg3 = 3;
-    s.callLocIdx = 186; s.pc = 219; return s.tmp_137;
-  case 219:
+    s.callLocIdx = 186; s.pc = 247; return s.tmp_137;
+  case 247:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 137:
   case 138:
     r0 = pxsim_Array__mk();
     s.tmp_138 = r0;
-    r0 = pxsim_Array__push(s.tmp_138, globals.transparency16___5345);
+    r0 = pxsim_Array__push(s.tmp_138, globals.transparency16___86802);
     s.tmp_139 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_139.arg0 = _hex9538;
-    r0 = pxsim.image.ofBuffer(_hex9540);
+    s.tmp_139.arg0 = _hex87582;
+    r0 = pxsim.image.ofBuffer(_hex87584);
     s.tmp_139.arg1 = r0;
     s.tmp_139.arg2 = s.tmp_138;
     s.tmp_139.arg3 = 4;
-    s.callLocIdx = 187; s.pc = 220; return s.tmp_139;
-  case 220:
+    s.callLocIdx = 187; s.pc = 248; return s.tmp_139;
+  case 248:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 139:
   case 140:
     r0 = pxsim_Array__mk();
     s.tmp_140 = r0;
-    r0 = pxsim_Array__push(s.tmp_140, globals.transparency8___5346);
+    r0 = pxsim_Array__push(s.tmp_140, globals.transparency8___86805);
     s.tmp_141 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_141.arg0 = _hex9546;
-    r0 = pxsim.image.ofBuffer(_hex9548);
+    s.tmp_141.arg0 = _hex87590;
+    r0 = pxsim.image.ofBuffer(_hex87592);
     s.tmp_141.arg1 = r0;
     s.tmp_141.arg2 = s.tmp_140;
     s.tmp_141.arg3 = 3;
-    s.callLocIdx = 188; s.pc = 221; return s.tmp_141;
-  case 221:
+    s.callLocIdx = 188; s.pc = 249; return s.tmp_141;
+  case 249:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 141:
   case 142:
     r0 = pxsim_Array__mk();
     s.tmp_142 = r0;
-    r0 = pxsim_Array__push(s.tmp_142, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_142, globals.tile29___5371);
-    r0 = pxsim_Array__push(s.tmp_142, globals.tile28___5374);
-    r0 = pxsim_Array__push(s.tmp_142, globals.tile62___5408);
+    r0 = pxsim_Array__push(s.tmp_142, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_142, globals.tile29___86880);
+    r0 = pxsim_Array__push(s.tmp_142, globals.tile28___86889);
+    r0 = pxsim_Array__push(s.tmp_142, globals.tile62___86991);
     s.tmp_143 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_143.arg0 = _hex9554;
-    r0 = pxsim.image.ofBuffer(_hex9556);
+    s.tmp_143.arg0 = _hex87598;
+    r0 = pxsim.image.ofBuffer(_hex87600);
     s.tmp_143.arg1 = r0;
     s.tmp_143.arg2 = s.tmp_142;
     s.tmp_143.arg3 = 3;
-    s.callLocIdx = 189; s.pc = 222; return s.tmp_143;
-  case 222:
+    s.callLocIdx = 189; s.pc = 250; return s.tmp_143;
+  case 250:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 143:
   case 144:
     r0 = pxsim_Array__mk();
     s.tmp_144 = r0;
-    r0 = pxsim_Array__push(s.tmp_144, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_144, globals.tile47___5392);
-    r0 = pxsim_Array__push(s.tmp_144, globals.tile62___5408);
-    r0 = pxsim_Array__push(s.tmp_144, globals.tile55___5401);
+    r0 = pxsim_Array__push(s.tmp_144, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_144, globals.tile47___86943);
+    r0 = pxsim_Array__push(s.tmp_144, globals.tile62___86991);
+    r0 = pxsim_Array__push(s.tmp_144, globals.tile55___86970);
     s.tmp_145 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_145.arg0 = _hex9565;
-    r0 = pxsim.image.ofBuffer(_hex9567);
+    s.tmp_145.arg0 = _hex87609;
+    r0 = pxsim.image.ofBuffer(_hex87611);
     s.tmp_145.arg1 = r0;
     s.tmp_145.arg2 = s.tmp_144;
     s.tmp_145.arg3 = 3;
-    s.callLocIdx = 190; s.pc = 223; return s.tmp_145;
-  case 223:
+    s.callLocIdx = 190; s.pc = 251; return s.tmp_145;
+  case 251:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 145:
   case 146:
     r0 = pxsim_Array__mk();
     s.tmp_146 = r0;
-    r0 = pxsim_Array__push(s.tmp_146, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_146, globals.tile61___5407);
-    r0 = pxsim_Array__push(s.tmp_146, globals.tile62___5408);
-    r0 = pxsim_Array__push(s.tmp_146, globals.tile55___5401);
+    r0 = pxsim_Array__push(s.tmp_146, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_146, globals.tile61___86988);
+    r0 = pxsim_Array__push(s.tmp_146, globals.tile62___86991);
+    r0 = pxsim_Array__push(s.tmp_146, globals.tile55___86970);
     s.tmp_147 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_147.arg0 = _hex9576;
-    r0 = pxsim.image.ofBuffer(_hex9578);
+    s.tmp_147.arg0 = _hex87620;
+    r0 = pxsim.image.ofBuffer(_hex87622);
     s.tmp_147.arg1 = r0;
     s.tmp_147.arg2 = s.tmp_146;
     s.tmp_147.arg3 = 3;
-    s.callLocIdx = 191; s.pc = 224; return s.tmp_147;
-  case 224:
+    s.callLocIdx = 191; s.pc = 252; return s.tmp_147;
+  case 252:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 147:
   case 148:
     r0 = pxsim_Array__mk();
     s.tmp_148 = r0;
-    r0 = pxsim_Array__push(s.tmp_148, globals.transparency8___5346);
-    r0 = pxsim_Array__push(s.tmp_148, globals.tile50___5396);
-    r0 = pxsim_Array__push(s.tmp_148, globals.tile59___5405);
-    r0 = pxsim_Array__push(s.tmp_148, globals.tile62___5408);
-    r0 = pxsim_Array__push(s.tmp_148, globals.tile53___5399);
+    r0 = pxsim_Array__push(s.tmp_148, globals.transparency8___86805);
+    r0 = pxsim_Array__push(s.tmp_148, globals.tile50___86955);
+    r0 = pxsim_Array__push(s.tmp_148, globals.tile59___86982);
+    r0 = pxsim_Array__push(s.tmp_148, globals.tile62___86991);
+    r0 = pxsim_Array__push(s.tmp_148, globals.tile53___86964);
     s.tmp_149 = tiles_createTilemap__P2763_mk(s);
-    s.tmp_149.arg0 = _hex9587;
-    r0 = pxsim.image.ofBuffer(_hex9589);
+    s.tmp_149.arg0 = _hex87631;
+    r0 = pxsim.image.ofBuffer(_hex87633);
     s.tmp_149.arg1 = r0;
     s.tmp_149.arg2 = s.tmp_148;
     s.tmp_149.arg3 = 3;
-    s.callLocIdx = 192; s.pc = 225; return s.tmp_149;
-  case 225:
+    s.callLocIdx = 192; s.pc = 253; return s.tmp_149;
+  case 253:
     r0 = s.retval;
-    { step = 150; continue; }
+    { step = 178; continue; }
   case 149:
-    r0 = null;
   case 150:
+    r0 = pxsim_Array__mk();
+    s.tmp_150 = r0;
+    r0 = pxsim_Array__push(s.tmp_150, globals.transparency8___86805);
+    s.tmp_151 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_151.arg0 = _hex87643;
+    r0 = pxsim.image.ofBuffer(_hex87645);
+    s.tmp_151.arg1 = r0;
+    s.tmp_151.arg2 = s.tmp_150;
+    s.tmp_151.arg3 = 3;
+    s.callLocIdx = 193; s.pc = 254; return s.tmp_151;
+  case 254:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 151:
+  case 152:
+    r0 = pxsim_Array__mk();
+    s.tmp_152 = r0;
+    r0 = pxsim_Array__push(s.tmp_152, globals.transparency8___86805);
+    s.tmp_153 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_153.arg0 = _hex87651;
+    r0 = pxsim.image.ofBuffer(_hex87653);
+    s.tmp_153.arg1 = r0;
+    s.tmp_153.arg2 = s.tmp_152;
+    s.tmp_153.arg3 = 3;
+    s.callLocIdx = 194; s.pc = 255; return s.tmp_153;
+  case 255:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 153:
+  case 154:
+    r0 = pxsim_Array__mk();
+    s.tmp_154 = r0;
+    r0 = pxsim_Array__push(s.tmp_154, globals.transparency8___86805);
+    s.tmp_155 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_155.arg0 = _hex87659;
+    r0 = pxsim.image.ofBuffer(_hex87661);
+    s.tmp_155.arg1 = r0;
+    s.tmp_155.arg2 = s.tmp_154;
+    s.tmp_155.arg3 = 3;
+    s.callLocIdx = 195; s.pc = 256; return s.tmp_155;
+  case 256:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 155:
+  case 156:
+    r0 = pxsim_Array__mk();
+    s.tmp_156 = r0;
+    r0 = pxsim_Array__push(s.tmp_156, globals.transparency8___86805);
+    s.tmp_157 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_157.arg0 = _hex87667;
+    r0 = pxsim.image.ofBuffer(_hex87669);
+    s.tmp_157.arg1 = r0;
+    s.tmp_157.arg2 = s.tmp_156;
+    s.tmp_157.arg3 = 3;
+    s.callLocIdx = 196; s.pc = 257; return s.tmp_157;
+  case 257:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 157:
+  case 158:
+    r0 = pxsim_Array__mk();
+    s.tmp_158 = r0;
+    r0 = pxsim_Array__push(s.tmp_158, globals.transparency8___86805);
+    s.tmp_159 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_159.arg0 = _hex87675;
+    r0 = pxsim.image.ofBuffer(_hex87677);
+    s.tmp_159.arg1 = r0;
+    s.tmp_159.arg2 = s.tmp_158;
+    s.tmp_159.arg3 = 3;
+    s.callLocIdx = 197; s.pc = 258; return s.tmp_159;
+  case 258:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 159:
+  case 160:
+    r0 = pxsim_Array__mk();
+    s.tmp_160 = r0;
+    r0 = pxsim_Array__push(s.tmp_160, globals.transparency8___86805);
+    s.tmp_161 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_161.arg0 = _hex87683;
+    r0 = pxsim.image.ofBuffer(_hex87685);
+    s.tmp_161.arg1 = r0;
+    s.tmp_161.arg2 = s.tmp_160;
+    s.tmp_161.arg3 = 3;
+    s.callLocIdx = 198; s.pc = 259; return s.tmp_161;
+  case 259:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 161:
+  case 162:
+    r0 = pxsim_Array__mk();
+    s.tmp_162 = r0;
+    r0 = pxsim_Array__push(s.tmp_162, globals.transparency8___86805);
+    s.tmp_163 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_163.arg0 = _hex87691;
+    r0 = pxsim.image.ofBuffer(_hex87693);
+    s.tmp_163.arg1 = r0;
+    s.tmp_163.arg2 = s.tmp_162;
+    s.tmp_163.arg3 = 3;
+    s.callLocIdx = 199; s.pc = 260; return s.tmp_163;
+  case 260:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 163:
+  case 164:
+    r0 = pxsim_Array__mk();
+    s.tmp_164 = r0;
+    r0 = pxsim_Array__push(s.tmp_164, globals.transparency8___86805);
+    s.tmp_165 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_165.arg0 = _hex87699;
+    r0 = pxsim.image.ofBuffer(_hex87701);
+    s.tmp_165.arg1 = r0;
+    s.tmp_165.arg2 = s.tmp_164;
+    s.tmp_165.arg3 = 3;
+    s.callLocIdx = 200; s.pc = 261; return s.tmp_165;
+  case 261:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 165:
+  case 166:
+    r0 = pxsim_Array__mk();
+    s.tmp_166 = r0;
+    r0 = pxsim_Array__push(s.tmp_166, globals.transparency8___86805);
+    s.tmp_167 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_167.arg0 = _hex87707;
+    r0 = pxsim.image.ofBuffer(_hex87709);
+    s.tmp_167.arg1 = r0;
+    s.tmp_167.arg2 = s.tmp_166;
+    s.tmp_167.arg3 = 3;
+    s.callLocIdx = 201; s.pc = 262; return s.tmp_167;
+  case 262:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 167:
+  case 168:
+    r0 = pxsim_Array__mk();
+    s.tmp_168 = r0;
+    r0 = pxsim_Array__push(s.tmp_168, globals.transparency8___86805);
+    s.tmp_169 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_169.arg0 = _hex87715;
+    r0 = pxsim.image.ofBuffer(_hex87717);
+    s.tmp_169.arg1 = r0;
+    s.tmp_169.arg2 = s.tmp_168;
+    s.tmp_169.arg3 = 3;
+    s.callLocIdx = 202; s.pc = 263; return s.tmp_169;
+  case 263:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 169:
+  case 170:
+    r0 = pxsim_Array__mk();
+    s.tmp_170 = r0;
+    r0 = pxsim_Array__push(s.tmp_170, globals.transparency8___86805);
+    s.tmp_171 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_171.arg0 = _hex87723;
+    r0 = pxsim.image.ofBuffer(_hex87725);
+    s.tmp_171.arg1 = r0;
+    s.tmp_171.arg2 = s.tmp_170;
+    s.tmp_171.arg3 = 3;
+    s.callLocIdx = 203; s.pc = 264; return s.tmp_171;
+  case 264:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 171:
+  case 172:
+    r0 = pxsim_Array__mk();
+    s.tmp_172 = r0;
+    r0 = pxsim_Array__push(s.tmp_172, globals.transparency8___86805);
+    s.tmp_173 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_173.arg0 = _hex87731;
+    r0 = pxsim.image.ofBuffer(_hex87733);
+    s.tmp_173.arg1 = r0;
+    s.tmp_173.arg2 = s.tmp_172;
+    s.tmp_173.arg3 = 3;
+    s.callLocIdx = 204; s.pc = 265; return s.tmp_173;
+  case 265:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 173:
+  case 174:
+    r0 = pxsim_Array__mk();
+    s.tmp_174 = r0;
+    r0 = pxsim_Array__push(s.tmp_174, globals.transparency8___86805);
+    s.tmp_175 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_175.arg0 = _hex87739;
+    r0 = pxsim.image.ofBuffer(_hex87741);
+    s.tmp_175.arg1 = r0;
+    s.tmp_175.arg2 = s.tmp_174;
+    s.tmp_175.arg3 = 3;
+    s.callLocIdx = 205; s.pc = 266; return s.tmp_175;
+  case 266:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 175:
+  case 176:
+    r0 = pxsim_Array__mk();
+    s.tmp_176 = r0;
+    r0 = pxsim_Array__push(s.tmp_176, globals.transparency8___86805);
+    s.tmp_177 = tiles_createTilemap__P2763_mk(s);
+    s.tmp_177.arg0 = _hex87747;
+    r0 = pxsim.image.ofBuffer(_hex87749);
+    s.tmp_177.arg1 = r0;
+    s.tmp_177.arg2 = s.tmp_176;
+    s.tmp_177.arg3 = 3;
+    s.callLocIdx = 206; s.pc = 267; return s.tmp_177;
+  case 267:
+    r0 = s.retval;
+    { step = 178; continue; }
+  case 177:
+    r0 = null;
+  case 178:
     return leave(s, r0)
   default: oops()
 } } }
-myTiles_inline__P8949.info = {"start":6696,"length":97245,"line":131,"column":40,"endLine":1507,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
+myTiles_inline__P86993.info = {"start":6696,"length":116327,"line":131,"column":40,"endLine":1759,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
 
-function myTiles_inline__P8949_mk(s) {
+function myTiles_inline__P86993_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: myTiles_inline__P8949, depth: s.depth + 1,
+        parent: s, fn: myTiles_inline__P86993, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -4481,162 +4747,218 @@ function myTiles_inline__P8949_mk(s) {
   tmp_147: undefined,
   tmp_148: undefined,
   tmp_149: undefined,
+  tmp_150: undefined,
+  tmp_151: undefined,
+  tmp_152: undefined,
+  tmp_153: undefined,
+  tmp_154: undefined,
+  tmp_155: undefined,
+  tmp_156: undefined,
+  tmp_157: undefined,
+  tmp_158: undefined,
+  tmp_159: undefined,
+  tmp_160: undefined,
+  tmp_161: undefined,
+  tmp_162: undefined,
+  tmp_163: undefined,
+  tmp_164: undefined,
+  tmp_165: undefined,
+  tmp_166: undefined,
+  tmp_167: undefined,
+  tmp_168: undefined,
+  tmp_169: undefined,
+  tmp_170: undefined,
+  tmp_171: undefined,
+  tmp_172: undefined,
+  tmp_173: undefined,
+  tmp_174: undefined,
+  tmp_175: undefined,
+  tmp_176: undefined,
+  tmp_177: undefined,
   arg0: undefined,
 } }
 
-const _hex8956 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8958 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8964 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8966 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8972 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8974 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8980 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8982 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8988 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8990 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8996 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex8998 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9004 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9006 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9012 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9014 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9020 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9022 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9028 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9030 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9036 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9038 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9044 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9046 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9052 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9054 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9060 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9062 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9068 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9070 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9076 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9078 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9084 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9086 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9092 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9094 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9100 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9102 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9108 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9110 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9116 = pxsim.BufferMethods.createBufferFromHex("15001500000000000000000000000000000000000000000000000202020202020202020202020202020202020200000201010101010101010101010101010101010200000201030101010101010101010101010103010200000201010301010101010101010101010301010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101030303010101010101010200000201010101010101030303010101010101010200000201010101010101030303010101010101010200000201010101010101020202010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010401010101010101010200000201010101010101010101010101010101010200000202020202020202020202020202020202020200000000000000000000000000000000000000000000")
-const _hex9118 = pxsim.BufferMethods.createBufferFromHex("8704150015000000222222222222222222220200222222222222222222220200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000002000000200200220000000002000000200200220000000002000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200222222222222222222220200222222222222222222220200")
-const _hex9128 = pxsim.BufferMethods.createBufferFromHex("1300130000000000000000000000000000000000000000000202020202020202030202020202020202000002010101010101010101010101010101020000020107010101010101010101010107010200000201010101010101010101010101010102000002010101010101010101010101010101020000020101010101010101010101010101010200000201010101010101010101010101010102000002010101010101020202010101010101020000020101010101010202020101010101010200000201010101010102020201010101010104000002010101010101010101010101010101020000020101010101010101010101010101010200000201010101010101010101010101010102000002010101010101010101010101010101020000050107010101010108010101010107010200000201010101010101010101010101010102000002020202020202020202060202020202020000000000000000000000000000000000000000")
-const _hex9130 = pxsim.BufferMethods.createBufferFromHex("8704130013000000222222222222222222020000222222222222220222020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000002202000020020000020000002202000020020000220000002202000020020000220000000000000000020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000222222222220222222020000222222222222222222020000")
-const _hex9144 = pxsim.BufferMethods.createBufferFromHex("0b000b0000000000000000000000000001010101010101010100000102030303030302010000010302030303020301000001030302030203030100000103030302030303010000010303020302030301000001030203030302030100000102030304030302010000010101010101010101000000000000000000000000")
-const _hex9146 = pxsim.BufferMethods.createBufferFromHex("87040b000b00000000000000000000002022222222000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020222222220000000000000000000000")
-const _hex9156 = pxsim.BufferMethods.createBufferFromHex("1100110000000000000000000000000000000000000001010101010103030301010101010100000108020202020202020202020208010000010202020202020202020202020201000001020201010202020202010102020100000102020102020202020202010202010000010202020202020202020202020201000005020202020202020202020202020400000502020202020207020202020202040000050202020202020202020202020204000001020202020202020202020202020100000102020102020202020202010202010000010202010102020202020101020201000001020202020202020202020202020100000108020202020202020202020208010000010101010101060606010101010101000000000000000000000000000000000000")
-const _hex9158 = pxsim.BufferMethods.createBufferFromHex("8704110011000000222222222222222202000000222222020022222202000000220000000000002002000000220000000000002002000000220022000020022002000000220002000000022002000000220000000000002002000000020000000000000002000000020000000000000002000000020000000000000002000000220000000000002002000000220002000000022002000000220022000020022002000000220000000000002002000000220000000000002002000000222222020022222202000000222222222222222202000000")
-const _hex9172 = pxsim.BufferMethods.createBufferFromHex("15001500030303030303030303030303030303030303030303030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202030202020202020202020202020203020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020402020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202030202020202020202020202020203020203030202020202020202020102020202020202020203030202020202020202020202020202020202020203030303030303030303030303030303030303030303")
-const _hex9174 = pxsim.BufferMethods.createBufferFromHex("8704150015000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9184 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9186 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9192 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9194 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9200 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9202 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9208 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9210 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9216 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9218 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9224 = pxsim.BufferMethods.createBufferFromHex("1400140000000000000000000000000000000000000000000002020202020202020202020202020202020200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020202020202020202020202020202020202000000000000000000000000000000000000000000")
-const _hex9226 = pxsim.BufferMethods.createBufferFromHex("8704140014000000000000000000000000000000202222222222222222020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000202222222222222222020000000000000000000000000000")
-const _hex9234 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9236 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9242 = pxsim.BufferMethods.createBufferFromHex("15000f00000000000000000000000000000000000000000000000101010101010101010101010101010101010100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000101010101010101010101010101010101010100000000000000000000000000000000000000000000")
-const _hex9244 = pxsim.BufferMethods.createBufferFromHex("870415000f000000222222222222220222222222222222022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222222222222222022222222222222202")
-const _hex9252 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9254 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9260 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9262 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9268 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9270 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9276 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9278 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9284 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9286 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9292 = pxsim.BufferMethods.createBufferFromHex("14000f00020202020202020202020202020202020202020202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020202020202020202020202020202020202020202")
-const _hex9294 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9302 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9304 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9310 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9312 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9318 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9320 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9326 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9328 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9334 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9336 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9342 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9344 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9350 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9352 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9358 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9360 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9366 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9368 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9374 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9376 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9383 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9385 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9391 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9393 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9399 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9401 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9407 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9409 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9415 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9417 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9423 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9425 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9431 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")
-const _hex9433 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9440 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")
-const _hex9442 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9449 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")
-const _hex9451 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9458 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9460 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9466 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9468 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9474 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9476 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9482 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9484 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9490 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9492 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9498 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9500 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9506 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9508 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9514 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9516 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9522 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9524 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9530 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9532 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9538 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9540 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9546 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9548 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
-const _hex9554 = pxsim.BufferMethods.createBufferFromHex("14000f00020202020202020202020202020202020202020202030101010101010101010101010101010103020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101020202020101010101010102020101010101010202020202020101010101010202010101010103020202020202030101010101020201010101010102020202020201010101010102020101010101010102020202010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020202020202020202020202020202020202020202")
-const _hex9556 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020200002202000002020020222200000202002022220000020200202222000002020020222200000202000022020000020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000022222222222222202")
-const _hex9565 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010103030303030303030303030303030101010101010303030303030303030303030303010101010303030303030303030303030303030303030101030303030303030303030303030303030303010103030303030303020101020303030303030301010303030303030301020201030303030303030101030303030303030102020103030303030303010103030303030303020303020303030303030301010303030303030303030303030303030303030101030303030303030303030303030303030303010103030303030303030303030303030303030301010101030303030303030303030303030301010101010103030303030303030303030303030101010101010101010101010101010101010101010101")
-const _hex9567 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222022202000000002202220200000000220202000000000000020200000000000002020000000000000202000000000000020200000000000002020000220000000202002000000000020200200000000002020000220000000202000000000000020200000000000002020000000000000202000000000000020200000000000002220200000000220222020000000022022222222222222202")
-const _hex9576 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101030303030303030303030303030303030303010103010103030303030303030303030301010301010301020303030303030303030303030201030101030303030303030303030303030303030303010103030303030303030303030303030303030301010303030303030303030303030303030303030101030303030303030303030303030303030303010103030303030303030303030303030303030301010303030303030303030303030303030303030101030303030303030303030303030303030303010103010203030303030303030303030302010301010301010303030303030303030303030101030101030303030303030303030303030303030303010101010101010101010101010101010101010101")
-const _hex9578 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222020200000000000002022200000020020202020000000002020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020202000000000202022200000020020202000000000000022222222222222202")
-const _hex9587 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101020202020202020202020202020202020202010102030302020202020202020202020203030201010203030402020202020202020202040303020101020204030202020202020202020203040202010102020202020202020202020202020202020201010202020202020202040402020202020202020101020202020202020403030402020202020202010102020202020202020202020202020202020201010202020202020202020202020202020202020101020202020202020202020202020202020202010102020202020202020202020202020202020201010202020202020202020202020202020202020101020202020202020202020202020202020202010101010101010101010101010101010101010101")
-const _hex9589 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222020200000000000002020000000000000202000200000000020220000000000002020000000000000202000000000000020200000000000002020000200000000202000002000000020200000200000002020000200000000202000000000000020200000000000002020000000000000202200000000000020200020000000002020000000000000202000000000000022222222222222202")
+const _hex87000 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87002 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87008 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87010 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87016 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87018 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87024 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87026 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87032 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87034 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87040 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87042 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87048 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87050 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87056 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87058 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87064 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87066 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87072 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87074 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87080 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87082 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87088 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87090 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87096 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87098 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87104 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87106 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87112 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87114 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87120 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87122 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87128 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87130 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87136 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87138 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87144 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87146 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87152 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87154 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87160 = pxsim.BufferMethods.createBufferFromHex("15001500000000000000000000000000000000000000000000000202020202020202020202020202020202020200000201010101010101010101010101010101010200000201030101010101010101010101010103010200000201010301010101010101010101010301010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101030303010101010101010200000201010101010101030303010101010101010200000201010101010101030303010101010101010200000201010101010101020202010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010101010101010101010200000201010101010101010401010101010101010200000201010101010101010101010101010101010200000202020202020202020202020202020202020200000000000000000000000000000000000000000000")
+const _hex87162 = pxsim.BufferMethods.createBufferFromHex("8704150015000000222222222222222222220200222222222222222222220200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000002000000200200220000000002000000200200220000000002000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200220000000000000000200200222222222222222222220200222222222222222222220200")
+const _hex87172 = pxsim.BufferMethods.createBufferFromHex("1300130000000000000000000000000000000000000000000202020202020202030202020202020202000002010101010101010101010101010101020000020107010101010101010101010107010200000201010101010101010101010101010102000002010101010101010101010101010101020000020101010101010101010101010101010200000201010101010101010101010101010102000002010101010101020202010101010101020000020101010101010202020101010101010200000201010101010102020201010101010104000002010101010101010101010101010101020000020101010101010101010101010101010200000201010101010101010101010101010102000002010101010101010101010101010101020000050107010101010108010101010107010200000201010101010101010101010101010102000002020202020202020202060202020202020000000000000000000000000000000000000000")
+const _hex87174 = pxsim.BufferMethods.createBufferFromHex("8704130013000000222222222222222222020000222222222222220222020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000002202000020020000020000002202000020020000220000002202000020020000220000000000000000020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000220000000000000020020000222222222220222222020000222222222222222222020000")
+const _hex87188 = pxsim.BufferMethods.createBufferFromHex("0b000b0000000000000000000000000001010101010101010100000102030303030302010000010302030303020301000001030302030203030100000103030302030303010000010303020302030301000001030203030302030100000102030304030302010000010101010101010101000000000000000000000000")
+const _hex87190 = pxsim.BufferMethods.createBufferFromHex("87040b000b00000000000000000000002022222222000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020222222220000000000000000000000")
+const _hex87200 = pxsim.BufferMethods.createBufferFromHex("1100110000000000000000000000000000000000000001010101010103030301010101010100000108020202020202020202020208010000010202020202020202020202020201000001020201010202020202010102020100000102020102020202020202010202010000010202020202020202020202020201000005020202020202020202020202020400000502020202020207020202020202040000050202020202020202020202020204000001020202020202020202020202020100000102020102020202020202010202010000010202010102020202020101020201000001020202020202020202020202020100000108020202020202020202020208010000010101010101060606010101010101000000000000000000000000000000000000")
+const _hex87202 = pxsim.BufferMethods.createBufferFromHex("8704110011000000222222222222222202000000222222020022222202000000220000000000002002000000220000000000002002000000220022000020022002000000220002000000022002000000220000000000002002000000020000000000000002000000020000000000000002000000020000000000000002000000220000000000002002000000220002000000022002000000220022000020022002000000220000000000002002000000220000000000002002000000222222020022222202000000222222222222222202000000")
+const _hex87216 = pxsim.BufferMethods.createBufferFromHex("15001500030303030303030303030303030303030303030303030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202030202020202020202020202020203020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020402020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202020202020202020202020202020202020203030202030202020202020202020202020203020203030202020202020202020102020202020202020203030202020202020202020202020202020202020203030303030303030303030303030303030303030303")
+const _hex87218 = pxsim.BufferMethods.createBufferFromHex("8704150015000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87228 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87230 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87236 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87238 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87244 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87246 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87252 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87254 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87260 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87262 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87268 = pxsim.BufferMethods.createBufferFromHex("1400140000000000000000000000000000000000000000000002020202020202020202020202020202020200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020101010101010101010101010101010102000002010101010101010101010101010101010200000201010101010101010101010101010101020000020202020202020202020202020202020202000000000000000000000000000000000000000000")
+const _hex87270 = pxsim.BufferMethods.createBufferFromHex("8704140014000000000000000000000000000000202222222222222222020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000200000000000000000020000202222222222222222020000000000000000000000000000")
+const _hex87278 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87280 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87286 = pxsim.BufferMethods.createBufferFromHex("15000f00000000000000000000000000000000000000000000000101010101010101010101010101010101010100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000102020202020202020202020202020202020100000101010101010101010101010101010101010100000000000000000000000000000000000000000000")
+const _hex87288 = pxsim.BufferMethods.createBufferFromHex("870415000f000000222222222222220222222222222222022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222000000000020022200000000002002220000000000200222222222222222022222222222222202")
+const _hex87296 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87298 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87304 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87306 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87312 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87314 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87320 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87322 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87328 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87330 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87336 = pxsim.BufferMethods.createBufferFromHex("14000f00020202020202020202020202020202020202020202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020202020202020202020202020202020202020202")
+const _hex87338 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87346 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87348 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87354 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87356 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87362 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87364 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87370 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87372 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87378 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87380 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87386 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87388 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87394 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87396 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87402 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87404 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87410 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87412 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87418 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87420 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87427 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87429 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87435 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87437 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87443 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87445 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87451 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87453 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87459 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87461 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87467 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87469 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87475 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")
+const _hex87477 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87484 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")
+const _hex87486 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87493 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101")
+const _hex87495 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87502 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87504 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87510 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87512 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87518 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87520 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87526 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87528 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87534 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87536 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87542 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87544 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87550 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87552 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87558 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87560 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87566 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87568 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87574 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87576 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87582 = pxsim.BufferMethods.createBufferFromHex("1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87584 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87590 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87592 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87598 = pxsim.BufferMethods.createBufferFromHex("14000f00020202020202020202020202020202020202020202030101010101010101010101010101010103020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020201010101010101020202020101010101010102020101010101010202020202020101010101010202010101010103020202020202030101010101020201010101010102020202020201010101010102020101010101010102020202010101010101010202010101010101010101010101010101010101020201010101010101010101010101010101010102020101010101010101010101010101010101010202010101010101010101010101010101010101020202020202020202020202020202020202020202")
+const _hex87600 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020200002202000002020020222200000202002022220000020200202222000002020020222200000202000022020000020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000022222222222222202")
+const _hex87609 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101010103030303030303030303030303030101010101010303030303030303030303030303010101010303030303030303030303030303030303030101030303030303030303030303030303030303010103030303030303020101020303030303030301010303030303030301020201030303030303030101030303030303030102020103030303030303010103030303030303020303020303030303030301010303030303030303030303030303030303030101030303030303030303030303030303030303010103030303030303030303030303030303030301010101030303030303030303030303030301010101010103030303030303030303030303030101010101010101010101010101010101010101010101")
+const _hex87611 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222022202000000002202220200000000220202000000000000020200000000000002020000000000000202000000000000020200000000000002020000220000000202002000000000020200200000000002020000220000000202000000000000020200000000000002020000000000000202000000000000020200000000000002220200000000220222020000000022022222222222222202")
+const _hex87620 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101030303030303030303030303030303030303010103010103030303030303030303030301010301010301020303030303030303030303030201030101030303030303030303030303030303030303010103030303030303030303030303030303030301010303030303030303030303030303030303030101030303030303030303030303030303030303010103030303030303030303030303030303030301010303030303030303030303030303030303030101030303030303030303030303030303030303010103010203030303030303030303030302010301010301010303030303030303030303030101030101030303030303030303030303030303030303010101010101010101010101010101010101010101")
+const _hex87622 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222020200000000000002022200000020020202020000000002020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020200000000000002020000000000000202000000000000020202000000000202022200000020020202000000000000022222222222222202")
+const _hex87631 = pxsim.BufferMethods.createBufferFromHex("14000f00010101010101010101010101010101010101010101020202020202020202020202020202020202010102030302020202020202020202020203030201010203030402020202020202020202040303020101020204030202020202020202020203040202010102020202020202020202020202020202020201010202020202020202040402020202020202020101020202020202020403030402020202020202010102020202020202020202020202020202020201010202020202020202020202020202020202020101020202020202020202020202020202020202010102020202020202020202020202020202020201010202020202020202020202020202020202020101020202020202020202020202020202020202010101010101010101010101010101010101010101")
+const _hex87633 = pxsim.BufferMethods.createBufferFromHex("870414000f00000022222222222222020200000000000002020000000000000202000200000000020220000000000002020000000000000202000000000000020200000000000002020000200000000202000002000000020200000200000002020000200000000202000000000000020200000000000002020000000000000202200000000000020200020000000002020000000000000202000000000000022222222222222202")
+const _hex87643 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87645 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87651 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87653 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87659 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87661 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87667 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87669 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87675 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87677 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87683 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87685 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87691 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87693 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87699 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87701 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87707 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87709 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87715 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87717 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87723 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87725 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87731 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87733 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87739 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87741 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87747 = pxsim.BufferMethods.createBufferFromHex("14000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex87749 = pxsim.BufferMethods.createBufferFromHex("870414000f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function myTiles_inline__P9599(s) {
+function myTiles_inline__P87755(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -4652,7 +4974,7 @@ switch (step) {
     }
     s.tmp_1 = helpers_stringTrim__P123_mk(s);
     s.tmp_1.arg0 = s.arg0;
-    s.callLocIdx = 194; s.pc = 129; return s.tmp_1;
+    s.callLocIdx = 208; s.pc = 129; return s.tmp_1;
   case 129:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -4911,258 +5233,258 @@ switch (step) {
     r0 = s.tmp_0;
     { step = 127; continue; }
   case 1:
-    r0 = globals.transparency16___5345;
+    r0 = globals.transparency16___86802;
     { step = 128; continue; }
   case 2:
-    r0 = globals.transparency8___5346;
+    r0 = globals.transparency8___86805;
     { step = 128; continue; }
   case 3:
   case 4:
-    r0 = globals.tile1___5347;
+    r0 = globals.tile1___86808;
     { step = 128; continue; }
   case 5:
   case 6:
-    r0 = globals.tile7___5348;
+    r0 = globals.tile7___86811;
     { step = 128; continue; }
   case 7:
   case 8:
-    r0 = globals.tile9___5349;
+    r0 = globals.tile9___86814;
     { step = 128; continue; }
   case 9:
   case 10:
-    r0 = globals.tile10___5350;
+    r0 = globals.tile10___86817;
     { step = 128; continue; }
   case 11:
   case 12:
-    r0 = globals.tile15___5351;
+    r0 = globals.tile15___86820;
     { step = 128; continue; }
   case 13:
   case 14:
-    r0 = globals.tile17___5352;
+    r0 = globals.tile17___86823;
     { step = 128; continue; }
   case 15:
   case 16:
-    r0 = globals.tile2___5353;
+    r0 = globals.tile2___86826;
     { step = 128; continue; }
   case 17:
   case 18:
-    r0 = globals.tile3___5354;
+    r0 = globals.tile3___86829;
     { step = 128; continue; }
   case 19:
   case 20:
-    r0 = globals.tile4___5355;
+    r0 = globals.tile4___86832;
     { step = 128; continue; }
   case 21:
   case 22:
-    r0 = globals.tile5___5356;
+    r0 = globals.tile5___86835;
     { step = 128; continue; }
   case 23:
   case 24:
-    r0 = globals.tile6___5357;
+    r0 = globals.tile6___86838;
     { step = 128; continue; }
   case 25:
   case 26:
-    r0 = globals.tile11___5358;
+    r0 = globals.tile11___86841;
     { step = 128; continue; }
   case 27:
   case 28:
-    r0 = globals.tile12___5359;
+    r0 = globals.tile12___86844;
     { step = 128; continue; }
   case 29:
   case 30:
-    r0 = globals.tile13___5360;
+    r0 = globals.tile13___86847;
     { step = 128; continue; }
   case 31:
   case 32:
-    r0 = globals.tile14___5361;
+    r0 = globals.tile14___86850;
     { step = 128; continue; }
   case 33:
   case 34:
-    r0 = globals.tile16___5362;
+    r0 = globals.tile16___86853;
     { step = 128; continue; }
   case 35:
   case 36:
-    r0 = globals.tile23___5363;
+    r0 = globals.tile23___86856;
     { step = 128; continue; }
   case 37:
   case 38:
-    r0 = globals.tile21___5364;
+    r0 = globals.tile21___86859;
     { step = 128; continue; }
   case 39:
   case 40:
-    r0 = globals.tile19___5365;
+    r0 = globals.tile19___86862;
     { step = 128; continue; }
   case 41:
   case 42:
-    r0 = globals.tile20___5366;
+    r0 = globals.tile20___86865;
     { step = 128; continue; }
   case 43:
   case 44:
-    r0 = globals.tile18___5367;
+    r0 = globals.tile18___86868;
     { step = 128; continue; }
   case 45:
   case 46:
-    r0 = globals.tile22___5368;
+    r0 = globals.tile22___86871;
     { step = 128; continue; }
   case 47:
   case 48:
-    r0 = globals.tile24___5369;
+    r0 = globals.tile24___86874;
     { step = 128; continue; }
   case 49:
   case 50:
-    r0 = globals.tile27___5370;
+    r0 = globals.tile27___86877;
     { step = 128; continue; }
   case 51:
   case 52:
-    r0 = globals.tile29___5371;
+    r0 = globals.tile29___86880;
     { step = 128; continue; }
   case 53:
   case 54:
-    r0 = globals.tile31___5372;
+    r0 = globals.tile31___86883;
     { step = 128; continue; }
   case 55:
   case 56:
-    r0 = globals.tile30___5373;
+    r0 = globals.tile30___86886;
     { step = 128; continue; }
   case 57:
   case 58:
-    r0 = globals.tile28___5374;
+    r0 = globals.tile28___86889;
     { step = 128; continue; }
   case 59:
   case 60:
-    r0 = globals.tile32___5375;
+    r0 = globals.tile32___86892;
     { step = 128; continue; }
   case 61:
   case 62:
-    r0 = globals.tile33___5376;
+    r0 = globals.tile33___86895;
     { step = 128; continue; }
   case 63:
   case 64:
-    r0 = globals.tile34___5377;
+    r0 = globals.tile34___86898;
     { step = 128; continue; }
   case 65:
   case 66:
-    r0 = globals.tile35___5378;
+    r0 = globals.tile35___86901;
     { step = 128; continue; }
   case 67:
   case 68:
-    r0 = globals.tile36___5379;
+    r0 = globals.tile36___86904;
     { step = 128; continue; }
   case 69:
   case 70:
-    r0 = globals.tile45___5380;
+    r0 = globals.tile45___86907;
     { step = 128; continue; }
   case 71:
   case 72:
-    r0 = globals.tile38___5381;
+    r0 = globals.tile38___86910;
     { step = 128; continue; }
   case 73:
   case 74:
-    r0 = globals.tile39___5382;
+    r0 = globals.tile39___86913;
     { step = 128; continue; }
   case 75:
   case 76:
-    r0 = globals.tile40___5383;
+    r0 = globals.tile40___86916;
     { step = 128; continue; }
   case 77:
   case 78:
-    r0 = globals.tile41___5384;
+    r0 = globals.tile41___86919;
     { step = 128; continue; }
   case 79:
   case 80:
-    r0 = globals.tile42___5385;
+    r0 = globals.tile42___86922;
     { step = 128; continue; }
   case 81:
   case 82:
-    r0 = globals.tile43___5386;
+    r0 = globals.tile43___86925;
     { step = 128; continue; }
   case 83:
   case 84:
-    r0 = globals.tile44___5387;
+    r0 = globals.tile44___86928;
     { step = 128; continue; }
   case 85:
   case 86:
-    r0 = globals.tile37___5388;
+    r0 = globals.tile37___86931;
     { step = 128; continue; }
   case 87:
   case 88:
-    r0 = globals.tile25___5389;
+    r0 = globals.tile25___86934;
     { step = 128; continue; }
   case 89:
   case 90:
-    r0 = globals.tile26___5390;
+    r0 = globals.tile26___86937;
     { step = 128; continue; }
   case 91:
   case 92:
-    r0 = globals.tile46___5391;
+    r0 = globals.tile46___86940;
     { step = 128; continue; }
   case 93:
   case 94:
-    r0 = globals.tile47___5392;
+    r0 = globals.tile47___86943;
     { step = 128; continue; }
   case 95:
   case 96:
-    r0 = globals.tile48___5393;
+    r0 = globals.tile48___86946;
     { step = 128; continue; }
   case 97:
   case 98:
-    r0 = globals.tile8___5394;
+    r0 = globals.tile8___86949;
     { step = 128; continue; }
   case 99:
   case 100:
-    r0 = globals.tile49___5395;
+    r0 = globals.tile49___86952;
     { step = 128; continue; }
   case 101:
   case 102:
-    r0 = globals.tile50___5396;
+    r0 = globals.tile50___86955;
     { step = 128; continue; }
   case 103:
   case 104:
-    r0 = globals.tile51___5397;
+    r0 = globals.tile51___86958;
     { step = 128; continue; }
   case 105:
   case 106:
-    r0 = globals.tile52___5398;
+    r0 = globals.tile52___86961;
     { step = 128; continue; }
   case 107:
   case 108:
-    r0 = globals.tile53___5399;
+    r0 = globals.tile53___86964;
     { step = 128; continue; }
   case 109:
   case 110:
-    r0 = globals.tile54___5400;
+    r0 = globals.tile54___86967;
     { step = 128; continue; }
   case 111:
   case 112:
-    r0 = globals.tile55___5401;
+    r0 = globals.tile55___86970;
     { step = 128; continue; }
   case 113:
   case 114:
-    r0 = globals.tile56___5402;
+    r0 = globals.tile56___86973;
     { step = 128; continue; }
   case 115:
   case 116:
-    r0 = globals.tile57___5403;
+    r0 = globals.tile57___86976;
     { step = 128; continue; }
   case 117:
   case 118:
-    r0 = globals.tile58___5404;
+    r0 = globals.tile58___86979;
     { step = 128; continue; }
   case 119:
   case 120:
-    r0 = globals.tile59___5405;
+    r0 = globals.tile59___86982;
     { step = 128; continue; }
   case 121:
   case 122:
-    r0 = globals.tile60___5406;
+    r0 = globals.tile60___86985;
     { step = 128; continue; }
   case 123:
   case 124:
-    r0 = globals.tile61___5407;
+    r0 = globals.tile61___86988;
     { step = 128; continue; }
   case 125:
   case 126:
-    r0 = globals.tile62___5408;
+    r0 = globals.tile62___86991;
     { step = 128; continue; }
   case 127:
     r0 = null;
@@ -5170,12 +5492,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-myTiles_inline__P9599.info = {"start":103981,"length":4526,"line":1509,"column":37,"endLine":1639,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
+myTiles_inline__P87755.info = {"start":123063,"length":4526,"line":1761,"column":37,"endLine":1891,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
 
-function myTiles_inline__P9599_mk(s) {
+function myTiles_inline__P87755_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: myTiles_inline__P9599, depth: s.depth + 1,
+        parent: s, fn: myTiles_inline__P87755, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -5202,7 +5524,7 @@ switch (step) {
     }
     s.tmp_1 = helpers_stringTrim__P123_mk(s);
     s.tmp_1.arg0 = s.arg0;
-    s.callLocIdx = 196; s.pc = 7; return s.tmp_1;
+    s.callLocIdx = 210; s.pc = 7; return s.tmp_1;
   case 7:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -5264,7 +5586,7 @@ switch (step) {
     }
     s.tmp_1 = helpers_stringTrim__P123_mk(s);
     s.tmp_1.arg0 = s.arg0;
-    s.callLocIdx = 198; s.pc = 13; return s.tmp_1;
+    s.callLocIdx = 212; s.pc = 13; return s.tmp_1;
   case 13:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -5468,7 +5790,7 @@ switch (step) {
     }
     s.tmp_0 = helpers_stringTrim__P123_mk(s);
     s.tmp_0.arg0 = s.arg0;
-    s.callLocIdx = 200; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 214; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = null;
@@ -5490,7 +5812,7 @@ function myImages_inline__P9735_mk(s) {
 
 
 
-function inline__P9755(s) {
+function inline__P83507(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -5506,23 +5828,23 @@ switch (step) {
     }
     s.tmp_0 = Sprite_follow__P2431_mk(s);
     s.tmp_0.arg0 = s.arg0;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     r0 = pxsim.Math_.randomRange(1, 20);
     s.tmp_0.arg2 = r0;
     s.tmp_0.arg3 = 400;
-    s.callLocIdx = 208; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 222; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P9755.info = {"start":335,"length":63,"line":8,"column":36,"endLine":10,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite"]}
+inline__P83507.info = {"start":335,"length":63,"line":8,"column":36,"endLine":10,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite"]}
 
-function inline__P9755_mk(s) {
+function inline__P83507_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P9755, depth: s.depth + 1,
+        parent: s, fn: inline__P83507, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -5532,7 +5854,7 @@ function inline__P9755_mk(s) {
 
 
 
-function inline__P9767(s) {
+function inline__P83520(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -5547,20 +5869,20 @@ switch (step) {
       s.arg1 = (s.lambdaArgs[1]);
       s.lambdaArgs = null;
     }
-    r0 = (globals.launched___5326 == true);
+    r0 = (globals.launched___83525 == true);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_1 = sprites_destroy__P2278_mk(s);
-    s.tmp_1.arg0 = globals.Knife___5325;
+    s.tmp_1.arg0 = globals.Knife___83531;
     s.tmp_1.arg1 = undefined;
     s.tmp_1.arg2 = undefined;
-    s.callLocIdx = 210; s.pc = 3; return s.tmp_1;
+    s.callLocIdx = 224; s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
     s.tmp_0 = info_changeLifeBy__P2578_mk(s);
     s.tmp_0.arg0 = 1;
-    s.callLocIdx = 211; s.pc = 4; return s.tmp_0;
+    s.callLocIdx = 225; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
   case 1:
@@ -5569,12 +5891,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P9767.info = {"start":493,"length":128,"line":11,"column":93,"endLine":16,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83520.info = {"start":493,"length":128,"line":11,"column":93,"endLine":16,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P9767_mk(s) {
+function inline__P83520_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P9767, depth: s.depth + 1,
+        parent: s, fn: inline__P83520, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -5586,7 +5908,7 @@ function inline__P9767_mk(s) {
 
 
 
-function inline__P9783(s) {
+function inline__P83538(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -5606,14 +5928,14 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 12;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 213; s.pc = 4; return s.tmp_1;
+    s.callLocIdx = 227; s.pc = 4; return s.tmp_1;
   case 4:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 38;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 214; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 228; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
@@ -5621,14 +5943,14 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 4;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 215; s.pc = 6; return s.tmp_1;
+    s.callLocIdx = 229; s.pc = 6; return s.tmp_1;
   case 6:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 24;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 216; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 230; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
@@ -5636,32 +5958,32 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 3;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 217; s.pc = 8; return s.tmp_1;
+    s.callLocIdx = 231; s.pc = 8; return s.tmp_1;
   case 8:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 1;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 218; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 232; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = scene_cameraShake__P2890_mk(s);
     s.tmp_0.arg0 = 4;
     s.tmp_0.arg1 = 500;
-    s.callLocIdx = 219; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 233; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P2278_mk(s);
     s.tmp_0.arg0 = s.arg1;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 220; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 234; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_1 = spriteutils_isDestroyed__P4974_mk(s);
     s.tmp_1.arg0 = s.arg1;
-    s.callLocIdx = 221; s.pc = 11; return s.tmp_1;
+    s.callLocIdx = 235; s.pc = 11; return s.tmp_1;
   case 11:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -5669,7 +5991,7 @@ switch (step) {
     if (!r0) { step = 1; continue; }
     s.tmp_2 = info_changeScoreBy__P2574_mk(s);
     s.tmp_2.arg0 = 1;
-    s.callLocIdx = 222; s.pc = 12; return s.tmp_2;
+    s.callLocIdx = 236; s.pc = 12; return s.tmp_2;
   case 12:
     r0 = s.retval;
   case 1:
@@ -5678,12 +6000,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P9783.info = {"start":720,"length":634,"line":17,"column":97,"endLine":26,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P83538.info = {"start":720,"length":634,"line":17,"column":97,"endLine":26,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P9783_mk(s) {
+function inline__P83538_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P9783, depth: s.depth + 1,
+        parent: s, fn: inline__P83538, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -5696,7 +6018,7 @@ function inline__P9783_mk(s) {
 
 
 
-function inline__P9867(s) {
+function inline__P83625(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -5706,23 +6028,23 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.index___10121 = undefined;
+    s.index___83902 = undefined;
     s.tmp_1 = info_PlayerInfo_hasLife__P2653_mk(s);
     s.tmp_1.arg0 = globals.player1___2662;
-    s.callLocIdx = 242; s.pc = 41; return s.tmp_1;
+    s.callLocIdx = 256; s.pc = 41; return s.tmp_1;
   case 41:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 39; continue; }
-    r0 = (globals.Weapon_Selection_Boomerang___5341 == true);
+    r0 = (globals.Weapon_Selection_Boomerang___83631 == true);
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBool(s.tmp_2);
     if (r0) { step = 1; continue; }
     r0 = s.tmp_2;
     { step = 2; continue; }
   case 1:
-    r0 = (globals.Weapon_Selection_Gun___5342 == false);
+    r0 = (globals.Weapon_Selection_Gun___83635 == false);
   case 2:
     // jmp value (already in r0)
     s.tmp_3 = r0;
@@ -5741,76 +6063,76 @@ switch (step) {
     r0 = s.tmp_4;
     { step = 4; continue; }
   case 3:
-    r0 = (globals.left___5340 == 1);
+    r0 = (globals.left___83643 == 1);
   case 4:
     // jmp value (already in r0)
     s.tmp_6 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_6);
     if (!r0) { step = 5; continue; }
-    globals.launched___5326 = (false);
+    globals.launched___83525 = (false);
     s.tmp_0 = info_changeLifeBy__P2578_mk(s);
     s.tmp_0.arg0 = -1;
-    s.callLocIdx = 243; s.pc = 43; return s.tmp_0;
+    s.callLocIdx = 257; s.pc = 43; return s.tmp_0;
   case 43:
     r0 = s.retval;
     s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9891);
+    r0 = pxsim.image.ofBuffer(_hex83652);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = -80;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 244; s.pc = 44; return s.tmp_0;
+    s.callLocIdx = 258; s.pc = 44; return s.tmp_0;
   case 44:
     r0 = s.retval;
-    globals.Knife___5325 = (r0);
+    globals.Knife___83531 = (r0);
     s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
-    s.tmp_0.arg1 = globals.Knife___5315;
-    s.callLocIdx = 245; s.pc = 45; return s.tmp_0;
+    s.tmp_0.arg0 = globals.Knife___83531;
+    s.tmp_0.arg1 = globals.Knife___83500;
+    s.callLocIdx = 259; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_0.arg1 = 4;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 246; s.pc = 46; return s.tmp_0;
+    s.callLocIdx = 260; s.pc = 46; return s.tmp_0;
   case 46:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_0.arg1 = 16;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 247; s.pc = 47; return s.tmp_0;
+    s.callLocIdx = 261; s.pc = 47; return s.tmp_0;
   case 47:
     r0 = s.retval;
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex9910);
+    r0 = pxsim.image.ofBuffer(_hex83669);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex9912);
+    r0 = pxsim.image.ofBuffer(_hex83671);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex9914);
+    r0 = pxsim.image.ofBuffer(_hex83673);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex9916);
+    r0 = pxsim.image.ofBuffer(_hex83675);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
-    r0 = pxsim.image.ofBuffer(_hex9918);
+    r0 = pxsim.image.ofBuffer(_hex83677);
     s.tmp_5 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_5);
-    r0 = pxsim.image.ofBuffer(_hex9920);
+    r0 = pxsim.image.ofBuffer(_hex83679);
     s.tmp_6 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_6);
-    r0 = pxsim.image.ofBuffer(_hex9922);
+    r0 = pxsim.image.ofBuffer(_hex83681);
     s.tmp_7 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_7);
-    r0 = pxsim.image.ofBuffer(_hex9924);
+    r0 = pxsim.image.ofBuffer(_hex83683);
     s.tmp_8 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_8);
     s.tmp_9 = characterAnimations_loopFrames__P4415_mk(s);
-    s.tmp_9.arg0 = globals.Knife___5325;
+    s.tmp_9.arg0 = globals.Knife___83531;
     s.tmp_9.arg1 = s.tmp_0;
     s.tmp_9.arg2 = 100;
     s.tmp_10 = characterAnimations_rule__P4421_mk(s);
@@ -5819,26 +6141,26 @@ switch (step) {
     s.tmp_10.arg2 = undefined;
     s.tmp_10.arg3 = undefined;
     s.tmp_10.arg4 = undefined;
-    s.callLocIdx = 248; s.pc = 49; return s.tmp_10;
+    s.callLocIdx = 262; s.pc = 49; return s.tmp_10;
   case 49:
     r0 = s.retval;
     s.tmp_9.arg3 = r0;
-    s.callLocIdx = 249; s.pc = 48; return s.tmp_9;
+    s.callLocIdx = 263; s.pc = 48; return s.tmp_9;
   case 48:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 5;
-    s.tmp_1.arg1 = 3;
-    s.callLocIdx = 250; s.pc = 51; return s.tmp_1;
+    s.tmp_1.arg1 = 0;
+    s.callLocIdx = 264; s.pc = 51; return s.tmp_1;
   case 51:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
-    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg3 = 5;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 251; s.pc = 50; return s.tmp_0;
+    s.callLocIdx = 265; s.pc = 50; return s.tmp_0;
   case 50:
     r0 = s.retval;
   case 5:
@@ -5856,76 +6178,76 @@ switch (step) {
     r0 = s.tmp_0;
     { step = 8; continue; }
   case 7:
-    r0 = (globals.Right___5339 == 1);
+    r0 = (globals.Right___83700 == 1);
   case 8:
     // jmp value (already in r0)
     s.tmp_2 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_2);
     if (!r0) { step = 9; continue; }
-    globals.launched___5326 = (false);
+    globals.launched___83525 = (false);
     s.tmp_0 = info_changeLifeBy__P2578_mk(s);
     s.tmp_0.arg0 = -1;
-    s.callLocIdx = 252; s.pc = 53; return s.tmp_0;
+    s.callLocIdx = 266; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
     s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9949);
+    r0 = pxsim.image.ofBuffer(_hex83709);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = 80;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 253; s.pc = 54; return s.tmp_0;
+    s.callLocIdx = 267; s.pc = 54; return s.tmp_0;
   case 54:
     r0 = s.retval;
-    globals.Knife___5325 = (r0);
+    globals.Knife___83531 = (r0);
     s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
-    s.tmp_0.arg1 = globals.Knife___5315;
-    s.callLocIdx = 254; s.pc = 55; return s.tmp_0;
+    s.tmp_0.arg0 = globals.Knife___83531;
+    s.tmp_0.arg1 = globals.Knife___83500;
+    s.callLocIdx = 268; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_0.arg1 = 4;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 255; s.pc = 56; return s.tmp_0;
+    s.callLocIdx = 269; s.pc = 56; return s.tmp_0;
   case 56:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_0.arg1 = 16;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 256; s.pc = 57; return s.tmp_0;
+    s.callLocIdx = 270; s.pc = 57; return s.tmp_0;
   case 57:
     r0 = s.retval;
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex9964);
+    r0 = pxsim.image.ofBuffer(_hex83724);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex9966);
+    r0 = pxsim.image.ofBuffer(_hex83726);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
-    r0 = pxsim.image.ofBuffer(_hex9968);
+    r0 = pxsim.image.ofBuffer(_hex83728);
     s.tmp_3 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_3);
-    r0 = pxsim.image.ofBuffer(_hex9970);
+    r0 = pxsim.image.ofBuffer(_hex83730);
     s.tmp_4 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_4);
-    r0 = pxsim.image.ofBuffer(_hex9972);
+    r0 = pxsim.image.ofBuffer(_hex83732);
     s.tmp_5 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_5);
-    r0 = pxsim.image.ofBuffer(_hex9974);
+    r0 = pxsim.image.ofBuffer(_hex83734);
     s.tmp_6 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_6);
-    r0 = pxsim.image.ofBuffer(_hex9976);
+    r0 = pxsim.image.ofBuffer(_hex83736);
     s.tmp_7 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_7);
-    r0 = pxsim.image.ofBuffer(_hex9978);
+    r0 = pxsim.image.ofBuffer(_hex83738);
     s.tmp_8 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_8);
     s.tmp_9 = characterAnimations_loopFrames__P4415_mk(s);
-    s.tmp_9.arg0 = globals.Knife___5325;
+    s.tmp_9.arg0 = globals.Knife___83531;
     s.tmp_9.arg1 = s.tmp_0;
     s.tmp_9.arg2 = 100;
     s.tmp_10 = characterAnimations_rule__P4421_mk(s);
@@ -5934,40 +6256,40 @@ switch (step) {
     s.tmp_10.arg2 = undefined;
     s.tmp_10.arg3 = undefined;
     s.tmp_10.arg4 = undefined;
-    s.callLocIdx = 257; s.pc = 59; return s.tmp_10;
+    s.callLocIdx = 271; s.pc = 59; return s.tmp_10;
   case 59:
     r0 = s.retval;
     s.tmp_9.arg3 = r0;
-    s.callLocIdx = 258; s.pc = 58; return s.tmp_9;
+    s.callLocIdx = 272; s.pc = 58; return s.tmp_9;
   case 58:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 5;
-    s.tmp_1.arg1 = 3;
-    s.callLocIdx = 259; s.pc = 61; return s.tmp_1;
+    s.tmp_1.arg1 = 0;
+    s.callLocIdx = 273; s.pc = 61; return s.tmp_1;
   case 61:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
-    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg3 = 5;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 260; s.pc = 60; return s.tmp_0;
+    s.callLocIdx = 274; s.pc = 60; return s.tmp_0;
   case 60:
     r0 = s.retval;
   case 9:
   case 10:
   case 11:
   case 12:
-    r0 = (globals.Weapon_Selection_Boomerang___5341 == false);
+    r0 = (globals.Weapon_Selection_Boomerang___83631 == false);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
     if (r0) { step = 13; continue; }
     r0 = s.tmp_0;
     { step = 14; continue; }
   case 13:
-    r0 = (globals.Weapon_Selection_Gun___5342 == true);
+    r0 = (globals.Weapon_Selection_Gun___83635 == true);
   case 14:
     // jmp value (already in r0)
     s.tmp_1 = r0;
@@ -5986,7 +6308,7 @@ switch (step) {
     r0 = s.tmp_2;
     { step = 16; continue; }
   case 15:
-    r0 = (globals.left___5340 == 1);
+    r0 = (globals.left___83643 == 1);
   case 16:
     // jmp value (already in r0)
     s.tmp_4 = r0;
@@ -5994,39 +6316,69 @@ switch (step) {
     if (!r0) { step = 17; continue; }
     s.tmp_5 = info_changeLifeBy__P2578_mk(s);
     s.tmp_5.arg0 = -1;
-    s.callLocIdx = 261; s.pc = 63; return s.tmp_5;
+    s.callLocIdx = 275; s.pc = 63; return s.tmp_5;
   case 63:
     r0 = s.retval;
     s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10007);
+    r0 = pxsim.image.ofBuffer(_hex83768);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = -500;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 262; s.pc = 64; return s.tmp_0;
+    s.callLocIdx = 276; s.pc = 64; return s.tmp_0;
   case 64:
     r0 = s.retval;
-    globals.Bullet___5323 = (r0);
+    globals.Bullet___83764 = (r0);
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Bullet___5323;
+    s.tmp_0.arg0 = globals.Bullet___83764;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 3;
-    s.tmp_1.arg1 = 0;
-    s.callLocIdx = 263; s.pc = 66; return s.tmp_1;
+    s.tmp_1.arg0 = 8;
+    s.tmp_1.arg1 = 2;
+    s.callLocIdx = 277; s.pc = 66; return s.tmp_1;
   case 66:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg3 = 25;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 264; s.pc = 65; return s.tmp_0;
+    s.callLocIdx = 278; s.pc = 65; return s.tmp_0;
   case 65:
     r0 = s.retval;
-    s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Bullet___5323;
-    s.tmp_0.arg1 = globals.Bullet___5312;
-    s.callLocIdx = 265; s.pc = 67; return s.tmp_0;
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Bullet___83764;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 7;
+    s.tmp_1.arg1 = 2;
+    s.callLocIdx = 279; s.pc = 68; return s.tmp_1;
+  case 68:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 5;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 280; s.pc = 67; return s.tmp_0;
   case 67:
+    r0 = s.retval;
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Bullet___83764;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 9;
+    s.tmp_1.arg1 = 2;
+    s.callLocIdx = 281; s.pc = 70; return s.tmp_1;
+  case 70:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 1;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 282; s.pc = 69; return s.tmp_0;
+  case 69:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setKind__P2409_mk(s);
+    s.tmp_0.arg0 = globals.Bullet___83764;
+    s.tmp_0.arg1 = globals.Bullet___83491;
+    s.callLocIdx = 283; s.pc = 71; return s.tmp_0;
+  case 71:
     r0 = s.retval;
   case 17:
   case 18:
@@ -6034,8 +6386,8 @@ switch (step) {
     s.tmp_1.arg0 = globals.A___2114;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C2190_VT)) failedCast(s.tmp_1.arg0);
     s.tmp_1.fn = s.tmp_1.arg0.vtable.methods.isPressed;
-    s.pc = 68; return s.tmp_1;
-  case 68:
+    s.pc = 72; return s.tmp_1;
+  case 72:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
@@ -6043,7 +6395,7 @@ switch (step) {
     r0 = s.tmp_0;
     { step = 20; continue; }
   case 19:
-    r0 = (globals.Right___5339 == 1);
+    r0 = (globals.Right___83700 == 1);
   case 20:
     // jmp value (already in r0)
     s.tmp_2 = r0;
@@ -6051,45 +6403,75 @@ switch (step) {
     if (!r0) { step = 21; continue; }
     s.tmp_3 = info_changeLifeBy__P2578_mk(s);
     s.tmp_3.arg0 = -1;
-    s.callLocIdx = 266; s.pc = 69; return s.tmp_3;
-  case 69:
+    s.callLocIdx = 284; s.pc = 73; return s.tmp_3;
+  case 73:
     r0 = s.retval;
     s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10030);
+    r0 = pxsim.image.ofBuffer(_hex83799);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = 500;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 267; s.pc = 70; return s.tmp_0;
-  case 70:
+    s.callLocIdx = 285; s.pc = 74; return s.tmp_0;
+  case 74:
     r0 = s.retval;
-    globals.Bullet___5323 = (r0);
+    globals.Bullet___83764 = (r0);
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Bullet___5323;
+    s.tmp_0.arg0 = globals.Bullet___83764;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 3;
-    s.tmp_1.arg1 = 0;
-    s.callLocIdx = 268; s.pc = 72; return s.tmp_1;
-  case 72:
+    s.tmp_1.arg0 = 8;
+    s.tmp_1.arg1 = 2;
+    s.callLocIdx = 286; s.pc = 76; return s.tmp_1;
+  case 76:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg3 = 25;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 269; s.pc = 71; return s.tmp_0;
-  case 71:
+    s.callLocIdx = 287; s.pc = 75; return s.tmp_0;
+  case 75:
+    r0 = s.retval;
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Bullet___83764;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 7;
+    s.tmp_1.arg1 = 2;
+    s.callLocIdx = 288; s.pc = 78; return s.tmp_1;
+  case 78:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 5;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 289; s.pc = 77; return s.tmp_0;
+  case 77:
+    r0 = s.retval;
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Bullet___83764;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 9;
+    s.tmp_1.arg1 = 2;
+    s.callLocIdx = 290; s.pc = 80; return s.tmp_1;
+  case 80:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 1;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 291; s.pc = 79; return s.tmp_0;
+  case 79:
     r0 = s.retval;
     s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Bullet___5323;
-    s.tmp_0.arg1 = globals.Bullet___5312;
-    s.callLocIdx = 270; s.pc = 73; return s.tmp_0;
-  case 73:
+    s.tmp_0.arg0 = globals.Bullet___83764;
+    s.tmp_0.arg1 = globals.Bullet___83491;
+    s.callLocIdx = 292; s.pc = 81; return s.tmp_0;
+  case 81:
     r0 = s.retval;
   case 21:
   case 22:
   case 23:
   case 24:
-    r0 = (globals.Big_Rocket___5331 == true);
+    r0 = (globals.Big_Rocket___83818 == true);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 33; continue; }
@@ -6097,8 +6479,8 @@ switch (step) {
     s.tmp_2.arg0 = globals.A___2114;
     if (!checkSubtype(s.tmp_2.arg0, controller_Button__C2190_VT)) failedCast(s.tmp_2.arg0);
     s.tmp_2.fn = s.tmp_2.arg0.vtable.methods.isPressed;
-    s.pc = 74; return s.tmp_2;
-  case 74:
+    s.pc = 82; return s.tmp_2;
+  case 82:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBool(s.tmp_1);
@@ -6106,78 +6488,78 @@ switch (step) {
     r0 = s.tmp_1;
     { step = 26; continue; }
   case 25:
-    r0 = (globals.left___5340 == 1);
+    r0 = (globals.left___83643 == 1);
   case 26:
     // jmp value (already in r0)
     s.tmp_3 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_3);
     if (!r0) { step = 27; continue; }
     s.tmp_4 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10052);
+    r0 = pxsim.image.ofBuffer(_hex83831);
     s.tmp_4.arg0 = r0;
-    s.tmp_4.arg1 = globals.Zenith___5327;
+    s.tmp_4.arg1 = globals.Zenith___83512;
     s.tmp_4.arg2 = -50;
     s.tmp_4.arg3 = 0;
-    s.callLocIdx = 271; s.pc = 75; return s.tmp_4;
-  case 75:
+    s.callLocIdx = 293; s.pc = 83; return s.tmp_4;
+  case 83:
     r0 = s.retval;
-    globals.BR___5322 = (r0);
+    globals.BR___83827 = (r0);
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 8;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 272; s.pc = 77; return s.tmp_1;
-  case 77:
+    s.callLocIdx = 294; s.pc = 85; return s.tmp_1;
+  case 85:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
     s.tmp_0.arg3 = 45;
     s.tmp_0.arg4 = 40;
-    s.callLocIdx = 273; s.pc = 76; return s.tmp_0;
-  case 76:
+    s.callLocIdx = 295; s.pc = 84; return s.tmp_0;
+  case 84:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 7;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 274; s.pc = 79; return s.tmp_1;
-  case 79:
+    s.callLocIdx = 296; s.pc = 87; return s.tmp_1;
+  case 87:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
     s.tmp_0.arg3 = 25;
     s.tmp_0.arg4 = 40;
-    s.callLocIdx = 275; s.pc = 78; return s.tmp_0;
-  case 78:
+    s.callLocIdx = 297; s.pc = 86; return s.tmp_0;
+  case 86:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 9;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 276; s.pc = 81; return s.tmp_1;
-  case 81:
+    s.callLocIdx = 298; s.pc = 89; return s.tmp_1;
+  case 89:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
     s.tmp_0.arg3 = 5;
     s.tmp_0.arg4 = 40;
-    s.callLocIdx = 277; s.pc = 80; return s.tmp_0;
-  case 80:
+    s.callLocIdx = 299; s.pc = 88; return s.tmp_0;
+  case 88:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_0.arg1 = 2048;
     s.tmp_0.arg2 = true;
-    s.callLocIdx = 278; s.pc = 82; return s.tmp_0;
-  case 82:
+    s.callLocIdx = 300; s.pc = 90; return s.tmp_0;
+  case 90:
     r0 = s.retval;
     s.tmp_0 = info_changeLifeBy__P2578_mk(s);
     s.tmp_0.arg0 = -1;
-    s.callLocIdx = 279; s.pc = 83; return s.tmp_0;
-  case 83:
+    s.callLocIdx = 301; s.pc = 91; return s.tmp_0;
+  case 91:
     r0 = s.retval;
   case 27:
   case 28:
@@ -6185,8 +6567,8 @@ switch (step) {
     s.tmp_1.arg0 = globals.A___2114;
     if (!checkSubtype(s.tmp_1.arg0, controller_Button__C2190_VT)) failedCast(s.tmp_1.arg0);
     s.tmp_1.fn = s.tmp_1.arg0.vtable.methods.isPressed;
-    s.pc = 84; return s.tmp_1;
-  case 84:
+    s.pc = 92; return s.tmp_1;
+  case 92:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBool(s.tmp_0);
@@ -6194,7 +6576,7 @@ switch (step) {
     r0 = s.tmp_0;
     { step = 30; continue; }
   case 29:
-    r0 = (globals.Right___5339 == 1);
+    r0 = (globals.Right___83700 == 1);
   case 30:
     // jmp value (already in r0)
     s.tmp_2 = r0;
@@ -6202,332 +6584,332 @@ switch (step) {
     if (!r0) { step = 31; continue; }
     s.tmp_3 = info_changeLifeBy__P2578_mk(s);
     s.tmp_3.arg0 = -1;
-    s.callLocIdx = 280; s.pc = 85; return s.tmp_3;
-  case 85:
+    s.callLocIdx = 302; s.pc = 93; return s.tmp_3;
+  case 93:
     r0 = s.retval;
     s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10086);
+    r0 = pxsim.image.ofBuffer(_hex83865);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = 50;
     s.tmp_0.arg3 = 0;
-    s.callLocIdx = 281; s.pc = 86; return s.tmp_0;
-  case 86:
+    s.callLocIdx = 303; s.pc = 94; return s.tmp_0;
+  case 94:
     r0 = s.retval;
-    globals.BR___5322 = (r0);
+    globals.BR___83827 = (r0);
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 8;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 282; s.pc = 88; return s.tmp_1;
-  case 88:
+    s.callLocIdx = 304; s.pc = 96; return s.tmp_1;
+  case 96:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
     s.tmp_0.arg3 = 45;
     s.tmp_0.arg4 = 40;
-    s.callLocIdx = 283; s.pc = 87; return s.tmp_0;
-  case 87:
+    s.callLocIdx = 305; s.pc = 95; return s.tmp_0;
+  case 95:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 7;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 284; s.pc = 90; return s.tmp_1;
-  case 90:
+    s.callLocIdx = 306; s.pc = 98; return s.tmp_1;
+  case 98:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
     s.tmp_0.arg3 = 25;
     s.tmp_0.arg4 = 40;
-    s.callLocIdx = 285; s.pc = 89; return s.tmp_0;
-  case 89:
+    s.callLocIdx = 307; s.pc = 97; return s.tmp_0;
+  case 97:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 9;
     s.tmp_1.arg1 = 3;
-    s.callLocIdx = 286; s.pc = 92; return s.tmp_1;
-  case 92:
+    s.callLocIdx = 308; s.pc = 100; return s.tmp_1;
+  case 100:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 5000;
     s.tmp_0.arg3 = 5;
     s.tmp_0.arg4 = 40;
-    s.callLocIdx = 287; s.pc = 91; return s.tmp_0;
-  case 91:
+    s.callLocIdx = 309; s.pc = 99; return s.tmp_0;
+  case 99:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.BR___5322;
+    s.tmp_0.arg0 = globals.BR___83827;
     s.tmp_0.arg1 = 2048;
     s.tmp_0.arg2 = true;
-    s.callLocIdx = 288; s.pc = 93; return s.tmp_0;
-  case 93:
+    s.callLocIdx = 310; s.pc = 101; return s.tmp_0;
+  case 101:
     r0 = s.retval;
   case 31:
   case 32:
     { step = 38; continue; }
   case 33:
-    r0 = (globals.Grav_Bomb_selection___5330 == true);
+    r0 = (globals.Grav_Bomb_selection___83884 == true);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 36; continue; }
     s.tmp_1 = info_changeLifeBy__P2578_mk(s);
     s.tmp_1.arg0 = -1;
-    s.callLocIdx = 289; s.pc = 94; return s.tmp_1;
-  case 94:
+    s.callLocIdx = 311; s.pc = 102; return s.tmp_1;
+  case 102:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P2276_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10113);
+    r0 = pxsim.image.ofBuffer(_hex83894);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.Bomb___5314;
-    s.callLocIdx = 290; s.pc = 95; return s.tmp_0;
-  case 95:
+    s.tmp_0.arg1 = globals.Bomb___83497;
+    s.callLocIdx = 312; s.pc = 103; return s.tmp_0;
+  case 103:
     r0 = s.retval;
-    globals.GravBomb___5321 = (r0);
+    globals.GravBomb___83890 = (r0);
     s.tmp_0 = Sprite_setPosition__P2410_mk(s);
-    s.tmp_0.arg0 = globals.GravBomb___5321;
+    s.tmp_0.arg0 = globals.GravBomb___83890;
     s.tmp_1 = Sprite_x__P2355_mk(s);
-    s.tmp_1.arg0 = globals.Zenith___5327;
-    s.callLocIdx = 291; s.pc = 97; return s.tmp_1;
-  case 97:
+    s.tmp_1.arg0 = globals.Zenith___83512;
+    s.callLocIdx = 313; s.pc = 105; return s.tmp_1;
+  case 105:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_2 = Sprite_y__P2357_mk(s);
-    s.tmp_2.arg0 = globals.Zenith___5327;
-    s.callLocIdx = 292; s.pc = 98; return s.tmp_2;
-  case 98:
+    s.tmp_2.arg0 = globals.Zenith___83512;
+    s.callLocIdx = 314; s.pc = 106; return s.tmp_2;
+  case 106:
     r0 = s.retval;
     s.tmp_0.arg2 = r0;
-    s.callLocIdx = 293; s.pc = 96; return s.tmp_0;
-  case 96:
+    s.callLocIdx = 315; s.pc = 104; return s.tmp_0;
+  case 104:
     r0 = s.retval;
-    s.index___10121 = (0);
+    s.index___83902 = (0);
   case 34:
-    r0 = (s.index___10121 < 4);
+    r0 = (s.index___83902 < 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 35; continue; }
     s.tmp_1 = scene_cameraShake__P2890_mk(s);
     s.tmp_1.arg0 = 4;
     s.tmp_1.arg1 = 500;
-    s.callLocIdx = 294; s.pc = 99; return s.tmp_1;
-  case 99:
+    s.callLocIdx = 316; s.pc = 107; return s.tmp_1;
+  case 107:
     r0 = s.retval;
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
-    r0 = pxsim.image.ofBuffer(_hex10130);
+    r0 = pxsim.image.ofBuffer(_hex83911);
     s.tmp_1 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_1);
-    r0 = pxsim.image.ofBuffer(_hex10132);
+    r0 = pxsim.image.ofBuffer(_hex83913);
     s.tmp_2 = r0;
     r0 = pxsim_Array__push(s.tmp_0, s.tmp_2);
     s.tmp_3 = animation_runImageAnimation__P3363_mk(s);
-    s.tmp_3.arg0 = globals.GravBomb___5321;
+    s.tmp_3.arg0 = globals.GravBomb___83890;
     s.tmp_3.arg1 = s.tmp_0;
     s.tmp_3.arg2 = 100;
     s.tmp_3.arg3 = true;
-    s.callLocIdx = 295; s.pc = 100; return s.tmp_3;
-  case 100:
-    r0 = s.retval;
-    s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10137);
-    s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.GravBomb___5321;
-    s.tmp_0.arg2 = -50;
-    s.tmp_0.arg3 = -50;
-    s.callLocIdx = 296; s.pc = 101; return s.tmp_0;
-  case 101:
-    r0 = s.retval;
-    globals.Blast___5320 = (r0);
-    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 7;
-    s.tmp_1.arg1 = 0;
-    s.callLocIdx = 297; s.pc = 103; return s.tmp_1;
-  case 103:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 48;
-    s.tmp_0.arg4 = 20;
-    s.callLocIdx = 298; s.pc = 102; return s.tmp_0;
-  case 102:
-    r0 = s.retval;
-    s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = globals.Shard___5316;
-    s.callLocIdx = 299; s.pc = 104; return s.tmp_0;
-  case 104:
-    r0 = s.retval;
-    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = true;
-    s.callLocIdx = 300; s.pc = 105; return s.tmp_0;
-  case 105:
-    r0 = s.retval;
-    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = 16;
-    s.tmp_0.arg2 = false;
-    s.callLocIdx = 301; s.pc = 106; return s.tmp_0;
-  case 106:
-    r0 = s.retval;
-    s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10159);
-    s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.GravBomb___5321;
-    s.tmp_0.arg2 = 50;
-    s.tmp_0.arg3 = -50;
-    s.callLocIdx = 302; s.pc = 107; return s.tmp_0;
-  case 107:
-    r0 = s.retval;
-    globals.Blast___5320 = (r0);
-    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 7;
-    s.tmp_1.arg1 = 0;
-    s.callLocIdx = 303; s.pc = 109; return s.tmp_1;
-  case 109:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 48;
-    s.tmp_0.arg4 = 20;
-    s.callLocIdx = 304; s.pc = 108; return s.tmp_0;
+    s.callLocIdx = 317; s.pc = 108; return s.tmp_3;
   case 108:
     r0 = s.retval;
-    s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = globals.Shard___5316;
-    s.callLocIdx = 305; s.pc = 110; return s.tmp_0;
-  case 110:
+    s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
+    r0 = pxsim.image.ofBuffer(_hex83919);
+    s.tmp_0.arg0 = r0;
+    s.tmp_0.arg1 = globals.GravBomb___83890;
+    s.tmp_0.arg2 = -50;
+    s.tmp_0.arg3 = -50;
+    s.callLocIdx = 318; s.pc = 109; return s.tmp_0;
+  case 109:
     r0 = s.retval;
-    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = true;
-    s.callLocIdx = 306; s.pc = 111; return s.tmp_0;
+    globals.Blast___83915 = (r0);
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 7;
+    s.tmp_1.arg1 = 0;
+    s.callLocIdx = 319; s.pc = 111; return s.tmp_1;
   case 111:
     r0 = s.retval;
-    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = 16;
-    s.tmp_0.arg2 = false;
-    s.callLocIdx = 307; s.pc = 112; return s.tmp_0;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 320; s.pc = 110; return s.tmp_0;
+  case 110:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setKind__P2409_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = globals.Shard___83503;
+    s.callLocIdx = 321; s.pc = 112; return s.tmp_0;
   case 112:
     r0 = s.retval;
-    s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10179);
-    s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.GravBomb___5321;
-    s.tmp_0.arg2 = -50;
-    s.tmp_0.arg3 = 50;
-    s.callLocIdx = 308; s.pc = 113; return s.tmp_0;
+    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = 2048;
+    s.tmp_0.arg2 = true;
+    s.callLocIdx = 322; s.pc = 113; return s.tmp_0;
   case 113:
     r0 = s.retval;
-    globals.Blast___5320 = (r0);
-    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 7;
-    s.tmp_1.arg1 = 0;
-    s.callLocIdx = 309; s.pc = 115; return s.tmp_1;
-  case 115:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 48;
-    s.tmp_0.arg4 = 20;
-    s.callLocIdx = 310; s.pc = 114; return s.tmp_0;
+    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = 16;
+    s.tmp_0.arg2 = false;
+    s.callLocIdx = 323; s.pc = 114; return s.tmp_0;
   case 114:
     r0 = s.retval;
-    s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = globals.Shard___5316;
-    s.callLocIdx = 311; s.pc = 116; return s.tmp_0;
-  case 116:
-    r0 = s.retval;
-    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = 2048;
-    s.tmp_0.arg2 = true;
-    s.callLocIdx = 312; s.pc = 117; return s.tmp_0;
-  case 117:
-    r0 = s.retval;
-    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = 16;
-    s.tmp_0.arg2 = false;
-    s.callLocIdx = 313; s.pc = 118; return s.tmp_0;
-  case 118:
-    r0 = s.retval;
     s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10199);
+    r0 = pxsim.image.ofBuffer(_hex83941);
     s.tmp_0.arg0 = r0;
-    s.tmp_0.arg1 = globals.GravBomb___5321;
+    s.tmp_0.arg1 = globals.GravBomb___83890;
     s.tmp_0.arg2 = 50;
-    s.tmp_0.arg3 = 50;
-    s.callLocIdx = 314; s.pc = 119; return s.tmp_0;
-  case 119:
+    s.tmp_0.arg3 = -50;
+    s.callLocIdx = 324; s.pc = 115; return s.tmp_0;
+  case 115:
     r0 = s.retval;
-    globals.Blast___5320 = (r0);
+    globals.Blast___83915 = (r0);
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
+    s.tmp_0.arg0 = globals.Blast___83915;
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 7;
     s.tmp_1.arg1 = 0;
-    s.callLocIdx = 315; s.pc = 121; return s.tmp_1;
-  case 121:
+    s.callLocIdx = 325; s.pc = 117; return s.tmp_1;
+  case 117:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 48;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 316; s.pc = 120; return s.tmp_0;
-  case 120:
+    s.callLocIdx = 326; s.pc = 116; return s.tmp_0;
+  case 116:
     r0 = s.retval;
     s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
-    s.tmp_0.arg1 = globals.Shard___5316;
-    s.callLocIdx = 317; s.pc = 122; return s.tmp_0;
-  case 122:
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = globals.Shard___83503;
+    s.callLocIdx = 327; s.pc = 118; return s.tmp_0;
+  case 118:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
+    s.tmp_0.arg0 = globals.Blast___83915;
     s.tmp_0.arg1 = 2048;
     s.tmp_0.arg2 = true;
-    s.callLocIdx = 318; s.pc = 123; return s.tmp_0;
-  case 123:
+    s.callLocIdx = 328; s.pc = 119; return s.tmp_0;
+  case 119:
     r0 = s.retval;
     s.tmp_0 = Sprite_setFlag__P2420_mk(s);
-    s.tmp_0.arg0 = globals.Blast___5320;
+    s.tmp_0.arg0 = globals.Blast___83915;
     s.tmp_0.arg1 = 16;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 319; s.pc = 124; return s.tmp_0;
+    s.callLocIdx = 329; s.pc = 120; return s.tmp_0;
+  case 120:
+    r0 = s.retval;
+    s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
+    r0 = pxsim.image.ofBuffer(_hex83961);
+    s.tmp_0.arg0 = r0;
+    s.tmp_0.arg1 = globals.GravBomb___83890;
+    s.tmp_0.arg2 = -50;
+    s.tmp_0.arg3 = 50;
+    s.callLocIdx = 330; s.pc = 121; return s.tmp_0;
+  case 121:
+    r0 = s.retval;
+    globals.Blast___83915 = (r0);
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 7;
+    s.tmp_1.arg1 = 0;
+    s.callLocIdx = 331; s.pc = 123; return s.tmp_1;
+  case 123:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 332; s.pc = 122; return s.tmp_0;
+  case 122:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setKind__P2409_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = globals.Shard___83503;
+    s.callLocIdx = 333; s.pc = 124; return s.tmp_0;
   case 124:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = 2048;
+    s.tmp_0.arg2 = true;
+    s.callLocIdx = 334; s.pc = 125; return s.tmp_0;
+  case 125:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = 16;
+    s.tmp_0.arg2 = false;
+    s.callLocIdx = 335; s.pc = 126; return s.tmp_0;
+  case 126:
+    r0 = s.retval;
+    s.tmp_0 = sprites_createProjectileFromSprite__P2282_mk(s);
+    r0 = pxsim.image.ofBuffer(_hex83981);
+    s.tmp_0.arg0 = r0;
+    s.tmp_0.arg1 = globals.GravBomb___83890;
+    s.tmp_0.arg2 = 50;
+    s.tmp_0.arg3 = 50;
+    s.callLocIdx = 336; s.pc = 127; return s.tmp_0;
+  case 127:
+    r0 = s.retval;
+    globals.Blast___83915 = (r0);
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 7;
+    s.tmp_1.arg1 = 0;
+    s.callLocIdx = 337; s.pc = 129; return s.tmp_1;
+  case 129:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 48;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 338; s.pc = 128; return s.tmp_0;
+  case 128:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setKind__P2409_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = globals.Shard___83503;
+    s.callLocIdx = 339; s.pc = 130; return s.tmp_0;
+  case 130:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = 2048;
+    s.tmp_0.arg2 = true;
+    s.callLocIdx = 340; s.pc = 131; return s.tmp_0;
+  case 131:
+    r0 = s.retval;
+    s.tmp_0 = Sprite_setFlag__P2420_mk(s);
+    s.tmp_0.arg0 = globals.Blast___83915;
+    s.tmp_0.arg1 = 16;
+    s.tmp_0.arg2 = false;
+    s.callLocIdx = 341; s.pc = 132; return s.tmp_0;
+  case 132:
     r0 = s.retval;
     s.tmp_0 = pause__P413_mk(s);
     s.tmp_0.arg0 = 1000;
-    s.callLocIdx = 320; s.pc = 125; return s.tmp_0;
-  case 125:
+    s.callLocIdx = 342; s.pc = 133; return s.tmp_0;
+  case 133:
     r0 = s.retval;
-    r0 = (s.index___10121 + 1);
-    s.index___10121 = (r0);
+    r0 = (s.index___83902 + 1);
+    s.index___83902 = (r0);
     { step = 34; continue; }
   case 35:
     s.tmp_0 = sprites_destroy__P2278_mk(s);
-    s.tmp_0.arg0 = globals.GravBomb___5321;
+    s.tmp_0.arg0 = globals.GravBomb___83890;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 321; s.pc = 126; return s.tmp_0;
-  case 126:
+    s.callLocIdx = 343; s.pc = 134; return s.tmp_0;
+  case 134:
     r0 = s.retval;
   case 36:
   case 37:
@@ -6538,12 +6920,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P9867.info = {"start":3467,"length":13419,"line":101,"column":52,"endLine":412,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P83625.info = {"start":3467,"length":14033,"line":101,"column":52,"endLine":416,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P9867_mk(s) {
+function inline__P83625_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P9867, depth: s.depth + 1,
+        parent: s, fn: inline__P83625, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6556,43 +6938,43 @@ function inline__P9867_mk(s) {
   tmp_8: undefined,
   tmp_9: undefined,
   tmp_10: undefined,
-  index___10121: undefined,
+  index___83902: undefined,
 } }
 
-const _hex9891 = pxsim.BufferMethods.createBufferFromHex("870405000500000000ab0a00b00b0a00bb0000000a000000aa000000")
-const _hex9910 = pxsim.BufferMethods.createBufferFromHex("870405000500000000ab0a00b00b0a00bb0000000a000000aa000000")
-const _hex9912 = pxsim.BufferMethods.createBufferFromHex("870405000500000000aa0000b00b0000b0000000b00b000000aa0000")
-const _hex9914 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0000000a000000bb000000b00b0a0000ab0a00")
-const _hex9916 = pxsim.BufferMethods.createBufferFromHex("8704050005000000000000000a000a00bab00a00b0bb000000000000")
-const _hex9918 = pxsim.BufferMethods.createBufferFromHex("870405000500000000a00a0000000a0000b00b000abb0000aa0b0000")
-const _hex9920 = pxsim.BufferMethods.createBufferFromHex("8704050005000000a00a000000bb000000b0000000bb0000a00a0000")
-const _hex9922 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0b00000abb000000b00b0000000a0000a00a00")
-const _hex9924 = pxsim.BufferMethods.createBufferFromHex("870405000500000000000000b0bb0000bab00a000a000a0000000000")
-const _hex9949 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0000000a000000bb000000b00b0a0000bb0a00")
-const _hex9964 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0000000a000000bb000000b00b0a0000ab0a00")
-const _hex9966 = pxsim.BufferMethods.createBufferFromHex("8704050005000000000000000a000a00aaa00a00b0bb000000000000")
-const _hex9968 = pxsim.BufferMethods.createBufferFromHex("870405000500000000a00a0000000a0000b00b000abb0000aa0b0000")
-const _hex9970 = pxsim.BufferMethods.createBufferFromHex("8704050005000000a00a000000ba000000b0000000ba0000a00a0000")
-const _hex9972 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0b00000abb000000b00b0000000a0000a00a00")
-const _hex9974 = pxsim.BufferMethods.createBufferFromHex("870405000500000000000000b0bb0000aaa00a000a000a0000000000")
-const _hex9976 = pxsim.BufferMethods.createBufferFromHex("870405000500000000ab0a00b00b0a00bb0000000a000000aa000000")
-const _hex9978 = pxsim.BufferMethods.createBufferFromHex("870405000500000000aa0000b00a0000b0000000b00a000000aa0000")
-const _hex10007 = pxsim.BufferMethods.createBufferFromHex("87040200010000000a0000000a000000")
-const _hex10030 = pxsim.BufferMethods.createBufferFromHex("87040200010000000a0000000a000000")
-const _hex10052 = pxsim.BufferMethods.createBufferFromHex("87041e00100000000000000000000000000000000000000000a0aaaaaaaa0a0000babbbbbbbbab0000babbbbbbbbab00a0abbbbbbbbbba0aa0bbbabbbbabbb0aa0bbabbbbbbabb0aa0bbbbbaabbbbb0aa0bbbbabbabbbb0aa0bbbbabbabbbb0aa0bbbbbaabbbbb0aa0aaaaabbaaaaa0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbabbabbbb0aa0bbbbbaabbbbb0aa0baababbabaab0aa0abbb1aa1bbba0aa0baba1aa1abab0aa0a1bb1aa1bb1a0aa0a1bbaaaabb1a0aa0a1bbbbbbbb1a0aa0aa9b9999b9aa0aa09b79777797b90aa07977777777970a00797777777797000000000000000000")
-const _hex10086 = pxsim.BufferMethods.createBufferFromHex("87041e001000000000000000000000000079777777779700a07977777777970aa09b79777797b90aa0aa9b9999b9aa0aa0a1bbbbbbbb1a0aa0a1bbaaaabb1a0aa0a1bb1aa1bb1a0aa0baba1aa1abab0aa0abbb1aa1bbba0aa0baababbabaab0aa0bbbbbaabbbbb0aa0bbbbabbabbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0aaaaabbaaaaa0aa0bbbbbaabbbbb0aa0bbbbabbabbbb0aa0bbbbabbabbbb0aa0bbbbbaabbbbb0aa0bbabbbbbbabb0aa0bbbabbbbabbb0aa0abbbbbbbbbba0a00babbbbbbbbab0000babbbbbbbbab0000a0aaaaaaaa0a0000000000000000000000000000000000")
-const _hex10113 = pxsim.BufferMethods.createBufferFromHex("870408000800000000a00a00a07aa70aa097790a7a9999a77a9999a7a097790aa07aa70a00a00a00")
-const _hex10130 = pxsim.BufferMethods.createBufferFromHex("870408000800000000a00a00a07aa70aa097790a7a9999a77a9999a7a097790aa07aa70a00a00a00")
-const _hex10132 = pxsim.BufferMethods.createBufferFromHex("870408000800000000a00a00a09aa90aa079970a9a7777a99a7777a9a079970aa09aa90a00a00a00")
-const _hex10137 = pxsim.BufferMethods.createBufferFromHex("870408000800000077770000978b0700b7b97800879b8b0770b8b97800879b7b0070b87900007777")
-const _hex10159 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000077770070b87900879b7b70b8b978879b8b07b7b97800978b070077770000")
-const _hex10179 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000077770070b87900879b7b70b8b978879b8b07b7b97800978b070077770000")
-const _hex10199 = pxsim.BufferMethods.createBufferFromHex("870408000800000077770000978b0700b7b97800879b8b0770b8b97800879b7b0070b87900007777")
+const _hex83652 = pxsim.BufferMethods.createBufferFromHex("870405000500000000ab0a00b00b0a00bb0000000a000000aa000000")
+const _hex83669 = pxsim.BufferMethods.createBufferFromHex("870405000500000000ab0a00b00b0a00bb0000000a000000aa000000")
+const _hex83671 = pxsim.BufferMethods.createBufferFromHex("870405000500000000aa0000b00b0000b0000000b00b000000aa0000")
+const _hex83673 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0000000a000000bb000000b00b0a0000ab0a00")
+const _hex83675 = pxsim.BufferMethods.createBufferFromHex("8704050005000000000000000a000a00bab00a00b0bb000000000000")
+const _hex83677 = pxsim.BufferMethods.createBufferFromHex("870405000500000000a00a0000000a0000b00b000abb0000aa0b0000")
+const _hex83679 = pxsim.BufferMethods.createBufferFromHex("8704050005000000a00a000000bb000000b0000000bb0000a00a0000")
+const _hex83681 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0b00000abb000000b00b0000000a0000a00a00")
+const _hex83683 = pxsim.BufferMethods.createBufferFromHex("870405000500000000000000b0bb0000bab00a000a000a0000000000")
+const _hex83709 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0000000a000000bb000000b00b0a0000bb0a00")
+const _hex83724 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0000000a000000bb000000b00b0a0000ab0a00")
+const _hex83726 = pxsim.BufferMethods.createBufferFromHex("8704050005000000000000000a000a00aaa00a00b0bb000000000000")
+const _hex83728 = pxsim.BufferMethods.createBufferFromHex("870405000500000000a00a0000000a0000b00b000abb0000aa0b0000")
+const _hex83730 = pxsim.BufferMethods.createBufferFromHex("8704050005000000a00a000000ba000000b0000000ba0000a00a0000")
+const _hex83732 = pxsim.BufferMethods.createBufferFromHex("8704050005000000aa0b00000abb000000b00b0000000a0000a00a00")
+const _hex83734 = pxsim.BufferMethods.createBufferFromHex("870405000500000000000000b0bb0000aaa00a000a000a0000000000")
+const _hex83736 = pxsim.BufferMethods.createBufferFromHex("870405000500000000ab0a00b00b0a00bb0000000a000000aa000000")
+const _hex83738 = pxsim.BufferMethods.createBufferFromHex("870405000500000000aa0000b00a0000b0000000b00a000000aa0000")
+const _hex83768 = pxsim.BufferMethods.createBufferFromHex("87040200010000000800000008000000")
+const _hex83799 = pxsim.BufferMethods.createBufferFromHex("87040200010000000800000008000000")
+const _hex83831 = pxsim.BufferMethods.createBufferFromHex("87041e00100000000000000000000000000000000000000000a0aaaaaaaa0a0000babbbbbbbbab0000babbbbbbbbab00a0abbbbbbbbbba0aa0bbbabbbbabbb0aa0bbabbbbbbabb0aa0bbbbbaabbbbb0aa0bbbbabbabbbb0aa0bbbbabbabbbb0aa0bbbbbaabbbbb0aa0aaaaabbaaaaa0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbabbabbbb0aa0bbbbbaabbbbb0aa0baababbabaab0aa0abbb1aa1bbba0aa0baba1aa1abab0aa0a1bb1aa1bb1a0aa0a1bbaaaabb1a0aa0a1bbbbbbbb1a0aa0aa9b9999b9aa0aa09b79777797b90aa07977777777970a00797777777797000000000000000000")
+const _hex83865 = pxsim.BufferMethods.createBufferFromHex("87041e001000000000000000000000000079777777779700a07977777777970aa09b79777797b90aa0aa9b9999b9aa0aa0a1bbbbbbbb1a0aa0a1bbaaaabb1a0aa0a1bb1aa1bb1a0aa0baba1aa1abab0aa0abbb1aa1bbba0aa0baababbabaab0aa0bbbbbaabbbbb0aa0bbbbabbabbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0bbbbbbbbbbbb0aa0aaaaabbaaaaa0aa0bbbbbaabbbbb0aa0bbbbabbabbbb0aa0bbbbabbabbbb0aa0bbbbbaabbbbb0aa0bbabbbbbbabb0aa0bbbabbbbabbb0aa0abbbbbbbbbba0a00babbbbbbbbab0000babbbbbbbbab0000a0aaaaaaaa0a0000000000000000000000000000000000")
+const _hex83894 = pxsim.BufferMethods.createBufferFromHex("870408000800000000a00a00a07aa70aa097790a7a9999a77a9999a7a097790aa07aa70a00a00a00")
+const _hex83911 = pxsim.BufferMethods.createBufferFromHex("870408000800000000a00a00a07aa70aa097790a7a9999a77a9999a7a097790aa07aa70a00a00a00")
+const _hex83913 = pxsim.BufferMethods.createBufferFromHex("870408000800000000a00a00a09aa90aa079970a9a7777a99a7777a9a079970aa09aa90a00a00a00")
+const _hex83919 = pxsim.BufferMethods.createBufferFromHex("870408000800000077770000978b0700b7b97800879b8b0770b8b97800879b7b0070b87900007777")
+const _hex83941 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000077770070b87900879b7b70b8b978879b8b07b7b97800978b070077770000")
+const _hex83961 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000077770070b87900879b7b70b8b978879b8b07b7b97800978b070077770000")
+const _hex83981 = pxsim.BufferMethods.createBufferFromHex("870408000800000077770000978b0700b7b97800879b8b0770b8b97800879b7b0070b87900007777")
 
 
 
 
-function inline__P10229(s) {
+function inline__P84011(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6607,24 +6989,24 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = Sprite_follow__P2431_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Knife___83531;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 400;
-    s.callLocIdx = 324; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 346; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    globals.launched___5326 = (true);
+    globals.launched___83525 = (true);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10229.info = {"start":17003,"length":66,"line":413,"column":115,"endLine":416,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite"]}
+inline__P84011.info = {"start":17617,"length":66,"line":417,"column":115,"endLine":420,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite"]}
 
-function inline__P10229_mk(s) {
+function inline__P84011_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10229, depth: s.depth + 1,
+        parent: s, fn: inline__P84011, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -6634,7 +7016,7 @@ function inline__P10229_mk(s) {
 
 
 
-function inline__P10237(s) {
+function inline__P84019(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6649,19 +7031,19 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = game_reset__P3512_mk(s);
-    s.callLocIdx = 326; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 348; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10237.info = {"start":17108,"length":38,"line":417,"column":37,"endLine":419,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite"]}
+inline__P84019.info = {"start":17722,"length":38,"line":421,"column":37,"endLine":423,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite"]}
 
-function inline__P10237_mk(s) {
+function inline__P84019_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10237, depth: s.depth + 1,
+        parent: s, fn: inline__P84019, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -6671,7 +7053,7 @@ function inline__P10237_mk(s) {
 
 
 
-function inline__P10243(s) {
+function inline__P84025(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6681,18 +7063,18 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.Right___5339 = (0);
-    globals.left___5340 = (1);
+    globals.Right___83700 = (0);
+    globals.left___83643 = (1);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10243.info = {"start":17203,"length":42,"line":420,"column":55,"endLine":423,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84025.info = {"start":17817,"length":42,"line":424,"column":55,"endLine":427,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P10243_mk(s) {
+function inline__P84025_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10243, depth: s.depth + 1,
+        parent: s, fn: inline__P84025, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -6700,7 +7082,7 @@ function inline__P10243_mk(s) {
 
 
 
-function inline__P10250(s) {
+function inline__P84032(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6720,14 +7102,14 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 12;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 329; s.pc = 4; return s.tmp_1;
+    s.callLocIdx = 351; s.pc = 4; return s.tmp_1;
   case 4:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 38;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 330; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 352; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
@@ -6735,14 +7117,14 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 4;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 331; s.pc = 6; return s.tmp_1;
+    s.callLocIdx = 353; s.pc = 6; return s.tmp_1;
   case 6:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 24;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 332; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 354; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
@@ -6750,32 +7132,32 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 3;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 333; s.pc = 8; return s.tmp_1;
+    s.callLocIdx = 355; s.pc = 8; return s.tmp_1;
   case 8:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 1;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 334; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 356; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = scene_cameraShake__P2890_mk(s);
     s.tmp_0.arg0 = 4;
     s.tmp_0.arg1 = 500;
-    s.callLocIdx = 335; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 357; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P2278_mk(s);
     s.tmp_0.arg0 = s.arg1;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 336; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 358; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_1 = spriteutils_isDestroyed__P4974_mk(s);
     s.tmp_1.arg0 = s.arg1;
-    s.callLocIdx = 337; s.pc = 11; return s.tmp_1;
+    s.callLocIdx = 359; s.pc = 11; return s.tmp_1;
   case 11:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -6783,7 +7165,7 @@ switch (step) {
     if (!r0) { step = 1; continue; }
     s.tmp_2 = info_changeScoreBy__P2574_mk(s);
     s.tmp_2.arg0 = 1;
-    s.callLocIdx = 338; s.pc = 12; return s.tmp_2;
+    s.callLocIdx = 360; s.pc = 12; return s.tmp_2;
   case 12:
     r0 = s.retval;
   case 1:
@@ -6792,12 +7174,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10250.info = {"start":17339,"length":634,"line":424,"column":92,"endLine":433,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P84032.info = {"start":17953,"length":634,"line":428,"column":92,"endLine":437,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P10250_mk(s) {
+function inline__P84032_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10250, depth: s.depth + 1,
+        parent: s, fn: inline__P84032, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -6810,7 +7192,7 @@ function inline__P10250_mk(s) {
 
 
 
-function inline__P10274(s) {
+function inline__P84056(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -6824,212 +7206,212 @@ switch (step) {
     s.tmp_0.arg0 = globals.Enemy___2484;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 340; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 362; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 341; s.pc = 8; return s.tmp_2;
+    s.callLocIdx = 363; s.pc = 8; return s.tmp_2;
   case 8:
     r0 = s.retval;
     s.tmp_1 = r0;
-    r0 = (s.tmp_1 == globals.Forest___5337);
+    r0 = (s.tmp_1 == globals.Forest___84065);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_3 = tileUtil_forEachTileInMap__P4893_mk(s);
     s.tmp_4 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 342; s.pc = 10; return s.tmp_4;
+    s.callLocIdx = 364; s.pc = 10; return s.tmp_4;
   case 10:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_3.arg1 = inline__P10286;
-    s.callLocIdx = 344; s.pc = 9; return s.tmp_3;
+    s.tmp_3.arg1 = inline__P84069;
+    s.callLocIdx = 366; s.pc = 9; return s.tmp_3;
   case 9:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile34";
-    s.callLocIdx = 345; s.pc = 12; return s.tmp_1;
+    s.callLocIdx = 367; s.pc = 12; return s.tmp_1;
   case 12:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile27";
-    s.callLocIdx = 346; s.pc = 13; return s.tmp_2;
+    s.callLocIdx = 368; s.pc = 13; return s.tmp_2;
   case 13:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 347; s.pc = 11; return s.tmp_0;
+    s.callLocIdx = 369; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile45";
-    s.callLocIdx = 348; s.pc = 15; return s.tmp_1;
+    s.callLocIdx = 370; s.pc = 15; return s.tmp_1;
   case 15:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile27";
-    s.callLocIdx = 349; s.pc = 16; return s.tmp_2;
+    s.callLocIdx = 371; s.pc = 16; return s.tmp_2;
   case 16:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 350; s.pc = 14; return s.tmp_0;
+    s.callLocIdx = 372; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile26";
-    s.callLocIdx = 351; s.pc = 18; return s.tmp_1;
+    s.callLocIdx = 373; s.pc = 18; return s.tmp_1;
   case 18:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile27";
-    s.callLocIdx = 352; s.pc = 19; return s.tmp_2;
+    s.callLocIdx = 374; s.pc = 19; return s.tmp_2;
   case 19:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 353; s.pc = 17; return s.tmp_0;
+    s.callLocIdx = 375; s.pc = 17; return s.tmp_0;
   case 17:
     r0 = s.retval;
     { step = 6; continue; }
   case 1:
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 354; s.pc = 20; return s.tmp_2;
+    s.callLocIdx = 376; s.pc = 20; return s.tmp_2;
   case 20:
     r0 = s.retval;
     s.tmp_1 = r0;
-    r0 = (s.tmp_1 == globals.Factory___5336);
+    r0 = (s.tmp_1 == globals.Factory___84095);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
     s.tmp_3 = tileUtil_forEachTileInMap__P4893_mk(s);
     s.tmp_4 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 355; s.pc = 22; return s.tmp_4;
+    s.callLocIdx = 377; s.pc = 22; return s.tmp_4;
   case 22:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_3.arg1 = inline__P10315;
-    s.callLocIdx = 357; s.pc = 21; return s.tmp_3;
+    s.tmp_3.arg1 = inline__P84099;
+    s.callLocIdx = 379; s.pc = 21; return s.tmp_3;
   case 21:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile45";
-    s.callLocIdx = 358; s.pc = 24; return s.tmp_1;
+    s.callLocIdx = 380; s.pc = 24; return s.tmp_1;
   case 24:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile53";
-    s.callLocIdx = 359; s.pc = 25; return s.tmp_2;
+    s.callLocIdx = 381; s.pc = 25; return s.tmp_2;
   case 25:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 360; s.pc = 23; return s.tmp_0;
+    s.callLocIdx = 382; s.pc = 23; return s.tmp_0;
   case 23:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile49";
-    s.callLocIdx = 361; s.pc = 27; return s.tmp_1;
+    s.callLocIdx = 383; s.pc = 27; return s.tmp_1;
   case 27:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile53";
-    s.callLocIdx = 362; s.pc = 28; return s.tmp_2;
+    s.callLocIdx = 384; s.pc = 28; return s.tmp_2;
   case 28:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 363; s.pc = 26; return s.tmp_0;
+    s.callLocIdx = 385; s.pc = 26; return s.tmp_0;
   case 26:
     r0 = s.retval;
     { step = 5; continue; }
   case 2:
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 364; s.pc = 29; return s.tmp_2;
+    s.callLocIdx = 386; s.pc = 29; return s.tmp_2;
   case 29:
     r0 = s.retval;
     s.tmp_1 = r0;
-    r0 = (s.tmp_1 == globals.Dessert___5338);
+    r0 = (s.tmp_1 == globals.Dessert___84120);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_3 = tileUtil_forEachTileInMap__P4893_mk(s);
     s.tmp_4 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 365; s.pc = 31; return s.tmp_4;
+    s.callLocIdx = 387; s.pc = 31; return s.tmp_4;
   case 31:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_3.arg1 = inline__P10339;
-    s.callLocIdx = 367; s.pc = 30; return s.tmp_3;
+    s.tmp_3.arg1 = inline__P84124;
+    s.callLocIdx = 389; s.pc = 30; return s.tmp_3;
   case 30:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile52";
-    s.callLocIdx = 368; s.pc = 33; return s.tmp_1;
+    s.callLocIdx = 390; s.pc = 33; return s.tmp_1;
   case 33:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile46";
-    s.callLocIdx = 369; s.pc = 34; return s.tmp_2;
+    s.callLocIdx = 391; s.pc = 34; return s.tmp_2;
   case 34:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 370; s.pc = 32; return s.tmp_0;
+    s.callLocIdx = 392; s.pc = 32; return s.tmp_0;
   case 32:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile48";
-    s.callLocIdx = 371; s.pc = 36; return s.tmp_1;
+    s.callLocIdx = 393; s.pc = 36; return s.tmp_1;
   case 36:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile46";
-    s.callLocIdx = 372; s.pc = 37; return s.tmp_2;
+    s.callLocIdx = 394; s.pc = 37; return s.tmp_2;
   case 37:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 373; s.pc = 35; return s.tmp_0;
+    s.callLocIdx = 395; s.pc = 35; return s.tmp_0;
   case 35:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile45";
-    s.callLocIdx = 374; s.pc = 39; return s.tmp_1;
+    s.callLocIdx = 396; s.pc = 39; return s.tmp_1;
   case 39:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile46";
-    s.callLocIdx = 375; s.pc = 40; return s.tmp_2;
+    s.callLocIdx = 397; s.pc = 40; return s.tmp_2;
   case 40:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 376; s.pc = 38; return s.tmp_0;
+    s.callLocIdx = 398; s.pc = 38; return s.tmp_0;
   case 38:
     r0 = s.retval;
     s.tmp_0 = tileUtil_replaceAllTiles__P4883_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile51";
-    s.callLocIdx = 377; s.pc = 42; return s.tmp_1;
+    s.callLocIdx = 399; s.pc = 42; return s.tmp_1;
   case 42:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = helpers_getTileByName__P3339_mk(s);
     s.tmp_2.arg0 = "myTile46";
-    s.callLocIdx = 378; s.pc = 43; return s.tmp_2;
+    s.callLocIdx = 400; s.pc = 43; return s.tmp_2;
   case 43:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 379; s.pc = 41; return s.tmp_0;
+    s.callLocIdx = 401; s.pc = 41; return s.tmp_0;
   case 41:
     r0 = s.retval;
   case 3:
@@ -7037,23 +7419,23 @@ switch (step) {
   case 5:
   case 6:
     s.tmp_0 = tileUtil_unloadTilemap__P4880_mk(s);
-    s.callLocIdx = 380; s.pc = 44; return s.tmp_0;
+    s.callLocIdx = 402; s.pc = 44; return s.tmp_0;
   case 44:
     r0 = s.retval;
-    s.tmp_0 = Create_New_Tile_map__P5319_mk(s);
-    s.callLocIdx = 381; s.pc = 45; return s.tmp_0;
+    s.tmp_0 = Create_New_Tile_map__P84153_mk(s);
+    s.callLocIdx = 403; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10274.info = {"start":17995,"length":1489,"line":434,"column":20,"endLine":460,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84056.info = {"start":18609,"length":1489,"line":438,"column":20,"endLine":464,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P10274_mk(s) {
+function inline__P84056_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10274, depth: s.depth + 1,
+        parent: s, fn: inline__P84056, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -7066,7 +7448,7 @@ function inline__P10274_mk(s) {
 
 
 
-function inline__P10286(s) {
+function inline__P84069(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7083,22 +7465,22 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = tileUtil_setWallAt__P4886_mk(s);
-    s.tmp_0.arg0 = globals.Forest___5337;
+    s.tmp_0.arg0 = globals.Forest___84065;
     s.tmp_0.arg1 = s.arg2;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 343; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 365; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10286.info = {"start":18171,"length":100,"line":437,"column":61,"endLine":439,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["column","row","location"]}
+inline__P84069.info = {"start":18785,"length":100,"line":441,"column":61,"endLine":443,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["column","row","location"]}
 
-function inline__P10286_mk(s) {
+function inline__P84069_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10286, depth: s.depth + 1,
+        parent: s, fn: inline__P84069, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -7110,7 +7492,7 @@ function inline__P10286_mk(s) {
 
 
 
-function inline__P10315(s) {
+function inline__P84099(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7127,22 +7509,22 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = tileUtil_setWallAt__P4886_mk(s);
-    s.tmp_0.arg0 = globals.Factory___5336;
+    s.tmp_0.arg0 = globals.Factory___84095;
     s.tmp_0.arg1 = s.arg2;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 356; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 378; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10315.info = {"start":18626,"length":101,"line":444,"column":61,"endLine":446,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["column","row","location"]}
+inline__P84099.info = {"start":19240,"length":101,"line":448,"column":61,"endLine":450,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["column","row","location"]}
 
-function inline__P10315_mk(s) {
+function inline__P84099_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10315, depth: s.depth + 1,
+        parent: s, fn: inline__P84099, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -7154,7 +7536,7 @@ function inline__P10315_mk(s) {
 
 
 
-function inline__P10339(s) {
+function inline__P84124(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7171,22 +7553,22 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = tileUtil_setWallAt__P4886_mk(s);
-    s.tmp_0.arg0 = globals.Dessert___5338;
+    s.tmp_0.arg0 = globals.Dessert___84120;
     s.tmp_0.arg1 = s.arg2;
     s.tmp_0.arg2 = false;
-    s.callLocIdx = 366; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 388; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10339.info = {"start":19003,"length":101,"line":450,"column":61,"endLine":452,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["column","row","location"]}
+inline__P84124.info = {"start":19617,"length":101,"line":454,"column":61,"endLine":456,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["column","row","location"]}
 
-function inline__P10339_mk(s) {
+function inline__P84124_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10339, depth: s.depth + 1,
+        parent: s, fn: inline__P84124, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -7198,7 +7580,7 @@ function inline__P10339_mk(s) {
 
 
 
-function inline__P10372(s) {
+function inline__P84158(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7214,60 +7596,60 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = StatusBarSprite_value__P5034_mk(s);
-    s.tmp_1 = r0 = globals.statusbar___5324;
+    s.tmp_1 = r0 = globals.statusbar___83586;
     s.tmp_0.arg0 = r0;
     s.tmp_3 = StatusBarSprite_value__P5033_mk(s);
     s.tmp_3.arg0 = s.tmp_1;
-    s.callLocIdx = 383; s.pc = 6; return s.tmp_3;
+    s.callLocIdx = 405; s.pc = 6; return s.tmp_3;
   case 6:
     r0 = s.retval;
     s.tmp_2 = r0;
     r0 = (s.tmp_2 + -10);
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 384; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 406; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = scene_cameraShake__P2890_mk(s);
     s.tmp_0.arg0 = 4;
     s.tmp_0.arg1 = 500;
-    s.callLocIdx = 385; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 407; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = animation_runImageAnimation__P3363_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = helpers_getAnimationByName__P3338_mk(s);
     s.tmp_1.arg0 = "myAnim0";
-    s.callLocIdx = 386; s.pc = 9; return s.tmp_1;
+    s.callLocIdx = 408; s.pc = 9; return s.tmp_1;
   case 9:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = false;
-    s.callLocIdx = 387; s.pc = 8; return s.tmp_0;
+    s.callLocIdx = 409; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
-    r0 = (globals.left___5340 == 1);
+    r0 = (globals.left___83643 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_1 = Sprite_setVelocity__P2411_mk(s);
-    s.tmp_1.arg0 = globals.Zenith___5327;
+    s.tmp_1.arg0 = globals.Zenith___83512;
     s.tmp_1.arg1 = -30;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 388; s.pc = 10; return s.tmp_1;
+    s.callLocIdx = 410; s.pc = 10; return s.tmp_1;
   case 10:
     r0 = s.retval;
   case 1:
   case 2:
-    r0 = (globals.Right___5339 == 1);
+    r0 = (globals.Right___83700 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_1 = Sprite_setVelocity__P2411_mk(s);
-    s.tmp_1.arg0 = globals.Zenith___5327;
+    s.tmp_1.arg0 = globals.Zenith___83512;
     s.tmp_1.arg1 = 30;
     s.tmp_1.arg2 = 0;
-    s.callLocIdx = 389; s.pc = 11; return s.tmp_1;
+    s.callLocIdx = 411; s.pc = 11; return s.tmp_1;
   case 11:
     r0 = s.retval;
   case 3:
@@ -7276,12 +7658,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10372.info = {"start":19579,"length":316,"line":461,"column":93,"endLine":476,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P84158.info = {"start":20193,"length":316,"line":465,"column":93,"endLine":480,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P10372_mk(s) {
+function inline__P84158_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10372, depth: s.depth + 1,
+        parent: s, fn: inline__P84158, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -7295,7 +7677,7 @@ function inline__P10372_mk(s) {
 
 
 
-function inline__P10398(s) {
+function inline__P84184(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7310,63 +7692,63 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = sprites_destroy__P2278_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___5324;
+    s.tmp_0.arg0 = globals.statusbar___83586;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 391; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 413; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = sprites_destroyAllSpritesOfKind__P2280_mk(s);
     s.tmp_0.arg0 = globals.Enemy___2484;
     s.tmp_0.arg1 = globals.fire___3279;
     s.tmp_0.arg2 = 100;
-    s.callLocIdx = 392; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 414; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = tileUtil_unloadTilemap__P4880_mk(s);
-    s.callLocIdx = 393; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 415; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = scene_setBackgroundImage__P2886_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex10410);
+    r0 = pxsim.image.ofBuffer(_hex84196);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 394; s.pc = 4; return s.tmp_0;
+    s.callLocIdx = 416; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = Sprite_setKind__P2409_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
-    s.tmp_0.arg1 = globals.Dead___5313;
-    s.callLocIdx = 395; s.pc = 5; return s.tmp_0;
+    s.tmp_0.arg0 = globals.Zenith___83512;
+    s.tmp_0.arg1 = globals.Dead___83494;
+    s.callLocIdx = 417; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P2278_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_0.arg1 = globals.fire___3279;
     s.tmp_0.arg2 = 4000;
-    s.callLocIdx = 396; s.pc = 6; return s.tmp_0;
+    s.callLocIdx = 418; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10398.info = {"start":19937,"length":20563,"line":477,"column":40,"endLine":605,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["status"]}
+inline__P84184.info = {"start":20551,"length":20563,"line":481,"column":40,"endLine":609,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["status"]}
 
-function inline__P10398_mk(s) {
+function inline__P84184_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10398, depth: s.depth + 1,
+        parent: s, fn: inline__P84184, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
 } }
 
-const _hex10410 = pxsim.BufferMethods.createBufferFromHex("8704a000780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222221200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022221224002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224121222222224121000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022121414222242221424202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022424141212124124221200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221414222222221224002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224221222222222221000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022222224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222002002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222000220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200220200222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000220200202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020020222200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020022222202002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022022022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222022222222202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222022222222202202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000880000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb08002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8198b002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8918b00202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb080020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000088000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+const _hex84196 = pxsim.BufferMethods.createBufferFromHex("8704a000780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222002022222222202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222202000022222222202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222200000020222202000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002000022020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022202200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222221200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022221224002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224121222222224121000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022121414222242221424202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022424141212124124221200002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221414222222221224002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022224221222222222221000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022221202000022222224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222200000020222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200000000222222002002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000000000202222000220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000000000002222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022000000000000002022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000002002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202202000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222202222020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220200220200222222200000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022220000220200202222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020000220200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020020222200002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022020022222202002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022022022222222002222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222022222222202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222022222222202202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022222222222222222222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000880000202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb08002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8198b002022220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8918b00202222000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080bb080020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000088000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020222200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000220200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
 
 
 
 
-function inline__P10420(s) {
+function inline__P84206(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7376,18 +7758,18 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.Right___5339 = (1);
-    globals.left___5340 = (0);
+    globals.Right___83700 = (1);
+    globals.left___83643 = (0);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10420.info = {"start":40558,"length":42,"line":606,"column":56,"endLine":609,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84206.info = {"start":41172,"length":42,"line":610,"column":56,"endLine":613,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P10420_mk(s) {
+function inline__P84206_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10420, depth: s.depth + 1,
+        parent: s, fn: inline__P84206, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -7395,7 +7777,7 @@ function inline__P10420_mk(s) {
 
 
 
-function inline__P10424(s) {
+function inline__P84210(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7405,17 +7787,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.index___10426 = undefined;
-    s.index___10440 = undefined;
-    s.index___10454 = undefined;
-    s.index___10468 = undefined;
+    s.index___84212 = undefined;
+    s.index___84227 = undefined;
+    s.index___84241 = undefined;
+    s.index___84255 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
     }
-    s.index___10426 = (0);
+    s.index___84212 = (0);
   case 1:
-    s.tmp_1 = r0 = s.index___10426;
+    s.tmp_1 = r0 = s.index___84212;
     r0 = pxsim.Math_.randomRange(1, 4);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -7425,12 +7807,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile34";
-    s.callLocIdx = 399; s.pc = 10; return s.tmp_4;
+    s.callLocIdx = 421; s.pc = 10; return s.tmp_4;
   case 10:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -7439,16 +7821,16 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 401; s.pc = 9; return s.tmp_3;
+    s.callLocIdx = 423; s.pc = 9; return s.tmp_3;
   case 9:
     r0 = s.retval;
-    r0 = (s.index___10426 + 1);
-    s.index___10426 = (r0);
+    r0 = (s.index___84212 + 1);
+    s.index___84212 = (r0);
     { step = 1; continue; }
   case 2:
-    s.index___10440 = (0);
+    s.index___84227 = (0);
   case 3:
-    s.tmp_1 = r0 = s.index___10440;
+    s.tmp_1 = r0 = s.index___84227;
     r0 = pxsim.Math_.randomRange(1, 4);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -7458,12 +7840,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile54";
-    s.callLocIdx = 402; s.pc = 12; return s.tmp_4;
+    s.callLocIdx = 424; s.pc = 12; return s.tmp_4;
   case 12:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -7472,16 +7854,16 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 404; s.pc = 11; return s.tmp_3;
+    s.callLocIdx = 426; s.pc = 11; return s.tmp_3;
   case 11:
     r0 = s.retval;
-    r0 = (s.index___10440 + 1);
-    s.index___10440 = (r0);
+    r0 = (s.index___84227 + 1);
+    s.index___84227 = (r0);
     { step = 3; continue; }
   case 4:
-    s.index___10454 = (0);
+    s.index___84241 = (0);
   case 5:
-    s.tmp_1 = r0 = s.index___10454;
+    s.tmp_1 = r0 = s.index___84241;
     r0 = pxsim.Math_.randomRange(1, 4);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -7491,12 +7873,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile52";
-    s.callLocIdx = 405; s.pc = 14; return s.tmp_4;
+    s.callLocIdx = 427; s.pc = 14; return s.tmp_4;
   case 14:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -7505,16 +7887,16 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 407; s.pc = 13; return s.tmp_3;
+    s.callLocIdx = 429; s.pc = 13; return s.tmp_3;
   case 13:
     r0 = s.retval;
-    r0 = (s.index___10454 + 1);
-    s.index___10454 = (r0);
+    r0 = (s.index___84241 + 1);
+    s.index___84241 = (r0);
     { step = 5; continue; }
   case 6:
-    s.index___10468 = (0);
+    s.index___84255 = (0);
   case 7:
-    s.tmp_1 = r0 = s.index___10468;
+    s.tmp_1 = r0 = s.index___84255;
     r0 = pxsim.Math_.randomRange(1, 8);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -7524,12 +7906,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile60";
-    s.callLocIdx = 408; s.pc = 16; return s.tmp_4;
+    s.callLocIdx = 430; s.pc = 16; return s.tmp_4;
   case 16:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -7538,23 +7920,23 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 410; s.pc = 15; return s.tmp_3;
+    s.callLocIdx = 432; s.pc = 15; return s.tmp_3;
   case 15:
     r0 = s.retval;
-    r0 = (s.index___10468 + 1);
-    s.index___10468 = (r0);
+    r0 = (s.index___84255 + 1);
+    s.index___84255 = (r0);
     { step = 7; continue; }
   case 8:
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10424.info = {"start":40623,"length":699,"line":610,"column":21,"endLine":623,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["tilemap2"]}
+inline__P84210.info = {"start":41237,"length":699,"line":614,"column":21,"endLine":627,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["tilemap2"]}
 
-function inline__P10424_mk(s) {
+function inline__P84210_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10424, depth: s.depth + 1,
+        parent: s, fn: inline__P84210, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -7565,10 +7947,10 @@ function inline__P10424_mk(s) {
   tmp_6: undefined,
   tmp_7: undefined,
   tmp_8: undefined,
-  index___10426: undefined,
-  index___10440: undefined,
-  index___10454: undefined,
-  index___10468: undefined,
+  index___84212: undefined,
+  index___84227: undefined,
+  index___84241: undefined,
+  index___84255: undefined,
   arg0: undefined,
 } }
 
@@ -7576,7 +7958,7 @@ function inline__P10424_mk(s) {
 
 
 
-function inline__P10483(s) {
+function inline__P84270(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7590,12 +7972,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10483.info = {"start":41340,"length":17,"line":624,"column":16,"endLine":626,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84270.info = {"start":41954,"length":17,"line":628,"column":16,"endLine":630,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P10483_mk(s) {
+function inline__P84270_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10483, depth: s.depth + 1,
+        parent: s, fn: inline__P84270, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
 } }
 
@@ -7603,117 +7985,7 @@ function inline__P10483_mk(s) {
 
 
 
-function inline__P10491(s) {
-let r0 = s.r0, step = s.pc;
-s.pc = -1;
-
-
-while (true) {
-if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
-switch (step) {
-  case 0:
-
-    if (s.lambdaArgs) {
-      s.arg0 = (s.lambdaArgs[0]);
-      s.arg1 = (s.lambdaArgs[1]);
-      s.lambdaArgs = null;
-    }
-    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = s.arg1;
-    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 12;
-    s.tmp_1.arg1 = 1;
-    s.callLocIdx = 415; s.pc = 4; return s.tmp_1;
-  case 4:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 38;
-    s.tmp_0.arg4 = 20;
-    s.callLocIdx = 416; s.pc = 3; return s.tmp_0;
-  case 3:
-    r0 = s.retval;
-    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = s.arg1;
-    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 4;
-    s.tmp_1.arg1 = 1;
-    s.callLocIdx = 417; s.pc = 6; return s.tmp_1;
-  case 6:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 24;
-    s.tmp_0.arg4 = 20;
-    s.callLocIdx = 418; s.pc = 5; return s.tmp_0;
-  case 5:
-    r0 = s.retval;
-    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
-    s.tmp_0.arg0 = s.arg1;
-    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
-    s.tmp_1.arg0 = 3;
-    s.tmp_1.arg1 = 1;
-    s.callLocIdx = 419; s.pc = 8; return s.tmp_1;
-  case 8:
-    r0 = s.retval;
-    s.tmp_0.arg1 = r0;
-    s.tmp_0.arg2 = 100;
-    s.tmp_0.arg3 = 1;
-    s.tmp_0.arg4 = 20;
-    s.callLocIdx = 420; s.pc = 7; return s.tmp_0;
-  case 7:
-    r0 = s.retval;
-    s.tmp_0 = scene_cameraShake__P2890_mk(s);
-    s.tmp_0.arg0 = 4;
-    s.tmp_0.arg1 = 500;
-    s.callLocIdx = 421; s.pc = 9; return s.tmp_0;
-  case 9:
-    r0 = s.retval;
-    s.tmp_0 = sprites_destroy__P2278_mk(s);
-    s.tmp_0.arg0 = s.arg1;
-    s.tmp_0.arg1 = undefined;
-    s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 422; s.pc = 10; return s.tmp_0;
-  case 10:
-    r0 = s.retval;
-    s.tmp_1 = spriteutils_isDestroyed__P4974_mk(s);
-    s.tmp_1.arg0 = s.arg1;
-    s.callLocIdx = 423; s.pc = 11; return s.tmp_1;
-  case 11:
-    r0 = s.retval;
-    s.tmp_0 = r0;
-    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
-    if (!r0) { step = 1; continue; }
-    s.tmp_2 = info_changeScoreBy__P2574_mk(s);
-    s.tmp_2.arg0 = 1;
-    s.callLocIdx = 424; s.pc = 12; return s.tmp_2;
-  case 12:
-    r0 = s.retval;
-  case 1:
-  case 2:
-    r0 = undefined;
-    return leave(s, r0)
-  default: oops()
-} } }
-inline__P10491.info = {"start":41544,"length":634,"line":632,"column":92,"endLine":641,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
-
-function inline__P10491_mk(s) {
-    checkStack(s.depth);
-    return {
-        parent: s, fn: inline__P10491, depth: s.depth + 1,
-        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  tmp_0: undefined,
-  tmp_1: undefined,
-  tmp_2: undefined,
-  arg0: undefined,
-  arg1: undefined,
-} }
-
-
-
-
-
-function inline__P10518(s) {
+function inline__P84279(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7733,14 +8005,14 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 12;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 426; s.pc = 4; return s.tmp_1;
+    s.callLocIdx = 437; s.pc = 4; return s.tmp_1;
   case 4:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 38;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 427; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 438; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
@@ -7748,14 +8020,14 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 4;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 428; s.pc = 6; return s.tmp_1;
+    s.callLocIdx = 439; s.pc = 6; return s.tmp_1;
   case 6:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 24;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 429; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 440; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
@@ -7763,32 +8035,32 @@ switch (step) {
     s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
     s.tmp_1.arg0 = 3;
     s.tmp_1.arg1 = 1;
-    s.callLocIdx = 430; s.pc = 8; return s.tmp_1;
+    s.callLocIdx = 441; s.pc = 8; return s.tmp_1;
   case 8:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_0.arg2 = 100;
     s.tmp_0.arg3 = 1;
     s.tmp_0.arg4 = 20;
-    s.callLocIdx = 431; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 442; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = scene_cameraShake__P2890_mk(s);
     s.tmp_0.arg0 = 4;
     s.tmp_0.arg1 = 500;
-    s.callLocIdx = 432; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 443; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P2278_mk(s);
     s.tmp_0.arg0 = s.arg1;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 433; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 444; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_1 = spriteutils_isDestroyed__P4974_mk(s);
     s.tmp_1.arg0 = s.arg1;
-    s.callLocIdx = 434; s.pc = 11; return s.tmp_1;
+    s.callLocIdx = 445; s.pc = 11; return s.tmp_1;
   case 11:
     r0 = s.retval;
     s.tmp_0 = r0;
@@ -7796,7 +8068,7 @@ switch (step) {
     if (!r0) { step = 1; continue; }
     s.tmp_2 = info_changeScoreBy__P2574_mk(s);
     s.tmp_2.arg0 = 1;
-    s.callLocIdx = 435; s.pc = 12; return s.tmp_2;
+    s.callLocIdx = 446; s.pc = 12; return s.tmp_2;
   case 12:
     r0 = s.retval;
   case 1:
@@ -7805,12 +8077,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10518.info = {"start":42273,"length":634,"line":642,"column":93,"endLine":651,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+inline__P84279.info = {"start":42158,"length":634,"line":636,"column":92,"endLine":645,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
 
-function inline__P10518_mk(s) {
+function inline__P84279_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10518, depth: s.depth + 1,
+        parent: s, fn: inline__P84279, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -7823,7 +8095,117 @@ function inline__P10518_mk(s) {
 
 
 
-function inline__P10860(s) {
+function inline__P84306(s) {
+let r0 = s.r0, step = s.pc;
+s.pc = -1;
+
+
+while (true) {
+if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) return null;
+switch (step) {
+  case 0:
+
+    if (s.lambdaArgs) {
+      s.arg0 = (s.lambdaArgs[0]);
+      s.arg1 = (s.lambdaArgs[1]);
+      s.lambdaArgs = null;
+    }
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = s.arg1;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 12;
+    s.tmp_1.arg1 = 1;
+    s.callLocIdx = 448; s.pc = 4; return s.tmp_1;
+  case 4:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 38;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 449; s.pc = 3; return s.tmp_0;
+  case 3:
+    r0 = s.retval;
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = s.arg1;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 4;
+    s.tmp_1.arg1 = 1;
+    s.callLocIdx = 450; s.pc = 6; return s.tmp_1;
+  case 6:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 24;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 451; s.pc = 5; return s.tmp_0;
+  case 5:
+    r0 = s.retval;
+    s.tmp_0 = extraEffects_createSpreadEffectOnAnchor__P4367_mk(s);
+    s.tmp_0.arg0 = s.arg1;
+    s.tmp_1 = extraEffects_createSingleColorSpreadEffectData__P4365_mk(s);
+    s.tmp_1.arg0 = 3;
+    s.tmp_1.arg1 = 1;
+    s.callLocIdx = 452; s.pc = 8; return s.tmp_1;
+  case 8:
+    r0 = s.retval;
+    s.tmp_0.arg1 = r0;
+    s.tmp_0.arg2 = 100;
+    s.tmp_0.arg3 = 1;
+    s.tmp_0.arg4 = 20;
+    s.callLocIdx = 453; s.pc = 7; return s.tmp_0;
+  case 7:
+    r0 = s.retval;
+    s.tmp_0 = scene_cameraShake__P2890_mk(s);
+    s.tmp_0.arg0 = 4;
+    s.tmp_0.arg1 = 500;
+    s.callLocIdx = 454; s.pc = 9; return s.tmp_0;
+  case 9:
+    r0 = s.retval;
+    s.tmp_0 = sprites_destroy__P2278_mk(s);
+    s.tmp_0.arg0 = s.arg1;
+    s.tmp_0.arg1 = undefined;
+    s.tmp_0.arg2 = undefined;
+    s.callLocIdx = 455; s.pc = 10; return s.tmp_0;
+  case 10:
+    r0 = s.retval;
+    s.tmp_1 = spriteutils_isDestroyed__P4974_mk(s);
+    s.tmp_1.arg0 = s.arg1;
+    s.callLocIdx = 456; s.pc = 11; return s.tmp_1;
+  case 11:
+    r0 = s.retval;
+    s.tmp_0 = r0;
+    r0 = pxsim_numops_toBoolDecr(s.tmp_0);
+    if (!r0) { step = 1; continue; }
+    s.tmp_2 = info_changeScoreBy__P2574_mk(s);
+    s.tmp_2.arg0 = 1;
+    s.callLocIdx = 457; s.pc = 12; return s.tmp_2;
+  case 12:
+    r0 = s.retval;
+  case 1:
+  case 2:
+    r0 = undefined;
+    return leave(s, r0)
+  default: oops()
+} } }
+inline__P84306.info = {"start":42887,"length":634,"line":646,"column":93,"endLine":655,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["sprite","otherSprite"]}
+
+function inline__P84306_mk(s) {
+    checkStack(s.depth);
+    return {
+        parent: s, fn: inline__P84306, depth: s.depth + 1,
+        pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
+  tmp_0: undefined,
+  tmp_1: undefined,
+  tmp_2: undefined,
+  arg0: undefined,
+  arg1: undefined,
+} }
+
+
+
+
+
+function inline__P84653(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -7843,12 +8225,12 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
     s.tmp_1 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_1.arg0 = globals.myMenu___5343;
-    s.callLocIdx = 528; s.pc = 11; return s.tmp_1;
+    s.tmp_1.arg0 = globals.myMenu___84616;
+    s.callLocIdx = 550; s.pc = 11; return s.tmp_1;
   case 11:
     r0 = s.retval;
-    s.tmp_0 = Start_Game__P5318_mk(s);
-    s.callLocIdx = 529; s.pc = 12; return s.tmp_0;
+    s.tmp_0 = Start_Game__P84271_mk(s);
+    s.callLocIdx = 551; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     { step = 10; continue; }
@@ -7858,41 +8240,41 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
     s.tmp_1 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_1.arg0 = globals.myMenu___5343;
+    s.tmp_1.arg0 = globals.myMenu___84616;
     s.tmp_1.arg1 = false;
-    s.callLocIdx = 530; s.pc = 13; return s.tmp_1;
+    s.callLocIdx = 552; s.pc = 13; return s.tmp_1;
   case 13:
     r0 = s.retval;
     s.tmp_0 = miniMenu_createMenu__P4583_mk(s);
     s.tmp_1 = miniMenu_createMenuItem__P4582_mk(s);
-    s.tmp_1.arg0 = "Gun";
-    r0 = pxsim.image.ofBuffer(_hex10884);
+    s.tmp_1.arg0 = "Railgun";
+    r0 = pxsim.image.ofBuffer(_hex84677);
     s.tmp_1.arg1 = r0;
-    s.callLocIdx = 531; s.pc = 15; return s.tmp_1;
+    s.callLocIdx = 553; s.pc = 15; return s.tmp_1;
   case 15:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_2.arg0 = "Boomerang";
-    r0 = pxsim.image.ofBuffer(_hex10887);
+    r0 = pxsim.image.ofBuffer(_hex84680);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 532; s.pc = 16; return s.tmp_2;
+    s.callLocIdx = 554; s.pc = 16; return s.tmp_2;
   case 16:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_3 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_3.arg0 = "Big Rocket";
-    r0 = pxsim.image.ofBuffer(_hex10890);
+    r0 = pxsim.image.ofBuffer(_hex84683);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 533; s.pc = 17; return s.tmp_3;
+    s.callLocIdx = 555; s.pc = 17; return s.tmp_3;
   case 17:
     r0 = s.retval;
     s.tmp_0.arg2 = r0;
     s.tmp_4 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_4.arg0 = "Shard Bomb";
-    r0 = pxsim.image.ofBuffer(_hex10893);
+    r0 = pxsim.image.ofBuffer(_hex84686);
     s.tmp_4.arg1 = r0;
-    s.callLocIdx = 534; s.pc = 18; return s.tmp_4;
+    s.callLocIdx = 556; s.pc = 18; return s.tmp_4;
   case 18:
     r0 = s.retval;
     s.tmp_0.arg3 = r0;
@@ -7904,18 +8286,18 @@ switch (step) {
     s.tmp_0.arg9 = undefined;
     s.tmp_0.arg10 = undefined;
     s.tmp_0.arg11 = undefined;
-    s.callLocIdx = 535; s.pc = 14; return s.tmp_0;
+    s.callLocIdx = 557; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
-    globals.myMenu2___5332 = (r0);
+    globals.myMenu2___84572 = (r0);
     s.tmp_0 = miniMenu_MenuSprite_setTitle__P4566_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
     s.tmp_0.arg1 = "Weapon Selection";
-    s.callLocIdx = 536; s.pc = 19; return s.tmp_0;
+    s.callLocIdx = 558; s.pc = 19; return s.tmp_0;
   case 19:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite__C4538_v10_3_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 32;
     if (!checkSubtype(s.tmp_0.arg0, miniMenu_MenuSprite__C4538_VT)) failedCast(s.tmp_0.arg0);
@@ -7924,24 +8306,24 @@ switch (step) {
   case 20:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P2410_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
     s.tmp_0.arg1 = 80;
     s.tmp_0.arg2 = 80;
-    s.callLocIdx = 537; s.pc = 21; return s.tmp_0;
+    s.callLocIdx = 559; s.pc = 21; return s.tmp_0;
   case 21:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_onButtonPressed__P4562_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
     s.tmp_0.arg1 = globals.B___2115;
-    s.tmp_0.arg2 = inline__P10903;
-    s.callLocIdx = 540; s.pc = 22; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84696;
+    s.callLocIdx = 562; s.pc = 22; return s.tmp_0;
   case 22:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_onButtonPressed__P4562_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
     s.tmp_0.arg1 = globals.A___2114;
-    s.tmp_0.arg2 = inline__P10913;
-    s.callLocIdx = 547; s.pc = 23; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84706;
+    s.callLocIdx = 569; s.pc = 23; return s.tmp_0;
   case 23:
     r0 = s.retval;
     { step = 9; continue; }
@@ -7951,41 +8333,41 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_1 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_1.arg0 = globals.myMenu___5343;
+    s.tmp_1.arg0 = globals.myMenu___84616;
     s.tmp_1.arg1 = false;
-    s.callLocIdx = 548; s.pc = 24; return s.tmp_1;
+    s.callLocIdx = 570; s.pc = 24; return s.tmp_1;
   case 24:
     r0 = s.retval;
     s.tmp_0 = miniMenu_createMenu__P4583_mk(s);
     s.tmp_1 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_1.arg0 = "Tracker Eye";
-    r0 = pxsim.image.ofBuffer(_hex10964);
+    r0 = pxsim.image.ofBuffer(_hex84757);
     s.tmp_1.arg1 = r0;
-    s.callLocIdx = 549; s.pc = 26; return s.tmp_1;
+    s.callLocIdx = 571; s.pc = 26; return s.tmp_1;
   case 26:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_2 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_2.arg0 = "Skull Demon";
-    r0 = pxsim.image.ofBuffer(_hex10967);
+    r0 = pxsim.image.ofBuffer(_hex84760);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 550; s.pc = 27; return s.tmp_2;
+    s.callLocIdx = 572; s.pc = 27; return s.tmp_2;
   case 27:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_3 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_3.arg0 = "Ghoul Bat";
-    r0 = pxsim.image.ofBuffer(_hex10970);
+    r0 = pxsim.image.ofBuffer(_hex84763);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 551; s.pc = 28; return s.tmp_3;
+    s.callLocIdx = 573; s.pc = 28; return s.tmp_3;
   case 28:
     r0 = s.retval;
     s.tmp_0.arg2 = r0;
     s.tmp_4 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_4.arg0 = "Inferno Core";
-    r0 = pxsim.image.ofBuffer(_hex10973);
+    r0 = pxsim.image.ofBuffer(_hex84766);
     s.tmp_4.arg1 = r0;
-    s.callLocIdx = 552; s.pc = 29; return s.tmp_4;
+    s.callLocIdx = 574; s.pc = 29; return s.tmp_4;
   case 29:
     r0 = s.retval;
     s.tmp_0.arg3 = r0;
@@ -7997,12 +8379,12 @@ switch (step) {
     s.tmp_0.arg9 = undefined;
     s.tmp_0.arg10 = undefined;
     s.tmp_0.arg11 = undefined;
-    s.callLocIdx = 553; s.pc = 25; return s.tmp_0;
+    s.callLocIdx = 575; s.pc = 25; return s.tmp_0;
   case 25:
     r0 = s.retval;
-    globals.myMenu3___5329 = (r0);
+    globals.myMenu3___84570 = (r0);
     s.tmp_0 = miniMenu_MenuSprite__C4538_v10_3_mk(s);
-    s.tmp_0.arg0 = globals.myMenu3___5329;
+    s.tmp_0.arg0 = globals.myMenu3___84570;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 32;
     if (!checkSubtype(s.tmp_0.arg0, miniMenu_MenuSprite__C4538_VT)) failedCast(s.tmp_0.arg0);
@@ -8011,33 +8393,33 @@ switch (step) {
   case 30:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P2410_mk(s);
-    s.tmp_0.arg0 = globals.myMenu3___5329;
+    s.tmp_0.arg0 = globals.myMenu3___84570;
     s.tmp_1 = Sprite_x__P2355_mk(s);
-    s.tmp_1.arg0 = globals.myMenu___5343;
-    s.callLocIdx = 554; s.pc = 32; return s.tmp_1;
+    s.tmp_1.arg0 = globals.myMenu___84616;
+    s.callLocIdx = 576; s.pc = 32; return s.tmp_1;
   case 32:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_2 = Sprite_y__P2357_mk(s);
-    s.tmp_2.arg0 = globals.myMenu___5343;
-    s.callLocIdx = 555; s.pc = 33; return s.tmp_2;
+    s.tmp_2.arg0 = globals.myMenu___84616;
+    s.callLocIdx = 577; s.pc = 33; return s.tmp_2;
   case 33:
     r0 = s.retval;
     s.tmp_0.arg2 = r0;
-    s.callLocIdx = 556; s.pc = 31; return s.tmp_0;
+    s.callLocIdx = 578; s.pc = 31; return s.tmp_0;
   case 31:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setTitle__P4566_mk(s);
-    s.tmp_0.arg0 = globals.myMenu3___5329;
+    s.tmp_0.arg0 = globals.myMenu3___84570;
     s.tmp_0.arg1 = "Enemy List";
-    s.callLocIdx = 557; s.pc = 34; return s.tmp_0;
+    s.callLocIdx = 579; s.pc = 34; return s.tmp_0;
   case 34:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_onButtonPressed__P4562_mk(s);
-    s.tmp_0.arg0 = globals.myMenu3___5329;
+    s.tmp_0.arg0 = globals.myMenu3___84570;
     s.tmp_0.arg1 = globals.B___2115;
-    s.tmp_0.arg2 = inline__P10987;
-    s.callLocIdx = 560; s.pc = 35; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84780;
+    s.callLocIdx = 582; s.pc = 35; return s.tmp_0;
   case 35:
     r0 = s.retval;
     { step = 8; continue; }
@@ -8047,9 +8429,9 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
     s.tmp_1 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_1.arg0 = globals.myMenu___5343;
+    s.tmp_1.arg0 = globals.myMenu___84616;
     s.tmp_1.arg1 = false;
-    s.callLocIdx = 561; s.pc = 36; return s.tmp_1;
+    s.callLocIdx = 583; s.pc = 36; return s.tmp_1;
   case 36:
     r0 = s.retval;
     s.tmp_0 = story_printText__P4738_mk(s);
@@ -8059,7 +8441,7 @@ switch (step) {
     s.tmp_0.arg3 = 1;
     s.tmp_0.arg4 = 2;
     s.tmp_0.arg5 = undefined;
-    s.callLocIdx = 562; s.pc = 37; return s.tmp_0;
+    s.callLocIdx = 584; s.pc = 37; return s.tmp_0;
   case 37:
     r0 = s.retval;
     s.tmp_0 = story_printText__P4738_mk(s);
@@ -8069,13 +8451,13 @@ switch (step) {
     s.tmp_0.arg3 = 1;
     s.tmp_0.arg4 = 2;
     s.tmp_0.arg5 = undefined;
-    s.callLocIdx = 563; s.pc = 38; return s.tmp_0;
+    s.callLocIdx = 585; s.pc = 38; return s.tmp_0;
   case 38:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 564; s.pc = 39; return s.tmp_0;
+    s.callLocIdx = 586; s.pc = 39; return s.tmp_0;
   case 39:
     r0 = s.retval;
     { step = 7; continue; }
@@ -8087,33 +8469,33 @@ switch (step) {
     s.tmp_1 = miniMenu_createMenu__P4583_mk(s);
     s.tmp_2 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_2.arg0 = "Training Room I";
-    r0 = pxsim.image.ofBuffer(_hex11018);
+    r0 = pxsim.image.ofBuffer(_hex84811);
     s.tmp_2.arg1 = r0;
-    s.callLocIdx = 565; s.pc = 41; return s.tmp_2;
+    s.callLocIdx = 587; s.pc = 41; return s.tmp_2;
   case 41:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
     s.tmp_3 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_3.arg0 = "Training Room II";
-    r0 = pxsim.image.ofBuffer(_hex11021);
+    r0 = pxsim.image.ofBuffer(_hex84814);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 566; s.pc = 42; return s.tmp_3;
+    s.callLocIdx = 588; s.pc = 42; return s.tmp_3;
   case 42:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_4.arg0 = "Training Room III";
-    r0 = pxsim.image.ofBuffer(_hex11024);
+    r0 = pxsim.image.ofBuffer(_hex84817);
     s.tmp_4.arg1 = r0;
-    s.callLocIdx = 567; s.pc = 43; return s.tmp_4;
+    s.callLocIdx = 589; s.pc = 43; return s.tmp_4;
   case 43:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
     s.tmp_5 = miniMenu_createMenuItem__P4582_mk(s);
     s.tmp_5.arg0 = "Training Room IV";
-    r0 = pxsim.image.ofBuffer(_hex11027);
+    r0 = pxsim.image.ofBuffer(_hex84820);
     s.tmp_5.arg1 = r0;
-    s.callLocIdx = 568; s.pc = 44; return s.tmp_5;
+    s.callLocIdx = 590; s.pc = 44; return s.tmp_5;
   case 44:
     r0 = s.retval;
     s.tmp_1.arg3 = r0;
@@ -8125,12 +8507,12 @@ switch (step) {
     s.tmp_1.arg9 = undefined;
     s.tmp_1.arg10 = undefined;
     s.tmp_1.arg11 = undefined;
-    s.callLocIdx = 569; s.pc = 40; return s.tmp_1;
+    s.callLocIdx = 591; s.pc = 40; return s.tmp_1;
   case 40:
     r0 = s.retval;
-    globals.myMenu4___5328 = (r0);
+    globals.myMenu4___84568 = (r0);
     s.tmp_0 = miniMenu_MenuSprite__C4538_v10_3_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
     s.tmp_0.arg1 = 100;
     s.tmp_0.arg2 = 32;
     if (!checkSubtype(s.tmp_0.arg0, miniMenu_MenuSprite__C4538_VT)) failedCast(s.tmp_0.arg0);
@@ -8139,46 +8521,46 @@ switch (step) {
   case 45:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setTitle__P4566_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
     s.tmp_0.arg1 = "Practice Room ";
-    s.callLocIdx = 570; s.pc = 46; return s.tmp_0;
+    s.callLocIdx = 592; s.pc = 46; return s.tmp_0;
   case 46:
     r0 = s.retval;
     s.tmp_0 = Sprite_setPosition__P2410_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
     s.tmp_1 = Sprite_x__P2355_mk(s);
-    s.tmp_1.arg0 = globals.myMenu___5343;
-    s.callLocIdx = 571; s.pc = 48; return s.tmp_1;
+    s.tmp_1.arg0 = globals.myMenu___84616;
+    s.callLocIdx = 593; s.pc = 48; return s.tmp_1;
   case 48:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
     s.tmp_2 = Sprite_y__P2357_mk(s);
-    s.tmp_2.arg0 = globals.myMenu___5343;
-    s.callLocIdx = 572; s.pc = 49; return s.tmp_2;
+    s.tmp_2.arg0 = globals.myMenu___84616;
+    s.callLocIdx = 594; s.pc = 49; return s.tmp_2;
   case 49:
     r0 = s.retval;
     s.tmp_0.arg2 = r0;
-    s.callLocIdx = 573; s.pc = 47; return s.tmp_0;
+    s.callLocIdx = 595; s.pc = 47; return s.tmp_0;
   case 47:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = false;
-    s.callLocIdx = 574; s.pc = 50; return s.tmp_0;
+    s.callLocIdx = 596; s.pc = 50; return s.tmp_0;
   case 50:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_onButtonPressed__P4562_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
     s.tmp_0.arg1 = globals.B___2115;
-    s.tmp_0.arg2 = inline__P11043;
-    s.callLocIdx = 577; s.pc = 51; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84836;
+    s.callLocIdx = 599; s.pc = 51; return s.tmp_0;
   case 51:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_onButtonPressed__P4562_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
     s.tmp_0.arg1 = globals.A___2114;
-    s.tmp_0.arg2 = inline__P11053;
-    s.callLocIdx = 605; s.pc = 52; return s.tmp_0;
+    s.tmp_0.arg2 = inline__P84846;
+    s.callLocIdx = 627; s.pc = 52; return s.tmp_0;
   case 52:
     r0 = s.retval;
   case 5:
@@ -8191,12 +8573,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10860.info = {"start":72828,"length":13342,"line":1048,"column":37,"endLine":1353,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
+inline__P84653.info = {"start":73442,"length":13346,"line":1052,"column":37,"endLine":1357,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
 
-function inline__P10860_mk(s) {
+function inline__P84653_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10860, depth: s.depth + 1,
+        parent: s, fn: inline__P84653, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -8208,23 +8590,23 @@ function inline__P10860_mk(s) {
   arg1: undefined,
 } }
 
-const _hex10884 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee0ddddaddadddd0ee0ddddbbdadddd0ee0ddddbbdadddd0ee0ddddbbdadddd0ee0ddddabdadddd0ee0ddddabdadddd0ee0ddddabfadddd0ee0ddddabdadfdd0ee0ddddabbafddd0ee0ddddabaaaada0ee0ddddabaaaada0ee0ddddadaaaadd0ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10887 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee0ddddddaadddd0ee0ddddaddadadd0ee0ddddabdddddd0ee0ddbdbadddddd0ee0ddbddbdddddd0ee0ddbddbdddddd0ee0ddbddbdddddd0ee0ddbddbdddddd0ee0ddbdbadddddd0ee0ddddabdddddd0ee0ddddaddadadd0ee0ddddddaadddd0ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10890 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeeededdddddddddddeddeddddddddddddeddeddadaaaadaddeddeddadbabbdaddeddeddadbbbbdaddeddeddadaabbdaddeddeddadbbbbdaddeddeddadaabadaddeddeddadbbbbdaddeddeddadaaaadaddeddeddadbbbbdaddeddeddddaaaaddddeddeddddddddddddeddeddddddddddddedeeeeeeeeeeeeeeee")
-const _hex10893 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeeededdddddddddddeddeddddaddaddddeddeddad7aa7daddeddedd7a9779a7ddeddead97999979daeddead97999979daedde7a99999999a7edde7a99999999a7eddead97999979daeddead97999979daeddedd7a9779a7ddeddeddad7aa7daddeddeddddaddaddddeddeddddddddddddedeeeeeeeeeeeeeeee")
-const _hex10964 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee02222222222220ee022d2dddd2d220ee022dddddddd220ee0d2dd8dd8dd2d0ee0d2ddb88bdd2d0ee0d28d9bb1d82d0ee0d28d1bb9d82d0ee0d2ddb88bdd2d0ee0d2dd8dd8dd2d0ee022dddddddd220ee022d2dddd2d220ee02222222222220ee0eeeeeeeeeeee0e0000000000000000")
-const _hex10967 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee2e222222222222e22e22dddddddd22e22ed2dddddddd2de22eddd2dddddddde22edd2d22d2dddde22edddd32222ddde22eddd222222ddde22edd2d22222ddde22edddd32222ddde22edd2d22d2dddde22eddd2dddddddde22ed2dddddddd2de22e22dddddddd22e22e222222222222e2eeeeeeeeeeeeeeee")
-const _hex10970 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee2e222222222222e22e22dddddddd22e22ed2dddddddd2de22edddd6d66dddde22edddd6dd66ddde22edd6665dd66dde22edd6d666666dde22edd6d666666dde22edd6665dd66dde22edddd6dd66ddde22edddd6d66dddde22ed2dddddddd2de22e22dddddddd22e22e222222222222e2eeeeeeeeeeeeeeee")
-const _hex10973 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee2ef2ffffffff2fe22ecf32cccc23fce2fecc2cc33cc2cceffec2ccc22ccc2ceffe23ccfccfcc32effe3cc2dffd2cc3effeccfcddddcfcceffeccfcddddcfcceffe3cc2dffd2cc3effe23ccfccfcc32effec2ccc22ccc2ceffecc2cc33cc2ccef2ecf32cccc23fce22ef2ffffffff2fe2eeeeeeeeeeeeeeee")
-const _hex11018 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee01111111111110ee09199999999190ee09111999911190ee09121999912190ee09199999999190ee09199999999190ee09199999999190ee09199999999190ee09121999912190ee09111999911190ee09199999999190ee01111111111110ee0eeeeeeeeeeee0e0000000000000000")
-const _hex11021 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee06666666666660ee02655555555650ee05655555555650ee05655555255650ee05655655655650ee05655666655650ee05655666655650ee05655655655650ee05655555255650ee05655555555650ee02655555555650ee06666666666660ee0eeeeeeeeeeee0e0000000000000000")
-const _hex11024 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee4e444444444444e44e221111111111e44e221111111111e44e111111111111e44e111111111111e44e111121111111e44e111122111111e44e111122111111e44e111121111111e44e111111111111e44e111111111111e44e221111111111e44e221111111111e44e444444444444e4eeeeeeeeeeeeeeee")
-const _hex11027 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee07777777777770ee09799999999790ee09799999999790ee09799999999790ee09799b22b99790ee097992b9299790ee097992b9299790ee09799b22b99790ee09799999999790ee09799999999790ee09799999999790ee07777777777770ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84677 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee0ddddaddadddd0ee0ddddbbdadddd0ee0ddddbbdadddd0ee0ddddbbdadddd0ee0ddddabdadddd0ee0ddddabdadddd0ee0ddddabfadddd0ee0ddddabdadfdd0ee0ddddabbafddd0ee0ddddabaaaada0ee0ddddabaaaada0ee0ddddadaaaadd0ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84680 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee0ddddddaadddd0ee0ddddaddadadd0ee0ddddabdddddd0ee0ddbdbadddddd0ee0ddbddbdddddd0ee0ddbddbdddddd0ee0ddbddbdddddd0ee0ddbddbdddddd0ee0ddbdbadddddd0ee0ddddabdddddd0ee0ddddaddadadd0ee0ddddddaadddd0ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84683 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeeededdddddddddddeddeddddddddddddeddeddadaaaadaddeddeddadbabbdaddeddeddadbbbbdaddeddeddadaabbdaddeddeddadbbbbdaddeddeddadaabadaddeddeddadbbbbdaddeddeddadaaaadaddeddeddadbbbbdaddeddeddddaaaaddddeddeddddddddddddeddeddddddddddddedeeeeeeeeeeeeeeee")
+const _hex84686 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeeededdddddddddddeddeddddaddaddddeddeddad7aa7daddeddedd7a9779a7ddeddead97999979daeddead97999979daedde7a99999999a7edde7a99999999a7eddead97999979daeddead97999979daeddedd7a9779a7ddeddeddad7aa7daddeddeddddaddaddddeddeddddddddddddedeeeeeeeeeeeeeeee")
+const _hex84757 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee02222222222220ee022d2dddd2d220ee022dddddddd220ee0d2dd8dd8dd2d0ee0d2ddb88bdd2d0ee0d28d9bb1d82d0ee0d28d1bb9d82d0ee0d2ddb88bdd2d0ee0d2dd8dd8dd2d0ee022dddddddd220ee022d2dddd2d220ee02222222222220ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84760 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee2e222222222222e22e22dddddddd22e22ed2dddddddd2de22eddd2dddddddde22edd2d22d2dddde22edddd32222ddde22eddd222222ddde22edd2d22222ddde22edddd32222ddde22edd2d22d2dddde22eddd2dddddddde22ed2dddddddd2de22e22dddddddd22e22e222222222222e2eeeeeeeeeeeeeeee")
+const _hex84763 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee2e222222222222e22e22dddddddd22e22ed2dddddddd2de22edddd6d66dddde22edddd6dd66ddde22edd6665dd66dde22edd6d666666dde22edd6d666666dde22edd6665dd66dde22edddd6dd66ddde22edddd6d66dddde22ed2dddddddd2de22e22dddddddd22e22e222222222222e2eeeeeeeeeeeeeeee")
+const _hex84766 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee2ef2ffffffff2fe22ecf32cccc23fce2fecc2cc33cc2cceffec2ccc22ccc2ceffe23ccfccfcc32effe3cc2dffd2cc3effeccfcddddcfcceffeccfcddddcfcceffe3cc2dffd2cc3effe23ccfccfcc32effec2ccc22ccc2ceffecc2cc33cc2ccef2ecf32cccc23fce22ef2ffffffff2fe2eeeeeeeeeeeeeeee")
+const _hex84811 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee01111111111110ee09199999999190ee09111999911190ee09121999912190ee09199999999190ee09199999999190ee09199999999190ee09199999999190ee09121999912190ee09111999911190ee09199999999190ee01111111111110ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84814 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee06666666666660ee02655555555650ee05655555555650ee05655555255650ee05655655655650ee05655666655650ee05655666655650ee05655655655650ee05655555255650ee05655555555650ee02655555555650ee06666666666660ee0eeeeeeeeeeee0e0000000000000000")
+const _hex84817 = pxsim.BufferMethods.createBufferFromHex("8704100010000000eeeeeeeeeeeeeeee4e444444444444e44e221111111111e44e221111111111e44e111111111111e44e111111111111e44e111121111111e44e111122111111e44e111122111111e44e111121111111e44e111111111111e44e111111111111e44e221111111111e44e221111111111e44e444444444444e4eeeeeeeeeeeeeeee")
+const _hex84820 = pxsim.BufferMethods.createBufferFromHex("87041000100000000000000000000000e0eeeeeeeeeeee0ee07777777777770ee09799999999790ee09799999999790ee09799999999790ee09799b22b99790ee097992b9299790ee097992b9299790ee09799b22b99790ee09799999999790ee09799999999790ee09799999999790ee07777777777770ee0eeeeeeeeeeee0e0000000000000000")
 
 
 
 
-function inline__P10903(s) {
+function inline__P84696(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8240,26 +8622,26 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
-    s.callLocIdx = 538; s.pc = 1; return s.tmp_0;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
+    s.callLocIdx = 560; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 539; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 561; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10903.info = {"start":76376,"length":123,"line":1131,"column":46,"endLine":1134,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
+inline__P84696.info = {"start":76994,"length":123,"line":1135,"column":46,"endLine":1138,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
 
-function inline__P10903_mk(s) {
+function inline__P84696_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10903, depth: s.depth + 1,
+        parent: s, fn: inline__P84696, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -8270,7 +8652,7 @@ function inline__P10903_mk(s) {
 
 
 
-function inline__P10913(s) {
+function inline__P84706(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8289,12 +8671,12 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    globals.Weapon_Selection_Gun___5342 = (true);
-    globals.Weapon_Selection_Boomerang___5341 = (false);
+    globals.Weapon_Selection_Gun___83635 = (true);
+    globals.Weapon_Selection_Boomerang___83631 = (false);
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 541; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 563; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     { step = 8; continue; }
@@ -8303,12 +8685,12 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
-    globals.Weapon_Selection_Gun___5342 = (false);
-    globals.Weapon_Selection_Boomerang___5341 = (true);
+    globals.Weapon_Selection_Gun___83635 = (false);
+    globals.Weapon_Selection_Boomerang___83631 = (true);
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 542; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 564; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     { step = 7; continue; }
@@ -8317,13 +8699,13 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
-    globals.Big_Rocket___5331 = (true);
-    globals.Weapon_Selection_Gun___5342 = (false);
-    globals.Weapon_Selection_Boomerang___5341 = (false);
+    globals.Big_Rocket___83818 = (true);
+    globals.Weapon_Selection_Gun___83635 = (false);
+    globals.Weapon_Selection_Boomerang___83631 = (false);
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 543; s.pc = 11; return s.tmp_0;
+    s.callLocIdx = 565; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     { step = 6; continue; }
@@ -8332,14 +8714,14 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
-    globals.Grav_Bomb_selection___5330 = (true);
-    globals.Big_Rocket___5331 = (false);
-    globals.Weapon_Selection_Gun___5342 = (false);
-    globals.Weapon_Selection_Boomerang___5341 = (false);
+    globals.Grav_Bomb_selection___83884 = (true);
+    globals.Big_Rocket___83818 = (false);
+    globals.Weapon_Selection_Gun___83635 = (false);
+    globals.Weapon_Selection_Boomerang___83631 = (false);
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 544; s.pc = 12; return s.tmp_0;
+    s.callLocIdx = 566; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
   case 4:
@@ -8348,26 +8730,26 @@ switch (step) {
   case 7:
   case 8:
     s.tmp_0 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_0.arg0 = globals.myMenu2___5332;
-    s.callLocIdx = 545; s.pc = 13; return s.tmp_0;
+    s.tmp_0.arg0 = globals.myMenu2___84572;
+    s.callLocIdx = 567; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_moveSelection__P4560_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = 0;
-    s.callLocIdx = 546; s.pc = 14; return s.tmp_0;
+    s.callLocIdx = 568; s.pc = 14; return s.tmp_0;
   case 14:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10913.info = {"start":76547,"length":1024,"line":1135,"column":46,"endLine":1158,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
+inline__P84706.info = {"start":77165,"length":1024,"line":1139,"column":46,"endLine":1162,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
 
-function inline__P10913_mk(s) {
+function inline__P84706_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10913, depth: s.depth + 1,
+        parent: s, fn: inline__P84706, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -8378,7 +8760,7 @@ function inline__P10913_mk(s) {
 
 
 
-function inline__P10987(s) {
+function inline__P84780(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8394,26 +8776,26 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_0.arg0 = globals.myMenu3___5329;
-    s.callLocIdx = 558; s.pc = 1; return s.tmp_0;
+    s.tmp_0.arg0 = globals.myMenu3___84570;
+    s.callLocIdx = 580; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 559; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 581; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P10987.info = {"start":81026,"length":123,"line":1238,"column":46,"endLine":1241,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
+inline__P84780.info = {"start":81644,"length":123,"line":1242,"column":46,"endLine":1245,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
 
-function inline__P10987_mk(s) {
+function inline__P84780_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P10987, depth: s.depth + 1,
+        parent: s, fn: inline__P84780, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -8424,7 +8806,7 @@ function inline__P10987_mk(s) {
 
 
 
-function inline__P11043(s) {
+function inline__P84836(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8440,26 +8822,26 @@ switch (step) {
       s.lambdaArgs = null;
     }
     s.tmp_0 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
-    s.callLocIdx = 575; s.pc = 1; return s.tmp_0;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
+    s.callLocIdx = 597; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 576; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 598; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11043.info = {"start":84909,"length":123,"line":1326,"column":46,"endLine":1329,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
+inline__P84836.info = {"start":85527,"length":123,"line":1330,"column":46,"endLine":1333,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
 
-function inline__P11043_mk(s) {
+function inline__P84836_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P11043, depth: s.depth + 1,
+        parent: s, fn: inline__P84836, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   arg0: undefined,
@@ -8470,7 +8852,7 @@ function inline__P11043_mk(s) {
 
 
 
-function inline__P11053(s) {
+function inline__P84846(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8489,32 +8871,32 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = Sprite_Spawn__P5317_mk(s);
-    s.callLocIdx = 578; s.pc = 9; return s.tmp_1;
+    s.tmp_1 = Sprite_Spawn__P83561_mk(s);
+    s.callLocIdx = 600; s.pc = 9; return s.tmp_1;
   case 9:
     r0 = s.retval;
     s.tmp_0 = tiles_setCurrentTilemap__P2765_mk(s);
     s.tmp_2 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_2.arg0 = "level60";
-    s.callLocIdx = 579; s.pc = 11; return s.tmp_2;
+    s.callLocIdx = 601; s.pc = 11; return s.tmp_2;
   case 11:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = s.tmp_1;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 581; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 603; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = tiles_placeOnTile__P2774_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = tiles_getTileLocation__P2768_mk(s);
     s.tmp_1.arg0 = 9;
     s.tmp_1.arg1 = 13;
-    s.callLocIdx = 582; s.pc = 13; return s.tmp_1;
+    s.callLocIdx = 604; s.pc = 13; return s.tmp_1;
   case 13:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 583; s.pc = 12; return s.tmp_0;
+    s.callLocIdx = 605; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     { step = 8; continue; }
@@ -8523,32 +8905,32 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
-    s.tmp_1 = Sprite_Spawn__P5317_mk(s);
-    s.callLocIdx = 584; s.pc = 14; return s.tmp_1;
+    s.tmp_1 = Sprite_Spawn__P83561_mk(s);
+    s.callLocIdx = 606; s.pc = 14; return s.tmp_1;
   case 14:
     r0 = s.retval;
     s.tmp_0 = tiles_setCurrentTilemap__P2765_mk(s);
     s.tmp_2 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_2.arg0 = "level67";
-    s.callLocIdx = 585; s.pc = 16; return s.tmp_2;
+    s.callLocIdx = 607; s.pc = 16; return s.tmp_2;
   case 16:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = s.tmp_1;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 587; s.pc = 15; return s.tmp_0;
+    s.callLocIdx = 609; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
     s.tmp_0 = tiles_placeOnTile__P2774_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = tiles_getTileLocation__P2768_mk(s);
     s.tmp_1.arg0 = 9;
     s.tmp_1.arg1 = 13;
-    s.callLocIdx = 588; s.pc = 18; return s.tmp_1;
+    s.callLocIdx = 610; s.pc = 18; return s.tmp_1;
   case 18:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 589; s.pc = 17; return s.tmp_0;
+    s.callLocIdx = 611; s.pc = 17; return s.tmp_0;
   case 17:
     r0 = s.retval;
     { step = 7; continue; }
@@ -8557,32 +8939,32 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
-    s.tmp_1 = Sprite_Spawn__P5317_mk(s);
-    s.callLocIdx = 590; s.pc = 19; return s.tmp_1;
+    s.tmp_1 = Sprite_Spawn__P83561_mk(s);
+    s.callLocIdx = 612; s.pc = 19; return s.tmp_1;
   case 19:
     r0 = s.retval;
     s.tmp_0 = tiles_setCurrentTilemap__P2765_mk(s);
     s.tmp_2 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_2.arg0 = "level71";
-    s.callLocIdx = 591; s.pc = 21; return s.tmp_2;
+    s.callLocIdx = 613; s.pc = 21; return s.tmp_2;
   case 21:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = s.tmp_1;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 593; s.pc = 20; return s.tmp_0;
+    s.callLocIdx = 615; s.pc = 20; return s.tmp_0;
   case 20:
     r0 = s.retval;
     s.tmp_0 = tiles_placeOnTile__P2774_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = tiles_getTileLocation__P2768_mk(s);
     s.tmp_1.arg0 = 9;
     s.tmp_1.arg1 = 13;
-    s.callLocIdx = 594; s.pc = 23; return s.tmp_1;
+    s.callLocIdx = 616; s.pc = 23; return s.tmp_1;
   case 23:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 595; s.pc = 22; return s.tmp_0;
+    s.callLocIdx = 617; s.pc = 22; return s.tmp_0;
   case 22:
     r0 = s.retval;
     { step = 6; continue; }
@@ -8591,32 +8973,32 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
-    s.tmp_1 = Sprite_Spawn__P5317_mk(s);
-    s.callLocIdx = 596; s.pc = 24; return s.tmp_1;
+    s.tmp_1 = Sprite_Spawn__P83561_mk(s);
+    s.callLocIdx = 618; s.pc = 24; return s.tmp_1;
   case 24:
     r0 = s.retval;
     s.tmp_0 = tiles_setCurrentTilemap__P2765_mk(s);
     s.tmp_2 = helpers_getTilemapByName__P3336_mk(s);
     s.tmp_2.arg0 = "level74";
-    s.callLocIdx = 597; s.pc = 26; return s.tmp_2;
+    s.callLocIdx = 619; s.pc = 26; return s.tmp_2;
   case 26:
     r0 = s.retval;
     s.tmp_1 = r0;
     r0 = s.tmp_1;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 599; s.pc = 25; return s.tmp_0;
+    s.callLocIdx = 621; s.pc = 25; return s.tmp_0;
   case 25:
     r0 = s.retval;
     s.tmp_0 = tiles_placeOnTile__P2774_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = tiles_getTileLocation__P2768_mk(s);
     s.tmp_1.arg0 = 9;
     s.tmp_1.arg1 = 13;
-    s.callLocIdx = 600; s.pc = 28; return s.tmp_1;
+    s.callLocIdx = 622; s.pc = 28; return s.tmp_1;
   case 28:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
-    s.callLocIdx = 601; s.pc = 27; return s.tmp_0;
+    s.callLocIdx = 623; s.pc = 27; return s.tmp_0;
   case 27:
     r0 = s.retval;
   case 4:
@@ -8625,31 +9007,31 @@ switch (step) {
   case 7:
   case 8:
     s.tmp_0 = miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
+    s.tmp_0.arg0 = globals.myMenu___84616;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 602; s.pc = 29; return s.tmp_0;
+    s.callLocIdx = 624; s.pc = 29; return s.tmp_0;
   case 29:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_0.arg0 = globals.myMenu4___5328;
-    s.callLocIdx = 603; s.pc = 30; return s.tmp_0;
+    s.tmp_0.arg0 = globals.myMenu4___84568;
+    s.callLocIdx = 625; s.pc = 30; return s.tmp_0;
   case 30:
     r0 = s.retval;
     s.tmp_0 = miniMenu_MenuSprite_close__P4561_mk(s);
-    s.tmp_0.arg0 = globals.myMenu___5343;
-    s.callLocIdx = 604; s.pc = 31; return s.tmp_0;
+    s.tmp_0.arg0 = globals.myMenu___84616;
+    s.callLocIdx = 626; s.pc = 31; return s.tmp_0;
   case 31:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11053.info = {"start":85080,"length":1081,"line":1330,"column":46,"endLine":1351,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
+inline__P84846.info = {"start":85698,"length":1081,"line":1334,"column":46,"endLine":1355,"endColumn":9,"fileName":"main.ts","functionName":"inline","argumentNames":["selection","selectedIndex"]}
 
-function inline__P11053_mk(s) {
+function inline__P84846_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P11053, depth: s.depth + 1,
+        parent: s, fn: inline__P84846, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -8662,7 +9044,7 @@ function inline__P11053_mk(s) {
 
 
 
-function inline__P11103(s) {
+function inline__P84896(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8672,28 +9054,28 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.Menu_Is_Running___5333 == false);
+    r0 = (globals.Menu_Is_Running___83563 == false);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 5; continue; }
-    r0 = (globals.Big_Rocket___5331 == true);
+    r0 = (globals.Big_Rocket___83818 == true);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = info_changeLifeBy__P2578_mk(s);
     s.tmp_2.arg0 = 1;
-    s.callLocIdx = 607; s.pc = 7; return s.tmp_2;
+    s.callLocIdx = 629; s.pc = 7; return s.tmp_2;
   case 7:
     r0 = s.retval;
   case 1:
   case 2:
-    r0 = (globals.Grav_Bomb_selection___5330 == true);
+    r0 = (globals.Grav_Bomb_selection___83884 == true);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
     s.tmp_1 = info_changeLifeBy__P2578_mk(s);
     s.tmp_1.arg0 = 1;
-    s.callLocIdx = 608; s.pc = 8; return s.tmp_1;
+    s.callLocIdx = 630; s.pc = 8; return s.tmp_1;
   case 8:
     r0 = s.retval;
   case 3:
@@ -8704,12 +9086,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11103.info = {"start":86200,"length":220,"line":1354,"column":28,"endLine":1363,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84896.info = {"start":86818,"length":220,"line":1358,"column":28,"endLine":1367,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P11103_mk(s) {
+function inline__P84896_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P11103, depth: s.depth + 1,
+        parent: s, fn: inline__P84896, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -8720,7 +9102,7 @@ function inline__P11103_mk(s) {
 
 
 
-function inline__P11113(s) {
+function inline__P84906(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -8730,17 +9112,17 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    r0 = (globals.Menu_Is_Running___5333 == false);
+    r0 = (globals.Menu_Is_Running___83563 == false);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 3; continue; }
-    r0 = (globals.Weapon_Selection_Gun___5342 == true);
+    r0 = (globals.Weapon_Selection_Gun___83635 == true);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 1; continue; }
     s.tmp_2 = info_changeLifeBy__P2578_mk(s);
     s.tmp_2.arg0 = 1;
-    s.callLocIdx = 610; s.pc = 5; return s.tmp_2;
+    s.callLocIdx = 632; s.pc = 5; return s.tmp_2;
   case 5:
     r0 = s.retval;
   case 1:
@@ -8751,12 +9133,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P11113.info = {"start":86449,"length":144,"line":1364,"column":27,"endLine":1370,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P84906.info = {"start":87067,"length":144,"line":1368,"column":27,"endLine":1374,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P11113_mk(s) {
+function inline__P84906_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P11113, depth: s.depth + 1,
+        parent: s, fn: inline__P84906, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -12677,7 +13059,7 @@ function tiles_TileMapData_scale__P2723_mk(s) {
 
 
 
-function Sprite_Spawn__P5317(s) {
+function Sprite_Spawn__P83561(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -12687,91 +13069,91 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    globals.Menu_Is_Running___5333 = (false);
+    globals.Menu_Is_Running___83563 = (false);
     s.tmp_0 = profilelife_setEmptyLifeImage__P4590_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9810);
+    r0 = pxsim.image.ofBuffer(_hex83567);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 224; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 238; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
     s.tmp_0 = profilelife_setFilledLifeImage__P4589_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9813);
+    r0 = pxsim.image.ofBuffer(_hex83570);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 225; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 239; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     s.tmp_0 = profilelife_setMaxLife__P4595_mk(s);
     s.tmp_0.arg0 = 1;
-    s.callLocIdx = 226; s.pc = 3; return s.tmp_0;
+    s.callLocIdx = 240; s.pc = 3; return s.tmp_0;
   case 3:
     r0 = s.retval;
     s.tmp_0 = game_setDialogCursor__P2963_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9817);
+    r0 = pxsim.image.ofBuffer(_hex83574);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 227; s.pc = 4; return s.tmp_0;
+    s.callLocIdx = 241; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
     s.tmp_0 = game_setDialogFrame__P2962_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9820);
+    r0 = pxsim.image.ofBuffer(_hex83577);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 228; s.pc = 5; return s.tmp_0;
+    s.callLocIdx = 242; s.pc = 5; return s.tmp_0;
   case 5:
     r0 = s.retval;
     s.tmp_0 = sprites_create__P2276_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex9824);
+    r0 = pxsim.image.ofBuffer(_hex83581);
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = globals.Player___2481;
-    s.callLocIdx = 229; s.pc = 6; return s.tmp_0;
+    s.callLocIdx = 243; s.pc = 6; return s.tmp_0;
   case 6:
     r0 = s.retval;
-    globals.Zenith___5327 = (r0);
+    globals.Zenith___83512 = (r0);
     s.tmp_0 = controller_moveSprite__P2168_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_0.arg1 = 80;
     s.tmp_0.arg2 = 80;
-    s.callLocIdx = 230; s.pc = 7; return s.tmp_0;
+    s.callLocIdx = 244; s.pc = 7; return s.tmp_0;
   case 7:
     r0 = s.retval;
     s.tmp_0 = statusbars_create__P5087_mk(s);
     s.tmp_0.arg0 = 10;
     s.tmp_0.arg1 = 2;
     s.tmp_0.arg2 = globals.Health___5027;
-    s.callLocIdx = 231; s.pc = 8; return s.tmp_0;
+    s.callLocIdx = 245; s.pc = 8; return s.tmp_0;
   case 8:
     r0 = s.retval;
-    globals.statusbar___5324 = (r0);
+    globals.statusbar___83586 = (r0);
     s.tmp_0 = StatusBarSprite_setColor__P5039_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___5324;
+    s.tmp_0.arg0 = globals.statusbar___83586;
     s.tmp_0.arg1 = 2;
     s.tmp_0.arg2 = 3;
     s.tmp_0.arg3 = undefined;
-    s.callLocIdx = 232; s.pc = 9; return s.tmp_0;
+    s.callLocIdx = 246; s.pc = 9; return s.tmp_0;
   case 9:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_max__P5036_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___5324;
+    s.tmp_0.arg0 = globals.statusbar___83586;
     s.tmp_0.arg1 = 60;
-    s.callLocIdx = 233; s.pc = 10; return s.tmp_0;
+    s.callLocIdx = 247; s.pc = 10; return s.tmp_0;
   case 10:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_attachToSprite__P5037_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___5324;
-    s.tmp_0.arg1 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.statusbar___83586;
+    s.tmp_0.arg1 = globals.Zenith___83512;
     s.tmp_0.arg2 = undefined;
     s.tmp_0.arg3 = undefined;
-    s.callLocIdx = 234; s.pc = 11; return s.tmp_0;
+    s.callLocIdx = 248; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
     s.tmp_0 = scene_cameraFollowSprite__P2891_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
-    s.callLocIdx = 235; s.pc = 12; return s.tmp_0;
+    s.tmp_0.arg0 = globals.Zenith___83512;
+    s.callLocIdx = 249; s.pc = 12; return s.tmp_0;
   case 12:
     r0 = s.retval;
     s.tmp_0 = characterAnimations_loopFrames__P4415_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = helpers_getAnimationByName__P3338_mk(s);
     s.tmp_1.arg0 = "myAnim1";
-    s.callLocIdx = 236; s.pc = 14; return s.tmp_1;
+    s.callLocIdx = 250; s.pc = 14; return s.tmp_1;
   case 14:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
@@ -12782,18 +13164,18 @@ switch (step) {
     s.tmp_2.arg2 = undefined;
     s.tmp_2.arg3 = undefined;
     s.tmp_2.arg4 = undefined;
-    s.callLocIdx = 237; s.pc = 15; return s.tmp_2;
+    s.callLocIdx = 251; s.pc = 15; return s.tmp_2;
   case 15:
     r0 = s.retval;
     s.tmp_0.arg3 = r0;
-    s.callLocIdx = 238; s.pc = 13; return s.tmp_0;
+    s.callLocIdx = 252; s.pc = 13; return s.tmp_0;
   case 13:
     r0 = s.retval;
     s.tmp_0 = characterAnimations_loopFrames__P4415_mk(s);
-    s.tmp_0.arg0 = globals.Zenith___5327;
+    s.tmp_0.arg0 = globals.Zenith___83512;
     s.tmp_1 = helpers_getAnimationByName__P3338_mk(s);
     s.tmp_1.arg0 = "myAnim";
-    s.callLocIdx = 239; s.pc = 17; return s.tmp_1;
+    s.callLocIdx = 253; s.pc = 17; return s.tmp_1;
   case 17:
     r0 = s.retval;
     s.tmp_0.arg1 = r0;
@@ -12804,34 +13186,34 @@ switch (step) {
     s.tmp_2.arg2 = undefined;
     s.tmp_2.arg3 = undefined;
     s.tmp_2.arg4 = undefined;
-    s.callLocIdx = 240; s.pc = 18; return s.tmp_2;
+    s.callLocIdx = 254; s.pc = 18; return s.tmp_2;
   case 18:
     r0 = s.retval;
     s.tmp_0.arg3 = r0;
-    s.callLocIdx = 241; s.pc = 16; return s.tmp_0;
+    s.callLocIdx = 255; s.pc = 16; return s.tmp_0;
   case 16:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-Sprite_Spawn__P5317.info = {"start":1356,"length":2027,"line":27,"column":0,"endLine":99,"endColumn":1,"fileName":"main.ts","functionName":"Sprite_Spawn","argumentNames":[]}
+Sprite_Spawn__P83561.info = {"start":1356,"length":2027,"line":27,"column":0,"endLine":99,"endColumn":1,"fileName":"main.ts","functionName":"Sprite_Spawn","argumentNames":[]}
 
-function Sprite_Spawn__P5317_mk(s) {
+function Sprite_Spawn__P83561_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: Sprite_Spawn__P5317, depth: s.depth + 1,
+        parent: s, fn: Sprite_Spawn__P83561, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
 } }
 
-const _hex9810 = pxsim.BufferMethods.createBufferFromHex("8704050005000000bbbb0b00ab970b007b7a0b009ba70b00bbbb0b00")
-const _hex9813 = pxsim.BufferMethods.createBufferFromHex("87040500050000003333030023140300434203001324030033330300")
-const _hex9817 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000000000080080000b88b00809bb108801bb90800b88b000080080000000000")
-const _hex9820 = pxsim.BufferMethods.createBufferFromHex("87040f000f0000004444444444444404e4eeeeeeeeeeee04e4dddddddddded04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e4dddddddddded04e4eeeeeeeeeeee044444444444444404")
-const _hex9824 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000020000203322022033220020332200203322020000000000000000")
+const _hex83567 = pxsim.BufferMethods.createBufferFromHex("8704050005000000bbbb0b00ab970b007b7a0b009ba70b00bbbb0b00")
+const _hex83570 = pxsim.BufferMethods.createBufferFromHex("87040500050000003333030023140300434203001324030033330300")
+const _hex83574 = pxsim.BufferMethods.createBufferFromHex("8704080008000000000000000080080000b88b00809bb108801bb90800b88b000080080000000000")
+const _hex83577 = pxsim.BufferMethods.createBufferFromHex("87040f000f0000004444444444444404e4eeeeeeeeeeee04e4dddddddddded04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e40d00000000ed04e4dddddddddded04e4eeeeeeeeeeee044444444444444404")
+const _hex83581 = pxsim.BufferMethods.createBufferFromHex("87040800080000000000000000020000203322022033220020332200203322020000000000000000")
 
 
 
@@ -48772,7 +49154,7 @@ function miniMenu_MenuSprite_setButtonEventsEnabled__P4559_mk(s) {
 
 
 
-function Start_Game__P5318(s) {
+function Start_Game__P84271(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -48782,25 +49164,25 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.tmp_0 = Sprite_Spawn__P5317_mk(s);
-    s.callLocIdx = 413; s.pc = 1; return s.tmp_0;
+    s.tmp_0 = Sprite_Spawn__P83561_mk(s);
+    s.callLocIdx = 435; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.tmp_0 = Create_New_Tile_map__P5319_mk(s);
-    s.callLocIdx = 414; s.pc = 2; return s.tmp_0;
+    s.tmp_0 = Create_New_Tile_map__P84153_mk(s);
+    s.callLocIdx = 436; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
-    globals.launched___5326 = (false);
+    globals.launched___83525 = (false);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-Start_Game__P5318.info = {"start":41359,"length":92,"line":627,"column":0,"endLine":631,"endColumn":1,"fileName":"main.ts","functionName":"Start_Game","argumentNames":[]}
+Start_Game__P84271.info = {"start":41973,"length":92,"line":631,"column":0,"endLine":635,"endColumn":1,"fileName":"main.ts","functionName":"Start_Game","argumentNames":[]}
 
-function Start_Game__P5318_mk(s) {
+function Start_Game__P84271_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: Start_Game__P5318, depth: s.depth + 1,
+        parent: s, fn: Start_Game__P84271, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -58183,7 +58565,7 @@ function StatusBarSprite_value_inline__P24263_mk(s) {
 
 
 
-function Create_New_Tile_map__P5319(s) {
+function Create_New_Tile_map__P84153(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -58193,22 +58575,22 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.index___10558 = undefined;
-    s.index___10573 = undefined;
-    s.index___10588 = undefined;
-    s.index___10603 = undefined;
-    s.index___10626 = undefined;
-    s.index___10641 = undefined;
-    s.index___10656 = undefined;
-    s.index___10671 = undefined;
-    s.index___10694 = undefined;
-    s.index___10709 = undefined;
-    s.index___10724 = undefined;
-    s.index___10739 = undefined;
-    s.index___10753 = undefined;
+    s.index___84347 = undefined;
+    s.index___84362 = undefined;
+    s.index___84377 = undefined;
+    s.index___84392 = undefined;
+    s.index___84415 = undefined;
+    s.index___84430 = undefined;
+    s.index___84445 = undefined;
+    s.index___84460 = undefined;
+    s.index___84483 = undefined;
+    s.index___84498 = undefined;
+    s.index___84513 = undefined;
+    s.index___84528 = undefined;
+    s.index___84542 = undefined;
     s.tmp_0 = tiles_setCurrentTilemap__P2765_mk(s);
-    s.tmp_1 = r0 = globals.Biomes___5334;
-    r0 = pxsim_Array__length(globals.Biomes___5334);
+    s.tmp_1 = r0 = globals.Biomes___84332;
+    r0 = pxsim_Array__length(globals.Biomes___84332);
     s.tmp_4 = r0;
     r0 = (s.tmp_4 - 1);
     s.tmp_3 = r0;
@@ -58216,37 +58598,37 @@ switch (step) {
     s.tmp_2 = r0;
     r0 = pxsim_Array__getAt(s.tmp_1, s.tmp_2);
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 438; s.pc = 33; return s.tmp_0;
+    s.callLocIdx = 460; s.pc = 33; return s.tmp_0;
   case 33:
     r0 = s.retval;
     s.tmp_0 = StatusBarSprite_value__P5034_mk(s);
-    s.tmp_0.arg0 = globals.statusbar___5324;
+    s.tmp_0.arg0 = globals.statusbar___83586;
     s.tmp_0.arg1 = 60;
-    s.callLocIdx = 439; s.pc = 34; return s.tmp_0;
+    s.callLocIdx = 461; s.pc = 34; return s.tmp_0;
   case 34:
     r0 = s.retval;
     s.tmp_0 = info_changeLifeBy__P2578_mk(s);
     s.tmp_0.arg0 = 1;
-    s.callLocIdx = 440; s.pc = 35; return s.tmp_0;
+    s.callLocIdx = 462; s.pc = 35; return s.tmp_0;
   case 35:
     r0 = s.retval;
     s.tmp_0 = sprites_destroy__P2278_mk(s);
-    s.tmp_0.arg0 = globals.Knife___5325;
+    s.tmp_0.arg0 = globals.Knife___83531;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 441; s.pc = 36; return s.tmp_0;
+    s.callLocIdx = 463; s.pc = 36; return s.tmp_0;
   case 36:
     r0 = s.retval;
     s.tmp_0 = sprites_destroyAllSpritesOfKind__P2280_mk(s);
-    s.tmp_0.arg0 = globals.Bomb___5314;
+    s.tmp_0.arg0 = globals.Bomb___83497;
     s.tmp_0.arg1 = undefined;
     s.tmp_0.arg2 = undefined;
-    s.callLocIdx = 442; s.pc = 37; return s.tmp_0;
+    s.callLocIdx = 464; s.pc = 37; return s.tmp_0;
   case 37:
     r0 = s.retval;
-    s.tmp_1 = r0 = globals.Forest___5337;
+    s.tmp_1 = r0 = globals.Forest___84065;
     s.tmp_3 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 443; s.pc = 38; return s.tmp_3;
+    s.callLocIdx = 465; s.pc = 38; return s.tmp_3;
   case 38:
     r0 = s.retval;
     s.tmp_2 = r0;
@@ -58254,15 +58636,15 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 9; continue; }
-    s.index___10558 = (0);
+    s.index___84347 = (0);
   case 1:
-    r0 = (s.index___10558 < 8);
+    r0 = (s.index___84347 < 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 2; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 444; s.pc = 40; return s.tmp_2;
+    s.callLocIdx = 466; s.pc = 40; return s.tmp_2;
   case 40:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58271,32 +58653,32 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 445; s.pc = 41; return s.tmp_3;
+    s.callLocIdx = 467; s.pc = 41; return s.tmp_3;
   case 41:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile43";
-    s.callLocIdx = 446; s.pc = 42; return s.tmp_4;
+    s.callLocIdx = 468; s.pc = 42; return s.tmp_4;
   case 42:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 447; s.pc = 39; return s.tmp_1;
+    s.callLocIdx = 469; s.pc = 39; return s.tmp_1;
   case 39:
     r0 = s.retval;
-    r0 = (s.index___10558 + 1);
-    s.index___10558 = (r0);
+    r0 = (s.index___84347 + 1);
+    s.index___84347 = (r0);
     { step = 1; continue; }
   case 2:
-    s.index___10573 = (0);
+    s.index___84362 = (0);
   case 3:
-    r0 = (s.index___10573 < 30);
+    r0 = (s.index___84362 < 30);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 4; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 448; s.pc = 44; return s.tmp_2;
+    s.callLocIdx = 470; s.pc = 44; return s.tmp_2;
   case 44:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58305,32 +58687,32 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 449; s.pc = 45; return s.tmp_3;
+    s.callLocIdx = 471; s.pc = 45; return s.tmp_3;
   case 45:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile26";
-    s.callLocIdx = 450; s.pc = 46; return s.tmp_4;
+    s.callLocIdx = 472; s.pc = 46; return s.tmp_4;
   case 46:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 451; s.pc = 43; return s.tmp_1;
+    s.callLocIdx = 473; s.pc = 43; return s.tmp_1;
   case 43:
     r0 = s.retval;
-    r0 = (s.index___10573 + 1);
-    s.index___10573 = (r0);
+    r0 = (s.index___84362 + 1);
+    s.index___84362 = (r0);
     { step = 3; continue; }
   case 4:
-    s.index___10588 = (0);
+    s.index___84377 = (0);
   case 5:
-    r0 = (s.index___10588 < 8);
+    r0 = (s.index___84377 < 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 6; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 452; s.pc = 48; return s.tmp_2;
+    s.callLocIdx = 474; s.pc = 48; return s.tmp_2;
   case 48:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58339,26 +58721,26 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 453; s.pc = 49; return s.tmp_3;
+    s.callLocIdx = 475; s.pc = 49; return s.tmp_3;
   case 49:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile45";
-    s.callLocIdx = 454; s.pc = 50; return s.tmp_4;
+    s.callLocIdx = 476; s.pc = 50; return s.tmp_4;
   case 50:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 455; s.pc = 47; return s.tmp_1;
+    s.callLocIdx = 477; s.pc = 47; return s.tmp_1;
   case 47:
     r0 = s.retval;
-    r0 = (s.index___10588 + 1);
-    s.index___10588 = (r0);
+    r0 = (s.index___84377 + 1);
+    s.index___84377 = (r0);
     { step = 5; continue; }
   case 6:
-    s.index___10603 = (0);
+    s.index___84392 = (0);
   case 7:
-    s.tmp_1 = r0 = s.index___10603;
+    s.tmp_1 = r0 = s.index___84392;
     r0 = pxsim.Math_.randomRange(1, 3);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -58368,12 +58750,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile34";
-    s.callLocIdx = 456; s.pc = 52; return s.tmp_4;
+    s.callLocIdx = 478; s.pc = 52; return s.tmp_4;
   case 52:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -58382,40 +58764,40 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 458; s.pc = 51; return s.tmp_3;
+    s.callLocIdx = 480; s.pc = 51; return s.tmp_3;
   case 51:
     r0 = s.retval;
-    r0 = (s.index___10603 + 1);
-    s.index___10603 = (r0);
+    r0 = (s.index___84392 + 1);
+    s.index___84392 = (r0);
     { step = 7; continue; }
   case 8:
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile26";
-    s.callLocIdx = 459; s.pc = 54; return s.tmp_1;
+    s.callLocIdx = 481; s.pc = 54; return s.tmp_1;
   case 54:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 460; s.pc = 53; return s.tmp_0;
+    s.callLocIdx = 482; s.pc = 53; return s.tmp_0;
   case 53:
     r0 = s.retval;
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile45";
-    s.callLocIdx = 461; s.pc = 56; return s.tmp_1;
+    s.callLocIdx = 483; s.pc = 56; return s.tmp_1;
   case 56:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 462; s.pc = 55; return s.tmp_0;
+    s.callLocIdx = 484; s.pc = 55; return s.tmp_0;
   case 55:
     r0 = s.retval;
   case 9:
   case 10:
-    s.tmp_1 = r0 = globals.Factory___5336;
+    s.tmp_1 = r0 = globals.Factory___84095;
     s.tmp_3 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 463; s.pc = 57; return s.tmp_3;
+    s.callLocIdx = 485; s.pc = 57; return s.tmp_3;
   case 57:
     r0 = s.retval;
     s.tmp_2 = r0;
@@ -58423,15 +58805,15 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 19; continue; }
-    s.index___10626 = (0);
+    s.index___84415 = (0);
   case 11:
-    r0 = (s.index___10626 < 8);
+    r0 = (s.index___84415 < 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 12; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 464; s.pc = 59; return s.tmp_2;
+    s.callLocIdx = 486; s.pc = 59; return s.tmp_2;
   case 59:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58440,32 +58822,32 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 465; s.pc = 60; return s.tmp_3;
+    s.callLocIdx = 487; s.pc = 60; return s.tmp_3;
   case 60:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile54";
-    s.callLocIdx = 466; s.pc = 61; return s.tmp_4;
+    s.callLocIdx = 488; s.pc = 61; return s.tmp_4;
   case 61:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 467; s.pc = 58; return s.tmp_1;
+    s.callLocIdx = 489; s.pc = 58; return s.tmp_1;
   case 58:
     r0 = s.retval;
-    r0 = (s.index___10626 + 1);
-    s.index___10626 = (r0);
+    r0 = (s.index___84415 + 1);
+    s.index___84415 = (r0);
     { step = 11; continue; }
   case 12:
-    s.index___10641 = (0);
+    s.index___84430 = (0);
   case 13:
-    r0 = (s.index___10641 < 30);
+    r0 = (s.index___84430 < 30);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 14; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 468; s.pc = 63; return s.tmp_2;
+    s.callLocIdx = 490; s.pc = 63; return s.tmp_2;
   case 63:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58474,32 +58856,32 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 469; s.pc = 64; return s.tmp_3;
+    s.callLocIdx = 491; s.pc = 64; return s.tmp_3;
   case 64:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile49";
-    s.callLocIdx = 470; s.pc = 65; return s.tmp_4;
+    s.callLocIdx = 492; s.pc = 65; return s.tmp_4;
   case 65:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 471; s.pc = 62; return s.tmp_1;
+    s.callLocIdx = 493; s.pc = 62; return s.tmp_1;
   case 62:
     r0 = s.retval;
-    r0 = (s.index___10641 + 1);
-    s.index___10641 = (r0);
+    r0 = (s.index___84430 + 1);
+    s.index___84430 = (r0);
     { step = 13; continue; }
   case 14:
-    s.index___10656 = (0);
+    s.index___84445 = (0);
   case 15:
-    r0 = (s.index___10656 < 8);
+    r0 = (s.index___84445 < 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 16; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 472; s.pc = 67; return s.tmp_2;
+    s.callLocIdx = 494; s.pc = 67; return s.tmp_2;
   case 67:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58508,26 +58890,26 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 473; s.pc = 68; return s.tmp_3;
+    s.callLocIdx = 495; s.pc = 68; return s.tmp_3;
   case 68:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile45";
-    s.callLocIdx = 474; s.pc = 69; return s.tmp_4;
+    s.callLocIdx = 496; s.pc = 69; return s.tmp_4;
   case 69:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 475; s.pc = 66; return s.tmp_1;
+    s.callLocIdx = 497; s.pc = 66; return s.tmp_1;
   case 66:
     r0 = s.retval;
-    r0 = (s.index___10656 + 1);
-    s.index___10656 = (r0);
+    r0 = (s.index___84445 + 1);
+    s.index___84445 = (r0);
     { step = 15; continue; }
   case 16:
-    s.index___10671 = (0);
+    s.index___84460 = (0);
   case 17:
-    s.tmp_1 = r0 = s.index___10671;
+    s.tmp_1 = r0 = s.index___84460;
     r0 = pxsim.Math_.randomRange(1, 3);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -58537,12 +58919,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile54";
-    s.callLocIdx = 476; s.pc = 71; return s.tmp_4;
+    s.callLocIdx = 498; s.pc = 71; return s.tmp_4;
   case 71:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -58551,40 +58933,40 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 478; s.pc = 70; return s.tmp_3;
+    s.callLocIdx = 500; s.pc = 70; return s.tmp_3;
   case 70:
     r0 = s.retval;
-    r0 = (s.index___10671 + 1);
-    s.index___10671 = (r0);
+    r0 = (s.index___84460 + 1);
+    s.index___84460 = (r0);
     { step = 17; continue; }
   case 18:
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile45";
-    s.callLocIdx = 479; s.pc = 73; return s.tmp_1;
+    s.callLocIdx = 501; s.pc = 73; return s.tmp_1;
   case 73:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 480; s.pc = 72; return s.tmp_0;
+    s.callLocIdx = 502; s.pc = 72; return s.tmp_0;
   case 72:
     r0 = s.retval;
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile49";
-    s.callLocIdx = 481; s.pc = 75; return s.tmp_1;
+    s.callLocIdx = 503; s.pc = 75; return s.tmp_1;
   case 75:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 482; s.pc = 74; return s.tmp_0;
+    s.callLocIdx = 504; s.pc = 74; return s.tmp_0;
   case 74:
     r0 = s.retval;
   case 19:
   case 20:
-    s.tmp_1 = r0 = globals.Dessert___5338;
+    s.tmp_1 = r0 = globals.Dessert___84120;
     s.tmp_3 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 483; s.pc = 76; return s.tmp_3;
+    s.callLocIdx = 505; s.pc = 76; return s.tmp_3;
   case 76:
     r0 = s.retval;
     s.tmp_2 = r0;
@@ -58592,15 +58974,15 @@ switch (step) {
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 31; continue; }
-    s.index___10694 = (0);
+    s.index___84483 = (0);
   case 21:
-    r0 = (s.index___10694 < 8);
+    r0 = (s.index___84483 < 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 22; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 484; s.pc = 78; return s.tmp_2;
+    s.callLocIdx = 506; s.pc = 78; return s.tmp_2;
   case 78:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58609,32 +58991,32 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 485; s.pc = 79; return s.tmp_3;
+    s.callLocIdx = 507; s.pc = 79; return s.tmp_3;
   case 79:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile52";
-    s.callLocIdx = 486; s.pc = 80; return s.tmp_4;
+    s.callLocIdx = 508; s.pc = 80; return s.tmp_4;
   case 80:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 487; s.pc = 77; return s.tmp_1;
+    s.callLocIdx = 509; s.pc = 77; return s.tmp_1;
   case 77:
     r0 = s.retval;
-    r0 = (s.index___10694 + 1);
-    s.index___10694 = (r0);
+    r0 = (s.index___84483 + 1);
+    s.index___84483 = (r0);
     { step = 21; continue; }
   case 22:
-    s.index___10709 = (0);
+    s.index___84498 = (0);
   case 23:
-    r0 = (s.index___10709 < 30);
+    r0 = (s.index___84498 < 30);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 24; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 488; s.pc = 82; return s.tmp_2;
+    s.callLocIdx = 510; s.pc = 82; return s.tmp_2;
   case 82:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58643,32 +59025,32 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 489; s.pc = 83; return s.tmp_3;
+    s.callLocIdx = 511; s.pc = 83; return s.tmp_3;
   case 83:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile51";
-    s.callLocIdx = 490; s.pc = 84; return s.tmp_4;
+    s.callLocIdx = 512; s.pc = 84; return s.tmp_4;
   case 84:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 491; s.pc = 81; return s.tmp_1;
+    s.callLocIdx = 513; s.pc = 81; return s.tmp_1;
   case 81:
     r0 = s.retval;
-    r0 = (s.index___10709 + 1);
-    s.index___10709 = (r0);
+    r0 = (s.index___84498 + 1);
+    s.index___84498 = (r0);
     { step = 23; continue; }
   case 24:
-    s.index___10724 = (0);
+    s.index___84513 = (0);
   case 25:
-    r0 = (s.index___10724 < 8);
+    r0 = (s.index___84513 < 8);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 26; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 492; s.pc = 86; return s.tmp_2;
+    s.callLocIdx = 514; s.pc = 86; return s.tmp_2;
   case 86:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58677,26 +59059,26 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 493; s.pc = 87; return s.tmp_3;
+    s.callLocIdx = 515; s.pc = 87; return s.tmp_3;
   case 87:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile45";
-    s.callLocIdx = 494; s.pc = 88; return s.tmp_4;
+    s.callLocIdx = 516; s.pc = 88; return s.tmp_4;
   case 88:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 495; s.pc = 85; return s.tmp_1;
+    s.callLocIdx = 517; s.pc = 85; return s.tmp_1;
   case 85:
     r0 = s.retval;
-    r0 = (s.index___10724 + 1);
-    s.index___10724 = (r0);
+    r0 = (s.index___84513 + 1);
+    s.index___84513 = (r0);
     { step = 25; continue; }
   case 26:
-    s.index___10739 = (0);
+    s.index___84528 = (0);
   case 27:
-    s.tmp_1 = r0 = s.index___10739;
+    s.tmp_1 = r0 = s.index___84528;
     r0 = pxsim.Math_.randomRange(1, 3);
     s.tmp_2 = r0;
     r0 = (s.tmp_1 < s.tmp_2);
@@ -58706,12 +59088,12 @@ switch (step) {
     s.tmp_3 = tileUtil_createSpritesOnTiles__P4892_mk(s);
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile52";
-    s.callLocIdx = 496; s.pc = 90; return s.tmp_4;
+    s.callLocIdx = 518; s.pc = 90; return s.tmp_4;
   case 90:
     r0 = s.retval;
     s.tmp_3.arg0 = r0;
-    s.tmp_5 = r0 = globals.Enemy_List___5335;
-    r0 = pxsim_Array__length(globals.Enemy_List___5335);
+    s.tmp_5 = r0 = globals.Enemy_List___84223;
+    r0 = pxsim_Array__length(globals.Enemy_List___84223);
     s.tmp_8 = r0;
     r0 = (s.tmp_8 - 1);
     s.tmp_7 = r0;
@@ -58720,22 +59102,22 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.tmp_5, s.tmp_6);
     s.tmp_3.arg1 = r0;
     s.tmp_3.arg2 = globals.Enemy___2484;
-    s.callLocIdx = 498; s.pc = 89; return s.tmp_3;
+    s.callLocIdx = 520; s.pc = 89; return s.tmp_3;
   case 89:
     r0 = s.retval;
-    r0 = (s.index___10739 + 1);
-    s.index___10739 = (r0);
+    r0 = (s.index___84528 + 1);
+    s.index___84528 = (r0);
     { step = 27; continue; }
   case 28:
-    s.index___10753 = (0);
+    s.index___84542 = (0);
   case 29:
-    r0 = (s.index___10753 < 4);
+    r0 = (s.index___84542 < 4);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 30; continue; }
     s.tmp_1 = tileUtil_setTileAt__P4885_mk(s);
     s.tmp_2 = tileUtil_currentTilemap__P4890_mk(s);
-    s.callLocIdx = 499; s.pc = 92; return s.tmp_2;
+    s.callLocIdx = 521; s.pc = 92; return s.tmp_2;
   case 92:
     r0 = s.retval;
     s.tmp_1.arg0 = r0;
@@ -58744,73 +59126,73 @@ switch (step) {
     s.tmp_3.arg0 = r0;
     r0 = pxsim.Math_.randomRange(20, 0);
     s.tmp_3.arg1 = r0;
-    s.callLocIdx = 500; s.pc = 93; return s.tmp_3;
+    s.callLocIdx = 522; s.pc = 93; return s.tmp_3;
   case 93:
     r0 = s.retval;
     s.tmp_1.arg1 = r0;
     s.tmp_4 = helpers_getTileByName__P3339_mk(s);
     s.tmp_4.arg0 = "myTile55";
-    s.callLocIdx = 501; s.pc = 94; return s.tmp_4;
+    s.callLocIdx = 523; s.pc = 94; return s.tmp_4;
   case 94:
     r0 = s.retval;
     s.tmp_1.arg2 = r0;
-    s.callLocIdx = 502; s.pc = 91; return s.tmp_1;
+    s.callLocIdx = 524; s.pc = 91; return s.tmp_1;
   case 91:
     r0 = s.retval;
-    r0 = (s.index___10753 + 1);
-    s.index___10753 = (r0);
+    r0 = (s.index___84542 + 1);
+    s.index___84542 = (r0);
     { step = 29; continue; }
   case 30:
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile51";
-    s.callLocIdx = 503; s.pc = 96; return s.tmp_1;
+    s.callLocIdx = 525; s.pc = 96; return s.tmp_1;
   case 96:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 504; s.pc = 95; return s.tmp_0;
+    s.callLocIdx = 526; s.pc = 95; return s.tmp_0;
   case 95:
     r0 = s.retval;
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile48";
-    s.callLocIdx = 505; s.pc = 98; return s.tmp_1;
+    s.callLocIdx = 527; s.pc = 98; return s.tmp_1;
   case 98:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 506; s.pc = 97; return s.tmp_0;
+    s.callLocIdx = 528; s.pc = 97; return s.tmp_0;
   case 97:
     r0 = s.retval;
     s.tmp_0 = tileUtil_setWalls__P4884_mk(s);
     s.tmp_1 = helpers_getTileByName__P3339_mk(s);
     s.tmp_1.arg0 = "myTile45";
-    s.callLocIdx = 507; s.pc = 100; return s.tmp_1;
+    s.callLocIdx = 529; s.pc = 100; return s.tmp_1;
   case 100:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = true;
-    s.callLocIdx = 508; s.pc = 99; return s.tmp_0;
+    s.callLocIdx = 530; s.pc = 99; return s.tmp_0;
   case 99:
     r0 = s.retval;
   case 31:
   case 32:
     s.tmp_0 = info_startCountdown__P2582_mk(s);
     s.tmp_0.arg0 = 20;
-    s.callLocIdx = 509; s.pc = 101; return s.tmp_0;
+    s.callLocIdx = 531; s.pc = 101; return s.tmp_0;
   case 101:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-Create_New_Tile_map__P5319.info = {"start":42940,"length":3295,"line":653,"column":0,"endLine":712,"endColumn":1,"fileName":"main.ts","functionName":"Create_New_Tile_map","argumentNames":[]}
+Create_New_Tile_map__P84153.info = {"start":43554,"length":3295,"line":657,"column":0,"endLine":716,"endColumn":1,"fileName":"main.ts","functionName":"Create_New_Tile_map","argumentNames":[]}
 
-function Create_New_Tile_map__P5319_mk(s) {
+function Create_New_Tile_map__P84153_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: Create_New_Tile_map__P5319, depth: s.depth + 1,
+        parent: s, fn: Create_New_Tile_map__P84153, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -58821,19 +59203,19 @@ function Create_New_Tile_map__P5319_mk(s) {
   tmp_6: undefined,
   tmp_7: undefined,
   tmp_8: undefined,
-  index___10558: undefined,
-  index___10573: undefined,
-  index___10588: undefined,
-  index___10603: undefined,
-  index___10626: undefined,
-  index___10641: undefined,
-  index___10656: undefined,
-  index___10671: undefined,
-  index___10694: undefined,
-  index___10709: undefined,
-  index___10724: undefined,
-  index___10739: undefined,
-  index___10753: undefined,
+  index___84347: undefined,
+  index___84362: undefined,
+  index___84377: undefined,
+  index___84392: undefined,
+  index___84415: undefined,
+  index___84430: undefined,
+  index___84445: undefined,
+  index___84460: undefined,
+  index___84483: undefined,
+  index___84498: undefined,
+  index___84513: undefined,
+  index___84528: undefined,
+  index___84542: undefined,
 } }
 
 
@@ -111548,7 +111930,7 @@ const sprites_BaseSpriteSayRenderer__C2260_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["transparency16___5345","transparency8___5346","tile29___5371","tile28___5374","tile36___5379","tile10___5350","tile32___5375","tile33___5376","tile34___5377","tile35___5378","tile27___5370","tile46___5391","tile51___5397","tile55___5401","tile48___5393","tile62___5408","tile47___5392","tile61___5407","tile50___5396","tile59___5405","tile53___5399","tile1___5347","tile7___5348","tile9___5349","tile15___5351","tile17___5352","tile2___5353","tile3___5354","tile4___5355","tile5___5356","tile6___5357","tile11___5358","tile12___5359","tile13___5360","tile14___5361","tile16___5362","tile23___5363","tile21___5364","tile19___5365","tile20___5366","tile18___5367","tile22___5368","tile24___5369","tile31___5372","tile30___5373","tile45___5380","tile38___5381","tile39___5382","tile40___5383","tile41___5384","tile42___5385","tile43___5386","tile44___5387","tile37___5388","tile25___5389","tile26___5390","tile8___5394","tile49___5395","tile52___5398","tile54___5400","tile56___5402","tile57___5403","tile58___5404","tile60___5406","Rightthrow___5311","Bullet___5312","Dead___5313","Bomb___5314","Knife___5315","Shard___5316","Zenith___5327","launched___5326","Knife___5325","Weapon_Selection_Boomerang___5341","Weapon_Selection_Gun___5342","left___5340","Right___5339","Bullet___5323","Big_Rocket___5331","BR___5322","Grav_Bomb_selection___5330","GravBomb___5321","Blast___5320","Forest___5337","Factory___5336","Dessert___5338","statusbar___5324","Enemy_List___5335","Biomes___5334","Menu_Is_Running___5333","myMenu___5343","myMenu2___5332","myMenu3___5329","myMenu4___5328"])
+const breakpoints = setupDebugger(1, ["transparency16___86802","transparency8___86805","tile29___86880","tile28___86889","tile36___86904","tile10___86817","tile32___86892","tile33___86895","tile34___86898","tile35___86901","tile27___86877","tile46___86940","tile51___86958","tile55___86970","tile48___86946","tile62___86991","tile47___86943","tile61___86988","tile50___86955","tile59___86982","tile53___86964","tile1___86808","tile7___86811","tile9___86814","tile15___86820","tile17___86823","tile2___86826","tile3___86829","tile4___86832","tile5___86835","tile6___86838","tile11___86841","tile12___86844","tile13___86847","tile14___86850","tile16___86853","tile23___86856","tile21___86859","tile19___86862","tile20___86865","tile18___86868","tile22___86871","tile24___86874","tile31___86883","tile30___86886","tile45___86907","tile38___86910","tile39___86913","tile40___86916","tile41___86919","tile42___86922","tile43___86925","tile44___86928","tile37___86931","tile25___86934","tile26___86937","tile8___86949","tile49___86952","tile52___86961","tile54___86967","tile56___86973","tile57___86976","tile58___86979","tile60___86985","Rightthrow___83488","Bullet___83491","Dead___83494","Bomb___83497","Knife___83500","Shard___83503","Zenith___83512","launched___83525","Knife___83531","Weapon_Selection_Boomerang___83631","Weapon_Selection_Gun___83635","left___83643","Right___83700","Bullet___83764","Big_Rocket___83818","BR___83827","Grav_Bomb_selection___83884","GravBomb___83890","Blast___83915","Forest___84065","Factory___84095","Dessert___84120","statusbar___83586","Enemy_List___84223","Biomes___84332","Menu_Is_Running___83563","myMenu___84616","myMenu2___84572","myMenu3___84570","myMenu4___84568"])
 
-return _main___P42475
+return _main___P86786
 })
