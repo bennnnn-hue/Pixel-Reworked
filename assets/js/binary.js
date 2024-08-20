@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.56/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.1.0","target":"arcade","targetVersion":"1.12.56","repo":"bennnnn-hue/pixel-reworked"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.56/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.2.0","target":"arcade","targetVersion":"1.12.56","repo":"bennnnn-hue/pixel-reworked"}
 // total=3443673 new=13.71% cached=81.82% other=4.48%
 (function (ectx) {
 'use strict';
@@ -832,7 +832,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P69811(s) {
+function _main___P73135(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2029,13 +2029,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P69811.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/FastRandomBlocks/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P69811.continuations = [ 55,56,57,58 ]
+_main___P73135.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/FastRandomBlocks/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P73135.continuations = [ 55,56,57,58 ]
 
-function _main___P69811_mk(s) {
+function _main___P73135_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P69811, depth: s.depth + 1,
+        parent: s, fn: _main___P73135, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -111843,5 +111843,5 @@ const sprites_BaseSpriteSayRenderer__C2260_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___66279","transparency8___66284","tile46___66504","tile51___66534","tile29___66589","tile28___66419","tile36___66444","tile10___66304","tile32___66424","tile33___66429","tile34___66434","tile35___66439","tile27___66404","tile62___66579","tile57___66584","tile65___66604","tile50___66529","tile53___66544","tile55___66609","tile47___66509","tile61___66574","tile1___66289","tile7___66294","tile9___66299","tile15___66309","tile17___66314","tile2___66319","tile3___66324","tile4___66329","tile5___66334","tile6___66339","tile11___66344","tile12___66349","tile13___66354","tile14___66359","tile16___66364","tile23___66369","tile21___66374","tile19___66379","tile20___66384","tile18___66389","tile22___66394","tile24___66399","tile31___66409","tile30___66414","tile45___66449","tile38___66454","tile39___66459","tile40___66464","tile41___66469","tile42___66474","tile43___66479","tile44___66484","tile37___66489","tile25___66494","tile26___66499","tile48___66514","tile8___66519","tile49___66524","tile52___66539","tile54___66549","tile56___66554","tile58___66559","tile59___66564","tile60___66569","tile63___66594","tile64___66599","Rightthrow___69826","Bullet___69829","Dead___69832","Bomb___69835","Knife___69838","Shard___69841","Zenith___69850","launched___69867","Knife___69873","Weapon_Selection_Boomerang___69913","Weapon_Selection_Gun___69917","left___69925","Right___69982","Bullet___70046","Big_Rocket___70100","BR___70109","Grav_Bomb_selection___70166","GravBomb___70172","Blast___70197","Forest___70347","Factory___70377","Dessert___70402","statusbar___70448","Enemy_List___70507","Biomes___70618","Menu_Is_Running___70617","myMenu___70660","myMenu2___70615","myMenu3___70613","myMenu4___70611"])
 
-return _main___P69811
+return _main___P73135
 })
