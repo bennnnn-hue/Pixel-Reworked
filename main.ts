@@ -9,6 +9,9 @@ namespace SpriteKind {
 sprites.onCreated(SpriteKind.Enemy, function (sprite) {
     sprite.follow(Zenith, randint(1, 20))
 })
+sprites.onDestroyed(SpriteKind.Knife, function (sprite) {
+	
+})
 events.spriteEvent(SpriteKind.Knife, SpriteKind.Player, events.SpriteEvent.StartOverlapping, function (sprite, otherSprite) {
     if (launched == true) {
         sprites.destroy(Knife)
@@ -455,10 +458,10 @@ info.onCountdownEnd(function () {
         tileUtil.forEachTileInMap(tileUtil.currentTilemap(), function (column, row, location) {
             tileUtil.setWallAt(Dessert, location, false)
         })
-        tileUtil.replaceAllTiles(assets.tile`myTile52`, assets.tile`myTile46`)
-        tileUtil.replaceAllTiles(assets.tile`myTile48`, assets.tile`myTile46`)
-        tileUtil.replaceAllTiles(assets.tile`myTile45`, assets.tile`myTile46`)
-        tileUtil.replaceAllTiles(assets.tile`myTile51`, assets.tile`myTile46`)
+        tileUtil.replaceAllTiles(assets.tile`myTile52`, assets.tile`myTile55`)
+        tileUtil.replaceAllTiles(assets.tile`myTile48`, assets.tile`myTile55`)
+        tileUtil.replaceAllTiles(assets.tile`myTile45`, assets.tile`myTile55`)
+        tileUtil.replaceAllTiles(assets.tile`myTile51`, assets.tile`myTile55`)
     }
     tileUtil.unloadTilemap()
     Create_New_Tile_map()
